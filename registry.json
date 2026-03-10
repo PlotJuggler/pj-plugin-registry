@@ -1,0 +1,312 @@
+{
+  "registry_version": "1.0",
+  "last_updated": "2026-03-10T00:00:00Z",
+  "extensions": [
+    {
+      "id": "can-bus-parser",
+      "name": "CAN Bus Parser",
+      "description": "Parser for CAN bus data frames.",
+      "author": "PlotJuggler Team",
+      "publisher": "PlotJuggler",
+      "website": "https://github.com/PlotJuggler",
+      "repository": "https://github.com/PlotJuggler/pj-test-dummy-plugins",
+      "license": "MIT",
+      "icon_url": "",
+      "category": "parser",
+      "tags": ["can", "bus", "parser"],
+      "version": "1.0.0",
+      "min_plotjuggler_version": "4.0.0",
+      "plugins": [
+        {
+          "name": "CanBusParser",
+          "type": "parser",
+          "library": "can-bus-parser"
+        }
+      ],
+      "platforms": {
+        "linux-x86_64": {
+          "url": "https://cloud.ibrobotics.com/public.php/dav/files/ZeTdm6dL7JC3PsH/?accept=zip",
+          "checksum": "sha256:dade55a71c1e1236c37d1e99856eeeb41376561b121a20951260f776448d5c4d"
+        },
+        "linux-arm64": {
+          "url": "https://cloud.ibrobotics.com/public.php/dav/files/PLACEHOLDER/?accept=zip",
+          "checksum": "sha256:PLACEHOLDER"
+        },
+        "windows-x86_64": {
+          "url": "https://cloud.ibrobotics.com/public.php/dav/files/TCCD6nomTAsnQRq/?accept=zip",
+          "checksum": "sha256:dade55a71c1e1236c37d1e99856eeeb41376561b121a20951260f776448d5c4d"
+        },
+        "windows-arm64": {
+          "url": "https://cloud.ibrobotics.com/public.php/dav/files/PLACEHOLDER/?accept=zip",
+          "checksum": "sha256:PLACEHOLDER"
+        },
+        "macos-x86_64": {
+          "url": "https://cloud.ibrobotics.com/public.php/dav/files/PLACEHOLDER/?accept=zip",
+          "checksum": "sha256:PLACEHOLDER"
+        },
+        "macos-arm64": {
+          "url": "https://cloud.ibrobotics.com/public.php/dav/files/PLACEHOLDER/?accept=zip",
+          "checksum": "sha256:PLACEHOLDER"
+        }
+      },
+      "changelog": {
+        "1.0.0": "Initial release"
+      }
+    },
+    {
+      "id": "csv-loader",
+      "name": "CSV Loader",
+      "description": "Data loader for CSV files.",
+      "author": "PlotJuggler Team",
+      "publisher": "PlotJuggler",
+      "website": "https://github.com/PlotJuggler",
+      "repository": "https://github.com/PlotJuggler/pj-test-dummy-plugins",
+      "license": "MIT",
+      "icon_url": "",
+      "category": "data_loader",
+      "tags": ["csv", "file", "loader"],
+      "version": "1.0.0",
+      "min_plotjuggler_version": "4.0.0",
+      "plugins": [
+        {
+          "name": "CsvLoader",
+          "type": "data_loader",
+          "library": "csv-loader"
+        }
+      ],
+      "platforms": {
+        "linux-x86_64": {
+          "url": "https://cloud.ibrobotics.com/public.php/dav/files/9xBz6zdDn5WYJ6c/?accept=zip",
+          "checksum": "sha256:324e8016b38bce3365d4f4b71035eb8e6518445e06a599f9dd2d7e2ecbc50c02"
+        },
+        "linux-arm64": {
+          "url": "https://cloud.ibrobotics.com/public.php/dav/files/PLACEHOLDER/?accept=zip",
+          "checksum": "sha256:PLACEHOLDER"
+        },
+        "windows-x86_64": {
+          "url": "https://cloud.ibrobotics.com/public.php/dav/files/aQgzSYywW2onrB3/?accept=zip",
+          "checksum": "sha256:324e8016b38bce3365d4f4b71035eb8e6518445e06a599f9dd2d7e2ecbc50c02"
+        },
+        "windows-arm64": {
+          "url": "https://cloud.ibrobotics.com/public.php/dav/files/PLACEHOLDER/?accept=zip",
+          "checksum": "sha256:PLACEHOLDER"
+        },
+        "macos-x86_64": {
+          "url": "https://cloud.ibrobotics.com/public.php/dav/files/PLACEHOLDER/?accept=zip",
+          "checksum": "sha256:PLACEHOLDER"
+        },
+        "macos-arm64": {
+          "url": "https://cloud.ibrobotics.com/public.php/dav/files/PLACEHOLDER/?accept=zip",
+          "checksum": "sha256:PLACEHOLDER"
+        }
+      },
+      "changelog": {
+        "1.0.0": "Initial release"
+      }
+    },
+    {
+      "id": "fft-toolbox",
+      "name": "FFT Toolbox",
+      "description": "Toolbox for Fast Fourier Transform analysis.",
+      "author": "PlotJuggler Team",
+      "publisher": "PlotJuggler",
+      "website": "https://github.com/PlotJuggler",
+      "repository": "https://github.com/PlotJuggler/pj-test-dummy-plugins",
+      "license": "MIT",
+      "icon_url": "",
+      "category": "toolbox",
+      "tags": ["fft", "frequency", "analysis"],
+      "version": "1.0.0",
+      "min_plotjuggler_version": "4.0.0",
+      "plugins": [
+        {
+          "name": "FftToolbox",
+          "type": "toolbox",
+          "library": "fft-toolbox"
+        }
+      ],
+      "platforms": {
+        "linux-x86_64": {
+          "url": "https://cloud.ibrobotics.com/public.php/dav/files/PLACEHOLDER/?accept=zip",
+          "checksum": "sha256:PLACEHOLDER"
+        },
+        "linux-arm64": {
+          "url": "https://cloud.ibrobotics.com/public.php/dav/files/PLACEHOLDER/?accept=zip",
+          "checksum": "sha256:PLACEHOLDER"
+        },
+        "windows-x86_64": {
+          "url": "https://cloud.ibrobotics.com/public.php/dav/files/PLACEHOLDER/?accept=zip",
+          "checksum": "sha256:PLACEHOLDER"
+        },
+        "windows-arm64": {
+          "url": "https://cloud.ibrobotics.com/public.php/dav/files/PLACEHOLDER/?accept=zip",
+          "checksum": "sha256:PLACEHOLDER"
+        },
+        "macos-x86_64": {
+          "url": "https://cloud.ibrobotics.com/public.php/dav/files/PLACEHOLDER/?accept=zip",
+          "checksum": "sha256:PLACEHOLDER"
+        },
+        "macos-arm64": {
+          "url": "https://cloud.ibrobotics.com/public.php/dav/files/PLACEHOLDER/?accept=zip",
+          "checksum": "sha256:PLACEHOLDER"
+        }
+      },
+      "changelog": {
+        "1.0.0": "Initial release"
+      }
+    },
+    {
+      "id": "mcap-loader",
+      "name": "MCAP Loader",
+      "description": "Data loader for MCAP files.",
+      "author": "PlotJuggler Team",
+      "publisher": "PlotJuggler",
+      "website": "https://github.com/PlotJuggler",
+      "repository": "https://github.com/PlotJuggler/pj-test-dummy-plugins",
+      "license": "MIT",
+      "icon_url": "",
+      "category": "data_loader",
+      "tags": ["mcap", "file", "loader"],
+      "version": "1.0.0",
+      "min_plotjuggler_version": "4.0.0",
+      "plugins": [
+        {
+          "name": "McapLoader",
+          "type": "data_loader",
+          "library": "mcap-loader"
+        }
+      ],
+      "platforms": {
+        "linux-x86_64": {
+          "url": "https://cloud.ibrobotics.com/public.php/dav/files/PLACEHOLDER/?accept=zip",
+          "checksum": "sha256:PLACEHOLDER"
+        },
+        "linux-arm64": {
+          "url": "https://cloud.ibrobotics.com/public.php/dav/files/PLACEHOLDER/?accept=zip",
+          "checksum": "sha256:PLACEHOLDER"
+        },
+        "windows-x86_64": {
+          "url": "https://cloud.ibrobotics.com/public.php/dav/files/PLACEHOLDER/?accept=zip",
+          "checksum": "sha256:PLACEHOLDER"
+        },
+        "windows-arm64": {
+          "url": "https://cloud.ibrobotics.com/public.php/dav/files/PLACEHOLDER/?accept=zip",
+          "checksum": "sha256:PLACEHOLDER"
+        },
+        "macos-x86_64": {
+          "url": "https://cloud.ibrobotics.com/public.php/dav/files/PLACEHOLDER/?accept=zip",
+          "checksum": "sha256:PLACEHOLDER"
+        },
+        "macos-arm64": {
+          "url": "https://cloud.ibrobotics.com/public.php/dav/files/PLACEHOLDER/?accept=zip",
+          "checksum": "sha256:PLACEHOLDER"
+        }
+      },
+      "changelog": {
+        "1.0.0": "Initial release"
+      }
+    },
+    {
+      "id": "ros2-streaming",
+      "name": "ROS 2 Streaming",
+      "description": "Data streamer for ROS 2 topics.",
+      "author": "PlotJuggler Team",
+      "publisher": "PlotJuggler",
+      "website": "https://github.com/PlotJuggler",
+      "repository": "https://github.com/PlotJuggler/pj-test-dummy-plugins",
+      "license": "MIT",
+      "icon_url": "",
+      "category": "data_streamer",
+      "tags": ["ros2", "streaming", "real-time"],
+      "version": "1.0.0",
+      "min_plotjuggler_version": "4.0.0",
+      "plugins": [
+        {
+          "name": "Ros2Streaming",
+          "type": "data_streamer",
+          "library": "ros2-streaming"
+        }
+      ],
+      "platforms": {
+        "linux-x86_64": {
+          "url": "https://cloud.ibrobotics.com/public.php/dav/files/PLACEHOLDER/?accept=zip",
+          "checksum": "sha256:PLACEHOLDER"
+        },
+        "linux-arm64": {
+          "url": "https://cloud.ibrobotics.com/public.php/dav/files/PLACEHOLDER/?accept=zip",
+          "checksum": "sha256:PLACEHOLDER"
+        },
+        "windows-x86_64": {
+          "url": "https://cloud.ibrobotics.com/public.php/dav/files/PLACEHOLDER/?accept=zip",
+          "checksum": "sha256:PLACEHOLDER"
+        },
+        "windows-arm64": {
+          "url": "https://cloud.ibrobotics.com/public.php/dav/files/PLACEHOLDER/?accept=zip",
+          "checksum": "sha256:PLACEHOLDER"
+        },
+        "macos-x86_64": {
+          "url": "https://cloud.ibrobotics.com/public.php/dav/files/PLACEHOLDER/?accept=zip",
+          "checksum": "sha256:PLACEHOLDER"
+        },
+        "macos-arm64": {
+          "url": "https://cloud.ibrobotics.com/public.php/dav/files/PLACEHOLDER/?accept=zip",
+          "checksum": "sha256:PLACEHOLDER"
+        }
+      },
+      "changelog": {
+        "1.0.0": "Initial release"
+      }
+    },
+    {
+      "id": "ros-bundle",
+      "name": "ROS Bundle",
+      "description": "Bundle of ROS plugins for PlotJuggler.",
+      "author": "PlotJuggler Team",
+      "publisher": "PlotJuggler",
+      "website": "https://github.com/PlotJuggler",
+      "repository": "https://github.com/PlotJuggler/pj-test-dummy-plugins",
+      "license": "MIT",
+      "icon_url": "",
+      "category": "bundle",
+      "tags": ["ros", "bundle"],
+      "version": "1.0.0",
+      "min_plotjuggler_version": "4.0.0",
+      "plugins": [
+        {
+          "name": "RosBundle",
+          "type": "bundle",
+          "library": "ros-bundle"
+        }
+      ],
+      "platforms": {
+        "linux-x86_64": {
+          "url": "https://cloud.ibrobotics.com/public.php/dav/files/PLACEHOLDER/?accept=zip",
+          "checksum": "sha256:PLACEHOLDER"
+        },
+        "linux-arm64": {
+          "url": "https://cloud.ibrobotics.com/public.php/dav/files/PLACEHOLDER/?accept=zip",
+          "checksum": "sha256:PLACEHOLDER"
+        },
+        "windows-x86_64": {
+          "url": "https://cloud.ibrobotics.com/public.php/dav/files/PLACEHOLDER/?accept=zip",
+          "checksum": "sha256:PLACEHOLDER"
+        },
+        "windows-arm64": {
+          "url": "https://cloud.ibrobotics.com/public.php/dav/files/PLACEHOLDER/?accept=zip",
+          "checksum": "sha256:PLACEHOLDER"
+        },
+        "macos-x86_64": {
+          "url": "https://cloud.ibrobotics.com/public.php/dav/files/PLACEHOLDER/?accept=zip",
+          "checksum": "sha256:PLACEHOLDER"
+        },
+        "macos-arm64": {
+          "url": "https://cloud.ibrobotics.com/public.php/dav/files/PLACEHOLDER/?accept=zip",
+          "checksum": "sha256:PLACEHOLDER"
+        }
+      },
+      "changelog": {
+        "1.0.0": "Initial release"
+      }
+    }
+  ]
+}
