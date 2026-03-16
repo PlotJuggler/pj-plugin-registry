@@ -166,13 +166,13 @@
       "description": "Data loader for MCAP files.",
       "author": "PlotJuggler Team",
       "publisher": "PlotJuggler",
-      "website": "https://github.com/PlotJuggler/pj-test-dummy-plugins/releases/tag/mcap-loader%2Fv1.0.3",
+      "website": "https://github.com/PlotJuggler/pj-test-dummy-plugins/releases/tag/mcap-loader%2Fv1.0.7",
       "repository": "https://github.com/PlotJuggler/pj-test-dummy-plugins",
       "license": "MIT",
       "icon_url": "",
       "category": "data_loader",
       "tags": ["mcap", "file", "loader"],
-      "version": "1.0.3",
+      "version": "1.0.7",
       "min_plotjuggler_version": "4.0.0",
       "plugins": [
         {
@@ -183,12 +183,12 @@
       ],
       "platforms": {
         "linux-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-test-dummy-plugins/releases/download/mcap-loader/v1.0.3/mcap-loader-1.0.3-linux-x86_64.zip",
-          "checksum": "sha256:0ef7f1da07e3155f99595cb7a4a242c661fd50c0af06df039ae635cba74cce2c"
+          "url": "https://github.com/PlotJuggler/pj-test-dummy-plugins/releases/download/mcap-loader/v1.0.7/mcap-loader-1.0.7-linux-x86_64.zip",
+          "checksum": "sha256:68f1dc5a81f8326db7898555cac265aeb73fea3811788b4b59d6f3fa089cbd96"
         },
         "linux-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-test-dummy-plugins/releases/download/mcap-loader/v1.0.3/mcap-loader-1.0.3-linux-aarch64.zip",
-          "checksum": "sha256:565ef666f8b1ce344b935e83fa568b1adff959654b7d920fa3b6ef022f59760a"
+          "url": "https://github.com/PlotJuggler/pj-test-dummy-plugins/releases/download/mcap-loader/v1.0.7/mcap-loader-1.0.7-linux-aarch64.zip",
+          "checksum": "sha256:3861d2a805828d1e0445ceb183266e172fae8f7e103fad520e43801d7eed3892"
         },
         "windows-x86_64": {
           "url": "https://cloud.ibrobotics.com/public.php/dav/files/PLACEHOLDER/?accept=zip",
@@ -199,15 +199,16 @@
           "checksum": "sha256:PLACEHOLDER"
         },
         "macos-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-test-dummy-plugins/releases/download/mcap-loader/v1.0.3/mcap-loader-1.0.3-macos-x86_64.zip",
-          "checksum": "sha256:5631eaf84311bd1521cc136d51f06afe5da63a21cc2853a56a0df6722f7d5453"
+          "url": "https://github.com/PlotJuggler/pj-test-dummy-plugins/releases/download/mcap-loader/v1.0.7/mcap-loader-1.0.7-macos-x86_64.zip",
+          "checksum": "sha256:a95c5c944277e20347992a275ba48b1411bd2c553e18ea27f9604d9451a7fae0"
         },
         "macos-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-test-dummy-plugins/releases/download/mcap-loader/v1.0.3/mcap-loader-1.0.3-macos-arm64.zip",
-          "checksum": "sha256:ad6ebfd6d5b91ddb6706e47ae4925fd178df68af11492626d597ca2800d68124"
+          "url": "https://github.com/PlotJuggler/pj-test-dummy-plugins/releases/download/mcap-loader/v1.0.7/mcap-loader-1.0.7-macos-arm64.zip",
+          "checksum": "sha256:8bc40110e45737cd2b45180a38de35e33e508bff2aceadb4549cca5cb434b1de"
         }
       },
       "changelog": {
+        "1.0.7": "Updated release",
         "1.0.3": "Updated release",
         "1.0.0": "Initial release"
       }
@@ -270,13 +271,13 @@
       "description": "Bundle of ROS plugins for PlotJuggler.",
       "author": "PlotJuggler Team",
       "publisher": "PlotJuggler",
-      "website": "https://github.com/PlotJuggler/pj-test-dummy-plugins/releases/tag/ros-bundle%2Fv1.0.3",
+      "website": "https://github.com/PlotJuggler/pj-test-dummy-plugins/releases/tag/ros-bundle%2Fv1.0.7",
       "repository": "https://github.com/PlotJuggler/pj-test-dummy-plugins",
       "license": "MIT",
       "icon_url": "",
       "category": "bundle",
       "tags": ["ros", "bundle"],
-      "version": "1.0.3",
+      "version": "1.0.7",
       "min_plotjuggler_version": "4.0.0",
       "plugins": [
         {
@@ -287,12 +288,12 @@
       ],
       "platforms": {
         "linux-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-test-dummy-plugins/releases/download/ros-bundle/v1.0.3/ros-bundle-1.0.3-linux-x86_64.zip",
-          "checksum": "sha256:08b60dc52c58147dc5dabcca09e4be53491a3e5e882aeec8950357e9f3553366"
+          "url": "https://github.com/PlotJuggler/pj-test-dummy-plugins/releases/download/ros-bundle/v1.0.7/ros-bundle-1.0.7-linux-x86_64.zip",
+          "checksum": "sha256:f2a0bcaab362fc2ced7b5812568cd2c6b6607958d5888c2fb33553e2b7ffee72"
         },
         "linux-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-test-dummy-plugins/releases/download/ros-bundle/v1.0.3/ros-bundle-1.0.3-linux-aarch64.zip",
-          "checksum": "sha256:91376c634f33e906b872c0c95d3096ef1203eaf321b1e7ec7e4267c87191113f"
+          "url": "https://github.com/PlotJuggler/pj-test-dummy-plugins/releases/download/ros-bundle/v1.0.7/ros-bundle-1.0.7-linux-aarch64.zip",
+          "checksum": "sha256:c1be97b16c5a74572575a3f899f03af7c41c8f3cd655beee84f820ed8e707a22"
         },
         "windows-x86_64": {
           "url": "https://cloud.ibrobotics.com/public.php/dav/files/PLACEHOLDER/?accept=zip",
@@ -303,15 +304,16 @@
           "checksum": "sha256:PLACEHOLDER"
         },
         "macos-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-test-dummy-plugins/releases/download/ros-bundle/v1.0.3/ros-bundle-1.0.3-macos-x86_64.zip",
-          "checksum": "sha256:2f9cf3f19ef8d46e3ffc8a73e01544d9aab5236946e59e88139b0351c8c88261"
+          "url": "https://github.com/PlotJuggler/pj-test-dummy-plugins/releases/download/ros-bundle/v1.0.7/ros-bundle-1.0.7-macos-x86_64.zip",
+          "checksum": "sha256:3386a070dc3386a34be3ff76cb1364c3c1adbc7d6963e48c64c0f02298258acd"
         },
         "macos-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-test-dummy-plugins/releases/download/ros-bundle/v1.0.3/ros-bundle-1.0.3-macos-arm64.zip",
-          "checksum": "sha256:de9ea63f2369798c46442dae8b72bd4a00d6b89640cfa8c0b499c9d7a98da838"
+          "url": "https://github.com/PlotJuggler/pj-test-dummy-plugins/releases/download/ros-bundle/v1.0.7/ros-bundle-1.0.7-macos-arm64.zip",
+          "checksum": "sha256:dc4db9972b43dc9575919fa716934fcce95f0a81f6a601027664d4cffb80e897"
         }
       },
       "changelog": {
+        "1.0.7": "Updated release",
         "1.0.3": "Updated release",
         "1.0.0": "Initial release"
       }
