@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "last_updated": "2026-03-19T12:59:57Z",
+  "last_updated": "2026-03-19T19:27:05Z",
   "extensions": [
     {
       "id": "can-bus-parser",
@@ -253,6 +253,63 @@
           "url": "https://github.com/PlotJuggler/pj-test-dummy-plugins/releases/download/ros-bundle/v1.0.7/ros-bundle-1.0.7-macos-arm64.zip",
           "checksum": "sha256:dc4db9972b43dc9575919fa716934fcce95f0a81f6a601027664d4cffb80e897"
         }
+      }
+    },
+    {
+      "id": "foxglove-bridge",
+      "name": "Foxglove Bridge",
+      "version": "1.0.0",
+      "description": "Connect to Foxglove WebSocket server for ROS data streaming. Compatible with Foxglove Studio.",
+      "author": "PlotJuggler Team",
+      "publisher": "PlotJuggler",
+      "website": "https://github.com/PlotJuggler/pj-official-plugins",
+      "repository": "https://github.com/PlotJuggler/pj-official-plugins",
+      "license": "MIT",
+      "icon_url": "",
+      "category": "data_stream",
+      "tags": [
+        "foxglove",
+        "bridge",
+        "stream",
+        "ros",
+        "websocket"
+      ],
+      "min_plotjuggler_version": "4.0.0",
+      "plugins": [
+        {
+          "name": "FoxgloveBridge",
+          "type": "data_stream",
+          "library": "foxglove-bridge"
+        }
+      ],
+      "platforms": {
+        "linux-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_foxglove_bridge/v1.0.0/foxglove-bridge-1.0.0-linux-aarch64.zip",
+          "checksum": "sha256:a16c2302836fa95b3a6b5944f81a38a39c46425b38de6af281123cd3a75242fa"
+        },
+        "linux-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_foxglove_bridge/v1.0.0/foxglove-bridge-1.0.0-linux-x86_64.zip",
+          "checksum": "sha256:d1be4feba0cf2ea315bd11438fd287a1903e78167e7179300686ccc7bb435204"
+        },
+        "macos-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_foxglove_bridge/v1.0.0/foxglove-bridge-1.0.0-macos-arm64.zip",
+          "checksum": "sha256:ca21d361fb7c6f80462ca96dcbceedd090fe27e3b0caa048cc5d23a7ee0fdca2"
+        },
+        "macos-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_foxglove_bridge/v1.0.0/foxglove-bridge-1.0.0-macos-x86_64.zip",
+          "checksum": "sha256:eaab5a1df0f5f8cae63f509809116d4ddf3c096d9dff0e5d5ba762abb8d790d7"
+        },
+        "windows-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_foxglove_bridge/v1.0.0/foxglove-bridge-1.0.0-windows-arm64.zip",
+          "checksum": "sha256:73a61b35a6f9d06bdc8d2d777601db35f44dbc7ea5a83316f57c599721a796d9"
+        },
+        "windows-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_foxglove_bridge/v1.0.0/foxglove-bridge-1.0.0-windows-x64.zip",
+          "checksum": "sha256:811df741c490e9338b9b9d8620dcb2309ccd4e5f8772e5b980b211526eaa758b"
+        }
+      },
+      "changelog": {
+        "1.0.0": "Release v1.0.0"
       }
     }
   ]
