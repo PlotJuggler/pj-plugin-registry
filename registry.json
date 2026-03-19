@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "last_updated": "2026-03-13T00:00:00Z",
+  "last_updated": "2026-03-19T12:59:57Z",
   "extensions": [
     {
       "id": "can-bus-parser",
@@ -13,7 +13,11 @@
       "license": "MIT",
       "icon_url": "",
       "category": "parser",
-      "tags": ["can", "bus", "parser"],
+      "tags": [
+        "can",
+        "bus",
+        "parser"
+      ],
       "version": "1.0.5",
       "min_plotjuggler_version": "4.0.0",
       "plugins": [
@@ -58,54 +62,30 @@
     {
       "id": "csv-loader",
       "name": "CSV Loader",
+      "version": "1.0.5",
       "description": "Data loader for CSV files.",
       "author": "PlotJuggler Team",
       "publisher": "PlotJuggler",
-      "website": "https://github.com/PlotJuggler/pj-test-dummy-plugins/releases/tag/csv-loader%2Fv1.0.5",
-      "repository": "https://github.com/PlotJuggler/pj-test-dummy-plugins",
+      "website": "https://github.com/PlotJuggler/pj-official-plugins",
+      "repository": "https://github.com/PlotJuggler/pj-official-plugins",
       "license": "MIT",
       "icon_url": "",
       "category": "data_loader",
-      "tags": ["csv", "file", "loader"],
-      "version": "1.0.5",
-      "min_plotjuggler_version": "4.0.0",
-      "plugins": [
-        {
-          "name": "CsvLoader",
-          "type": "data_loader",
-          "library": "csv-loader"
-        }
+      "tags": [
+        "csv",
+        "file",
+        "loader"
       ],
+      "min_plotjuggler_version": "4.0.0",
       "platforms": {
         "linux-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-test-dummy-plugins/releases/download/csv-loader/v1.0.5/csv-loader-1.0.5-linux-x86_64.zip",
-          "checksum": "sha256:bd796f964ab31c4e6506207cab66d05b48a30094abd4047d129fd636279f2aed"
-        },
-        "linux-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-test-dummy-plugins/releases/download/csv-loader/v1.0.5/csv-loader-1.0.5-linux-aarch64.zip",
-          "checksum": "sha256:32c53b46a3b16ade29a7fd5aa8ecfe2d1912eaac410e7c3f384939b68d5fede5"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_csv/v1.0.5/csv-loader-1.0.5-linux-x86_64.zip",
+          "checksum": "sha256:aaea4f15f8c8823022bb5998cfa8b7dd817eb895af49f78a34560ecb519cc1d6"
         },
         "windows-x86_64": {
-          "url": "https://cloud.ibrobotics.com/public.php/dav/files/PLACEHOLDER/?accept=zip",
-          "checksum": "sha256:PLACEHOLDER"
-        },
-        "windows-arm64": {
-          "url": "https://cloud.ibrobotics.com/public.php/dav/files/PLACEHOLDER/?accept=zip",
-          "checksum": "sha256:PLACEHOLDER"
-        },
-        "macos-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-test-dummy-plugins/releases/download/csv-loader/v1.0.5/csv-loader-1.0.5-macos-x86_64.zip",
-          "checksum": "sha256:1712295fc280eef1340827b9fc54d7c92f7ce03233e5ca544a84857597a34a61"
-        },
-        "macos-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-test-dummy-plugins/releases/download/csv-loader/v1.0.5/csv-loader-1.0.5-macos-arm64.zip",
-          "checksum": "sha256:0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_csv/v1.0.5/csv-loader-1.0.5-windows-x64.zip",
+          "checksum": "sha256:19faac5ffd1728ceddbd5802c28b876c083f10bd98d2cf4d4aef90a5956a6e15"
         }
-      },
-      "changelog": {
-        "1.0.5": "Updated release",
-        "1.0.4": "Updated release",
-        "1.0.0": "Initial release"
       }
     },
     {
@@ -119,7 +99,11 @@
       "license": "MIT",
       "icon_url": "",
       "category": "toolbox",
-      "tags": ["fft", "frequency", "analysis"],
+      "tags": [
+        "fft",
+        "frequency",
+        "analysis"
+      ],
       "version": "1.0.3",
       "min_plotjuggler_version": "4.0.0",
       "plugins": [
@@ -171,7 +155,11 @@
       "license": "MIT",
       "icon_url": "",
       "category": "data_loader",
-      "tags": ["mcap", "file", "loader"],
+      "tags": [
+        "mcap",
+        "file",
+        "loader"
+      ],
       "version": "1.0.7",
       "min_plotjuggler_version": "4.0.0",
       "plugins": [
@@ -224,7 +212,11 @@
       "license": "MIT",
       "icon_url": "",
       "category": "data_streamer",
-      "tags": ["ros2", "streaming", "real-time"],
+      "tags": [
+        "ros2",
+        "streaming",
+        "real-time"
+      ],
       "version": "1.0.3",
       "min_plotjuggler_version": "4.0.0",
       "plugins": [
@@ -276,7 +268,10 @@
       "license": "MIT",
       "icon_url": "",
       "category": "bundle",
-      "tags": ["ros", "bundle"],
+      "tags": [
+        "ros",
+        "bundle"
+      ],
       "version": "1.0.7",
       "min_plotjuggler_version": "4.0.0",
       "plugins": [
