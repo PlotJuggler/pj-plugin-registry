@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "last_updated": "2026-03-19T20:24:04Z",
+  "last_updated": "2026-03-19T20:39:51Z",
   "extensions": [
     {
       "id": "csv-loader",
@@ -55,6 +55,48 @@
       },
       "changelog": {
         "1.0.5": "Release v1.0.5"
+      }
+    },
+    {
+      "id": "protobuf-parser",
+      "name": "Protobuf Parser",
+      "version": "1.0.0",
+      "description": "Message parser for Protocol Buffers encoded data. Requires .proto schema files.",
+      "author": "PlotJuggler Team",
+      "publisher": "PlotJuggler",
+      "website": "https://github.com/PlotJuggler/pj-official-plugins",
+      "repository": "https://github.com/PlotJuggler/pj-official-plugins",
+      "license": "MIT",
+      "icon_url": "",
+      "category": "message_parser",
+      "tags": [
+        "protobuf",
+        "proto",
+        "parser",
+        "schema"
+      ],
+      "min_plotjuggler_version": "4.0.0",
+      "platforms": {
+        "linux-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_protobuf/v1.0.0/protobuf-parser-1.0.0-linux-aarch64.zip",
+          "checksum": "sha256:9411c9bdf97ce9715926e2fdc150428e6cf29af207d6e3962d60ed7f7be42e74"
+        },
+        "linux-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_protobuf/v1.0.0/protobuf-parser-1.0.0-linux-x86_64.zip",
+          "checksum": "sha256:fedc3e6ca83bfb46debaf10900a7a3604fe9b66e88f4a435b79d0ce0d2ee2708"
+        },
+        "macos-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_protobuf/v1.0.0/protobuf-parser-1.0.0-macos-arm64.zip",
+          "checksum": "sha256:3c25dfc9c08df3ddadb69e57ae547cfae1968436db2114da3670667c95ac631c"
+        },
+        "macos-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_protobuf/v1.0.0/protobuf-parser-1.0.0-macos-x86_64.zip",
+          "checksum": "sha256:24484a1f0b69ef445c104e4c03ada59db3276555cdd015598ee75980e14ac29c"
+        },
+        "windows-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_protobuf/v1.0.0/protobuf-parser-1.0.0-windows-x64.zip",
+          "checksum": "sha256:90defa6c2bd3f31f1d48f05d097ced023754442317d6880829342e594ffd4627"
+        }
       }
     }
   ]
