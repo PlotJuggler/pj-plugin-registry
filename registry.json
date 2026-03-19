@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "last_updated": "2026-03-19T12:59:57Z",
+  "last_updated": "2026-03-19T19:26:41Z",
   "extensions": [
     {
       "id": "can-bus-parser",
@@ -253,6 +253,63 @@
           "url": "https://github.com/PlotJuggler/pj-test-dummy-plugins/releases/download/ros-bundle/v1.0.7/ros-bundle-1.0.7-macos-arm64.zip",
           "checksum": "sha256:dc4db9972b43dc9575919fa716934fcce95f0a81f6a601027664d4cffb80e897"
         }
+      }
+    },
+    {
+      "id": "dummy-streamer",
+      "name": "Dummy Streamer",
+      "version": "1.0.0",
+      "description": "Generates synthetic sine, cosine, sawtooth, and noise signals for testing and demonstration.",
+      "author": "PlotJuggler Team",
+      "publisher": "PlotJuggler",
+      "website": "https://github.com/PlotJuggler/pj-official-plugins",
+      "repository": "https://github.com/PlotJuggler/pj-official-plugins",
+      "license": "MIT",
+      "icon_url": "",
+      "category": "data_stream",
+      "tags": [
+        "dummy",
+        "test",
+        "synthetic",
+        "demo",
+        "stream"
+      ],
+      "min_plotjuggler_version": "4.0.0",
+      "plugins": [
+        {
+          "name": "DummyStreamer",
+          "type": "data_stream",
+          "library": "dummy-streamer"
+        }
+      ],
+      "platforms": {
+        "linux-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_dummy/v1.0.0/dummy-streamer-1.0.0-linux-aarch64.zip",
+          "checksum": "sha256:9378df23a00321a9f7faed872b9ad7d7d259572057aa6484738f54a02e6c59bc"
+        },
+        "linux-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_dummy/v1.0.0/dummy-streamer-1.0.0-linux-x86_64.zip",
+          "checksum": "sha256:df0abdd6b7a222318be3bc623125dc56e5131f7408d00a2ed4b92c051471f223"
+        },
+        "macos-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_dummy/v1.0.0/dummy-streamer-1.0.0-macos-arm64.zip",
+          "checksum": "sha256:87a7a8621e387315abfb80d622c03f8f693c9040c102efd79cd6d9c380eaec70"
+        },
+        "macos-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_dummy/v1.0.0/dummy-streamer-1.0.0-macos-x86_64.zip",
+          "checksum": "sha256:e2d4bd25a774e857da227406ccdc36a75550e3519590fa5ca30856fe764bc251"
+        },
+        "windows-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_dummy/v1.0.0/dummy-streamer-1.0.0-windows-arm64.zip",
+          "checksum": "sha256:e55c26cf3fbd0101b7a250ee78a8bdc2300cd3f64f7fcb399624ef5399fa9259"
+        },
+        "windows-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_dummy/v1.0.0/dummy-streamer-1.0.0-windows-x64.zip",
+          "checksum": "sha256:efdb2261a433d2dd8bbe6ae39793404e0c4921586444a4c5bbdd5ebe09273528"
+        }
+      },
+      "changelog": {
+        "1.0.0": "Release v1.0.0"
       }
     }
   ]
