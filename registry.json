@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "last_updated": "2026-03-19T12:59:57Z",
+  "last_updated": "2026-03-19T19:28:15Z",
   "extensions": [
     {
       "id": "can-bus-parser",
@@ -253,6 +253,58 @@
           "url": "https://github.com/PlotJuggler/pj-test-dummy-plugins/releases/download/ros-bundle/v1.0.7/ros-bundle-1.0.7-macos-arm64.zip",
           "checksum": "sha256:dc4db9972b43dc9575919fa716934fcce95f0a81f6a601027664d4cffb80e897"
         }
+      }
+    },
+    {
+      "id": "plotjuggler-bridge",
+      "name": "PlotJuggler Bridge",
+      "version": "1.0.0",
+      "description": "Connect to PlotJuggler Bridge server for generic data streaming over WebSocket.",
+      "author": "PlotJuggler Team",
+      "publisher": "PlotJuggler",
+      "website": "https://github.com/PlotJuggler/pj-official-plugins",
+      "repository": "https://github.com/PlotJuggler/pj-official-plugins",
+      "license": "MIT",
+      "icon_url": "",
+      "category": "data_stream",
+      "tags": [
+        "bridge",
+        "stream",
+        "websocket",
+        "realtime"
+      ],
+      "min_plotjuggler_version": "4.0.0",
+      "plugins": [
+        {
+          "name": "PlotjugglerBridge",
+          "type": "data_stream",
+          "library": "plotjuggler-bridge"
+        }
+      ],
+      "platforms": {
+        "linux-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_pj_bridge/v1.0.0/plotjuggler-bridge-1.0.0-linux-aarch64.zip",
+          "checksum": "sha256:0f24260ff881b9e883e53b194505381668175cceaf94ebd955c2c1b90f8cc492"
+        },
+        "linux-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_pj_bridge/v1.0.0/plotjuggler-bridge-1.0.0-linux-x86_64.zip",
+          "checksum": "sha256:99518ae98f57e92f7813cd94b1b78f8f1d0124daf5978c05e814a2c6fc057d48"
+        },
+        "macos-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_pj_bridge/v1.0.0/plotjuggler-bridge-1.0.0-macos-arm64.zip",
+          "checksum": "sha256:3480ffac7a8bdda4825cd040668a46e8a867bb5db2a0def7e3eb11c2a255f318"
+        },
+        "macos-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_pj_bridge/v1.0.0/plotjuggler-bridge-1.0.0-macos-x86_64.zip",
+          "checksum": "sha256:83cd59d0e2f74b18abf981fe90d96eedbd48c9edebe0d207f97617ffbdfa8193"
+        },
+        "windows-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_pj_bridge/v1.0.0/plotjuggler-bridge-1.0.0-windows-x64.zip",
+          "checksum": "sha256:19234f636959b7c80fcd0dff4102b7f00be5e4c6a9212dfc3b7dd85f64aef080"
+        }
+      },
+      "changelog": {
+        "1.0.0": "Release v1.0.0"
       }
     }
   ]
