@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "last_updated": "2026-03-19T20:24:04Z",
+  "last_updated": "2026-03-19T20:30:03Z",
   "extensions": [
     {
       "id": "csv-loader",
@@ -20,13 +20,6 @@
         "loader"
       ],
       "min_plotjuggler_version": "4.0.0",
-      "plugins": [
-        {
-          "name": "CsvLoader",
-          "type": "data_loader",
-          "library": "csv-loader"
-        }
-      ],
       "platforms": {
         "linux-arm64": {
           "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_csv/v1.0.5/csv-loader-1.0.5-linux-aarch64.zip",
@@ -52,9 +45,6 @@
           "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_csv/v1.0.5/csv-loader-1.0.5-windows-x64.zip",
           "checksum": "sha256:19faac5ffd1728ceddbd5802c28b876c083f10bd98d2cf4d4aef90a5956a6e15"
         }
-      },
-      "changelog": {
-        "1.0.5": "Release v1.0.5"
       }
     }
   ]
