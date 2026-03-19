@@ -1,0 +1,37 @@
+name: Validate Registry
+
+on:
+  pull_request:
+    paths:
+      - 'registry.json'
+  push:
+    branches:
+      - main
+      - development
+    paths:
+      - 'registry.json'
+  workflow_dispatch:
+    inputs:
+      verify_checksums:
+        description: 'Verify SHA256 checksums (slow)'
+        type: boolean
+        default: false
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Validate structure and URLs
+        run: python3 scripts/validate_registry.py registry.json
+
+      - name: Verify checksums (manual trigger only)
+        if: github.event_name == 'workflow_dispatch' && inputs.verify_checksums
+        run: python3 scripts/validate_registry.py --verify-checksums registry.json
