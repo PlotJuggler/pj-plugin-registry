@@ -20,13 +20,6 @@
       ],
       "version": "1.0.5",
       "min_plotjuggler_version": "4.0.0",
-      "plugins": [
-        {
-          "name": "CanBusParser",
-          "type": "parser",
-          "library": "can-bus-parser"
-        }
-      ],
       "platforms": {
         "linux-x86_64": {
           "url": "https://github.com/PlotJuggler/pj-test-dummy-plugins/releases/download/can-bus-parser/v1.0.5/can-bus-parser-1.0.5-linux-x86_64.zip",
@@ -52,11 +45,6 @@
           "url": "https://cloud.ibrobotics.com/public.php/dav/files/PLACEHOLDER/?accept=zip",
           "checksum": "sha256:PLACEHOLDER"
         }
-      },
-      "changelog": {
-        "1.0.5": "Updated release",
-        "1.0.3": "Updated release",
-        "1.0.0": "Initial release"
       }
     },
     {
@@ -106,13 +94,6 @@
       ],
       "version": "1.0.3",
       "min_plotjuggler_version": "4.0.0",
-      "plugins": [
-        {
-          "name": "FftToolbox",
-          "type": "toolbox",
-          "library": "fft-toolbox"
-        }
-      ],
       "platforms": {
         "linux-x86_64": {
           "url": "https://github.com/PlotJuggler/pj-test-dummy-plugins/releases/download/fft-toolbox/v1.0.3/fft-toolbox-1.0.3-linux-x86_64.zip",
@@ -138,10 +119,6 @@
           "url": "https://github.com/PlotJuggler/pj-test-dummy-plugins/releases/download/fft-toolbox/v1.0.3/fft-toolbox-1.0.3-macos-arm64.zip",
           "checksum": "sha256:3f2e5b24270dbebea16c58e8fe118d4936e37dcf8b270d79e4eb6e095045eb9e"
         }
-      },
-      "changelog": {
-        "1.0.3": "Updated release",
-        "1.0.0": "Initial release"
       }
     },
     {
@@ -162,13 +139,6 @@
       ],
       "version": "1.0.7",
       "min_plotjuggler_version": "4.0.0",
-      "plugins": [
-        {
-          "name": "McapLoader",
-          "type": "data_loader",
-          "library": "mcap-loader"
-        }
-      ],
       "platforms": {
         "linux-x86_64": {
           "url": "https://github.com/PlotJuggler/pj-test-dummy-plugins/releases/download/mcap-loader/v1.0.7/mcap-loader-1.0.7-linux-x86_64.zip",
@@ -194,11 +164,6 @@
           "url": "https://github.com/PlotJuggler/pj-test-dummy-plugins/releases/download/mcap-loader/v1.0.7/mcap-loader-1.0.7-macos-arm64.zip",
           "checksum": "sha256:8bc40110e45737cd2b45180a38de35e33e508bff2aceadb4549cca5cb434b1de"
         }
-      },
-      "changelog": {
-        "1.0.7": "Updated release",
-        "1.0.3": "Updated release",
-        "1.0.0": "Initial release"
       }
     },
     {
@@ -219,13 +184,6 @@
       ],
       "version": "1.0.3",
       "min_plotjuggler_version": "4.0.0",
-      "plugins": [
-        {
-          "name": "Ros2Streaming",
-          "type": "data_streamer",
-          "library": "ros2-streaming"
-        }
-      ],
       "platforms": {
         "linux-x86_64": {
           "url": "https://github.com/PlotJuggler/pj-test-dummy-plugins/releases/download/ros2-streaming/v1.0.3/ros2-streaming-1.0.3-linux-x86_64.zip",
@@ -251,10 +209,6 @@
           "url": "https://github.com/PlotJuggler/pj-test-dummy-plugins/releases/download/ros2-streaming/v1.0.3/ros2-streaming-1.0.3-macos-arm64.zip",
           "checksum": "sha256:e6bfde2b3220570f0a7bae144aba93a84931adec66206b15ab0b6070cbc27f5f"
         }
-      },
-      "changelog": {
-        "1.0.3": "Updated release",
-        "1.0.0": "Initial release"
       }
     },
     {
@@ -274,13 +228,6 @@
       ],
       "version": "1.0.7",
       "min_plotjuggler_version": "4.0.0",
-      "plugins": [
-        {
-          "name": "RosBundle",
-          "type": "bundle",
-          "library": "ros-bundle"
-        }
-      ],
       "platforms": {
         "linux-x86_64": {
           "url": "https://github.com/PlotJuggler/pj-test-dummy-plugins/releases/download/ros-bundle/v1.0.7/ros-bundle-1.0.7-linux-x86_64.zip",
@@ -306,11 +253,6 @@
           "url": "https://github.com/PlotJuggler/pj-test-dummy-plugins/releases/download/ros-bundle/v1.0.7/ros-bundle-1.0.7-macos-arm64.zip",
           "checksum": "sha256:dc4db9972b43dc9575919fa716934fcce95f0a81f6a601027664d4cffb80e897"
         }
-      },
-      "changelog": {
-        "1.0.7": "Updated release",
-        "1.0.3": "Updated release",
-        "1.0.0": "Initial release"
       }
     }
   ]
