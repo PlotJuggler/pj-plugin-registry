@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "last_updated": "2026-03-19T12:59:57Z",
+  "last_updated": "2026-03-19T19:28:41Z",
   "extensions": [
     {
       "id": "can-bus-parser",
@@ -253,6 +253,59 @@
           "url": "https://github.com/PlotJuggler/pj-test-dummy-plugins/releases/download/ros-bundle/v1.0.7/ros-bundle-1.0.7-macos-arm64.zip",
           "checksum": "sha256:dc4db9972b43dc9575919fa716934fcce95f0a81f6a601027664d4cffb80e897"
         }
+      }
+    },
+    {
+      "id": "zmq-subscriber",
+      "name": "ZMQ Subscriber",
+      "version": "1.0.0",
+      "description": "Real-time data streaming via ZeroMQ. High-performance messaging for distributed systems.",
+      "author": "PlotJuggler Team",
+      "publisher": "PlotJuggler",
+      "website": "https://github.com/PlotJuggler/pj-official-plugins",
+      "repository": "https://github.com/PlotJuggler/pj-official-plugins",
+      "license": "MIT",
+      "icon_url": "",
+      "category": "data_stream",
+      "tags": [
+        "zmq",
+        "zeromq",
+        "stream",
+        "realtime",
+        "subscriber"
+      ],
+      "min_plotjuggler_version": "4.0.0",
+      "plugins": [
+        {
+          "name": "ZmqSubscriber",
+          "type": "data_stream",
+          "library": "zmq-subscriber"
+        }
+      ],
+      "platforms": {
+        "linux-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_zmq/v1.0.0/zmq-subscriber-1.0.0-linux-aarch64.zip",
+          "checksum": "sha256:0f75be4cff6c9079285954f07e29ee8ef0788c78297df5d810cdbbb83d8928ac"
+        },
+        "linux-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_zmq/v1.0.0/zmq-subscriber-1.0.0-linux-x86_64.zip",
+          "checksum": "sha256:96efd9f354ee811cd9e3f66b7796b3916d2f41ac4abb42ce0c77fcc048d7c4fa"
+        },
+        "macos-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_zmq/v1.0.0/zmq-subscriber-1.0.0-macos-arm64.zip",
+          "checksum": "sha256:647193c3107a8c1926655a697c90ef10b8e5cc2aa1065977c2a2116731bc4781"
+        },
+        "macos-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_zmq/v1.0.0/zmq-subscriber-1.0.0-macos-x86_64.zip",
+          "checksum": "sha256:621d03041f962040b40f8eb2ab7fbbd3fffc7e3269b84cc34e5aafbbf8d5dbc0"
+        },
+        "windows-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_zmq/v1.0.0/zmq-subscriber-1.0.0-windows-x64.zip",
+          "checksum": "sha256:75fceb4322cc0ad4cc3b58b369f52fb19f0e4d50f815b87d1a8f9f3dafd57600"
+        }
+      },
+      "changelog": {
+        "1.0.0": "Release v1.0.0"
       }
     }
   ]
