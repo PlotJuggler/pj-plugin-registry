@@ -20,13 +20,6 @@
         "loader"
       ],
       "min_plotjuggler_version": "4.0.0",
-      "plugins": [
-        {
-          "name": "CsvLoader",
-          "type": "data_loader",
-          "library": "csv-loader"
-        }
-      ],
       "platforms": {
         "linux-arm64": {
           "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_csv/v1.0.5/csv-loader-1.0.5-linux-aarch64.zip",
@@ -52,9 +45,6 @@
           "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_csv/v1.0.5/csv-loader-1.0.5-windows-x64.zip",
           "checksum": "sha256:2078bdd5d8b9feecd957bc630d252d49a52cfa0ee8f9c279c9ebe927999ed426"
         }
-      },
-      "changelog": {
-        "1.0.5": "Release v1.0.5"
       }
     },
     {
@@ -78,13 +68,6 @@
         "protobuf"
       ],
       "min_plotjuggler_version": "4.0.0",
-      "plugins": [
-        {
-          "name": "McapLoader",
-          "type": "data_loader",
-          "library": "mcap-loader"
-        }
-      ],
       "platforms": {
         "linux-arm64": {
           "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mcap/v1.0.0/mcap-loader-1.0.0-linux-aarch64.zip",
@@ -110,9 +93,6 @@
           "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mcap/v1.0.0/mcap-loader-1.0.0-windows-x64.zip",
           "checksum": "sha256:6660f11d56c2c3110472962abf8b06bafe2573c3a075009375c92e4d19de30d5"
         }
-      },
-      "changelog": {
-        "1.0.0": "Release v1.0.0"
       }
     },
     {
@@ -136,13 +116,6 @@
         "flight"
       ],
       "min_plotjuggler_version": "4.0.0",
-      "plugins": [
-        {
-          "name": "UlogLoader",
-          "type": "data_loader",
-          "library": "ulog-loader"
-        }
-      ],
       "platforms": {
         "linux-arm64": {
           "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_ulog/v1.0.0/ulog-loader-1.0.0-linux-aarch64.zip",
@@ -168,9 +141,6 @@
           "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_ulog/v1.0.0/ulog-loader-1.0.0-windows-x64.zip",
           "checksum": "sha256:f42d118eb69fd0d8384be7f8c0304236921505af1b2c3230de82de195d4a5887"
         }
-      },
-      "changelog": {
-        "1.0.0": "Release v1.0.0"
       }
     }
   ]
