@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "last_updated": "2026-03-23T21:40:41Z",
+  "last_updated": "2026-03-23T23:01:18Z",
   "extensions": [
     {
       "id": "csv-loader",
@@ -141,6 +141,63 @@
           "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_ulog/v1.0.0/ulog-loader-1.0.0-windows-x64.zip",
           "checksum": "sha256:f42d118eb69fd0d8384be7f8c0304236921505af1b2c3230de82de195d4a5887"
         }
+      }
+    },
+    {
+      "id": "parquet-loader",
+      "name": "Parquet Loader",
+      "version": "1.0.0",
+      "description": "Data loader for Apache Parquet files. Efficient columnar storage format.",
+      "author": "PlotJuggler Team",
+      "publisher": "PlotJuggler",
+      "website": "https://github.com/PlotJuggler/pj-official-plugins",
+      "repository": "https://github.com/PlotJuggler/pj-official-plugins",
+      "license": "MIT",
+      "icon_url": "",
+      "category": "data_loader",
+      "tags": [
+        "parquet",
+        "file",
+        "loader",
+        "columnar",
+        "arrow"
+      ],
+      "min_plotjuggler_version": "4.0.0",
+      "plugins": [
+        {
+          "name": "ParquetLoader",
+          "type": "data_loader",
+          "library": "parquet-loader"
+        }
+      ],
+      "platforms": {
+        "linux-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_parquet/v1.0.0/parquet-loader-1.0.0-linux-aarch64.zip",
+          "checksum": "sha256:049a3c2876c249a6e4e4b6d3440716a29e288f833705db36d1cbf563632b0fca"
+        },
+        "linux-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_parquet/v1.0.0/parquet-loader-1.0.0-linux-x86_64.zip",
+          "checksum": "sha256:8a218a95f2f6350efa94a4c06c32bc9b2b2326b603b34c7f7b544f5ca46e3f81"
+        },
+        "macos-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_parquet/v1.0.0/parquet-loader-1.0.0-macos-arm64.zip",
+          "checksum": "sha256:408a2a32e2352e83a1e0c40c4808e7eefad2db938cb765f9485ae0a3a15ef75a"
+        },
+        "macos-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_parquet/v1.0.0/parquet-loader-1.0.0-macos-x86_64.zip",
+          "checksum": "sha256:3706edeeaf7ae6f1556ad4d5eab8669b3d6481cdc7faddec5ff91cddb6d9f53c"
+        },
+        "windows-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_parquet/v1.0.0/parquet-loader-1.0.0-windows-arm64.zip",
+          "checksum": "sha256:4cfef170fe86eb0fc795b83663f703662955d7354bc468876561309236fe56d1"
+        },
+        "windows-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_parquet/v1.0.0/parquet-loader-1.0.0-windows-x64.zip",
+          "checksum": "sha256:cac7b10e76719c7031dd197822291e4ab2250d54c987b11239b0eee8fd6b6ff5"
+        }
+      },
+      "changelog": {
+        "1.0.0": "Release v1.0.0"
       }
     }
   ]
