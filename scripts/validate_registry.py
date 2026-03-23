@@ -76,6 +76,17 @@ def validate_structure(registry: dict) -> list[str]:
             elif not data["checksum"].startswith("sha256:"):
                 errors.append(f"{ext_id}/{platform}: checksum must start with 'sha256:'")
 
+    # Check alphabetical order
+    ids = [ext.get("id", "") for ext in registry["extensions"]]
+    sorted_ids = sorted(ids)
+    if ids != sorted_ids:
+        errors.append("Extensions must be sorted alphabetically by id")
+        # Find first out-of-order entry
+        for i, (actual, expected) in enumerate(zip(ids, sorted_ids)):
+            if actual != expected:
+                errors.append(f"  First violation: '{actual}' at index {i}, expected '{expected}'")
+                break
+
     return errors
 
 
