@@ -1,6 +1,5 @@
 {
   "registry_version": "1.0",
-  "last_updated": "2026-03-23T21:40:41Z",
   "extensions": [
     {
       "id": "csv-loader",
