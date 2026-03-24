@@ -117,11 +117,11 @@
       "platforms": {
         "linux-arm64": {
           "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mcap/v1.0.0/mcap-loader-1.0.0-linux-aarch64.zip",
-          "checksum": "sha256:7c1cfaf54daa80c35817d3df9b46380620500d9cef0ae72c770127fb7e3e68c5"
+          "checksum": "sha256:7fbdba9d4ea929c0b52ecae6eeb1cd9adfdc2d2f875da8c927199da56d2cb634"
         },
         "linux-x86_64": {
           "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mcap/v1.0.0/mcap-loader-1.0.0-linux-x86_64.zip",
-          "checksum": "sha256:5e231a1203b8c3bce40e27ffc552e4c437d6340c55f63bc04422b9a07f2bd9c6"
+          "checksum": "sha256:22a71b58aa33da4ccc98579fc4c8dd45c4255aa5c8bedf99015d78947cfd4524"
         },
         "macos-arm64": {
           "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mcap/v1.0.0/mcap-loader-1.0.0-macos-arm64.zip",
@@ -129,15 +129,15 @@
         },
         "macos-x86_64": {
           "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mcap/v1.0.0/mcap-loader-1.0.0-macos-x86_64.zip",
-          "checksum": "sha256:02eb4b57b921895289b6c1ddb694708caa1fa8e4b431445cf69bbb6a4d20613f"
+          "checksum": "sha256:178ddc7bd34dd62cce034d798218186d8408d3025437be18467c06b7f1641268"
         },
         "windows-arm64": {
           "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mcap/v1.0.0/mcap-loader-1.0.0-windows-arm64.zip",
-          "checksum": "sha256:07bba5df3c62e62a02923e507bc43cef3890c7efb253b06353ea0057c0b745a1"
+          "checksum": "sha256:7873591a3b4d7673800d7166617283f0a83b354ea6850b83774607a76c50b8ab"
         },
         "windows-x86_64": {
           "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mcap/v1.0.0/mcap-loader-1.0.0-windows-x64.zip",
-          "checksum": "sha256:6660f11d56c2c3110472962abf8b06bafe2573c3a075009375c92e4d19de30d5"
+          "checksum": "sha256:bb43192fce0f006e3bb68a534de6dd3632f3a47148fea6f8f5e3bd29578196cb"
         }
       }
     },
