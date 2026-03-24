@@ -22,27 +22,27 @@
       "platforms": {
         "linux-arm64": {
           "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_csv/v1.0.5/csv-loader-1.0.5-linux-aarch64.zip",
-          "checksum": "sha256:267c175af3bcc5d429757a88987171cc89dbc24c69a2a37054fcf41b70eda0e2"
+          "checksum": "sha256:b09b29e1229cdff2ab2b95f51046e88263093b793ddd80977dc180252ae8c0d9"
         },
         "linux-x86_64": {
           "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_csv/v1.0.5/csv-loader-1.0.5-linux-x86_64.zip",
-          "checksum": "sha256:347d40c667de2506535c32b6b9a25e887d032a904d9bab8209b5a01a924b1d34"
+          "checksum": "sha256:61efb53e7447a22ee2cf1b2733be16210a240182cc8a7a5209edcaba00ec2150"
         },
         "macos-arm64": {
           "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_csv/v1.0.5/csv-loader-1.0.5-macos-arm64.zip",
-          "checksum": "sha256:b0d2e4d44ff480f554b2f000051a076d6b9ff98581060995fc6d765e659d9b2e"
+          "checksum": "sha256:8475b2124c3eff03a35b4cadb3ecdaaeb10799adff94b8edec99d1d15fb58ba2"
         },
         "macos-x86_64": {
           "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_csv/v1.0.5/csv-loader-1.0.5-macos-x86_64.zip",
-          "checksum": "sha256:f9a779ec4e41bd188b9bbea168467edcf7c33c08f2155e5eca42b30b9cd4321b"
+          "checksum": "sha256:5376ad9ed4654f269096e6d2b5a27f928d2982647e2491a9fe8e19968011b319"
         },
         "windows-arm64": {
           "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_csv/v1.0.5/csv-loader-1.0.5-windows-arm64.zip",
-          "checksum": "sha256:0bb9766f067b2e416cba0070ad43435f59a1470b252c6ef7c9065d3cd39e64de"
+          "checksum": "sha256:54d81e779bcb586915c8f3e0c55fed0d7f1e41c6a2aaddff3c6ae7b96e907c21"
         },
         "windows-x86_64": {
           "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_csv/v1.0.5/csv-loader-1.0.5-windows-x64.zip",
-          "checksum": "sha256:2078bdd5d8b9feecd957bc630d252d49a52cfa0ee8f9c279c9ebe927999ed426"
+          "checksum": "sha256:0570edb86eccd86c9afc91996774ada8934d5ce4d3edcaba35241952ea2bd4bb"
         }
       }
     },
