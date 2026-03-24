@@ -375,6 +375,52 @@
       }
     },
     {
+      "id": "protobuf-parser",
+      "name": "Protobuf Parser",
+      "version": "1.0.0",
+      "description": "Message parser for Protocol Buffers encoded data. Requires .proto schema files.",
+      "author": "PlotJuggler Team",
+      "publisher": "PlotJuggler",
+      "website": "https://github.com/PlotJuggler/pj-official-plugins",
+      "repository": "https://github.com/PlotJuggler/pj-official-plugins",
+      "license": "MIT",
+      "icon_url": "",
+      "category": "message_parser",
+      "tags": [
+        "protobuf",
+        "proto",
+        "parser",
+        "schema"
+      ],
+      "min_plotjuggler_version": "4.0.0",
+      "platforms": {
+        "linux-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_protobuf/v1.0.0/protobuf-parser-1.0.0-linux-aarch64.zip",
+          "checksum": "sha256:f202b8f06ffa2b03ea037c5989e2a763337699e41725a99b6275f466de373ac9"
+        },
+        "linux-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_protobuf/v1.0.0/protobuf-parser-1.0.0-linux-x86_64.zip",
+          "checksum": "sha256:a8e380eacb827ea0d569a6a1fda83a91b7bd8991741495b024615472cfdb2b6b"
+        },
+        "macos-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_protobuf/v1.0.0/protobuf-parser-1.0.0-macos-arm64.zip",
+          "checksum": "sha256:7a6d51db0f1df04055d5d41f03603b03a28f030a1ffcb0b006e24e5d4429e010"
+        },
+        "macos-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_protobuf/v1.0.0/protobuf-parser-1.0.0-macos-x86_64.zip",
+          "checksum": "sha256:4b491317810f96632e91a8251627c2f63b3a9dd04349f17916b851dded46b8c2"
+        },
+        "windows-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_protobuf/v1.0.0/protobuf-parser-1.0.0-windows-arm64.zip",
+          "checksum": "sha256:b62d4bff97301c40d038fdee8208fb4fd1a802def8da9bbed03f904e7af28926"
+        },
+        "windows-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_protobuf/v1.0.0/protobuf-parser-1.0.0-windows-x64.zip",
+          "checksum": "sha256:3719629b035846daadd67f7d9ff13f3f76ee3c581a0900445c57a93f63445ed8"
+        }
+      }
+    },
+    {
       "id": "ros-parser",
       "name": "ROS CDR Parser",
       "version": "2.0.0",
