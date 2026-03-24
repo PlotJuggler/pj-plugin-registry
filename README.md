@@ -136,21 +136,35 @@ plotjuggler_core/pj_marketplace/documentation/REQUIREMENTS.md
 
 ## Validation
 
-The registry is validated automatically:
+This registry accepts contributions from anyone — external developers can propose new extensions or updates via pull request. To ensure quality and protect users, every PR is automatically validated by CI before it can be merged.
 
-| Trigger | Validation |
-|---------|------------|
-| Every PR | Structure + URL accessibility + SHA256 checksums |
-| Push to main/development | Structure + URL accessibility |
-| Weekly (Monday 6am UTC) | Structure + URL accessibility |
-| Manual dispatch | Structure + URL accessibility (+ optional checksums) |
+### What gets validated
 
-The weekly scheduled validation detects when external URLs become unavailable (e.g., a release was deleted or moved).
+| Check | What it does | Why it matters |
+|-------|--------------|----------------|
+| **JSON schema** | Valid JSON syntax, required fields (`id`, `name`, `version`, `description`, `author`, `publisher`, `license`, `category`, `platforms`), valid category and platform values, checksum format `sha256:...`, no duplicate IDs | Malformed entries break the client or show incomplete info in the UI |
+| **Alphabetical order** | Extensions sorted A→Z by `id` | Prevents merge conflicts when multiple PRs add extensions concurrently |
+| **URL accessibility** | HEAD request to each download URL | Detects broken links, deleted releases, or typos |
+| **SHA256 verification** | Downloads each ZIP and computes hash | Ensures checksum matches actual file content |
 
-To run validation locally:
+### When validation runs
+
+| Trigger | Checks | Why |
+|---------|--------|-----|
+| Every PR | Schema + URLs + SHA256 | Catch all errors before merging — downloading verifies nothing is corrupted |
+| Push to main/development | Schema + URLs | Fast sanity check after merge, checksums already verified in PR |
+| Weekly (Monday 6am UTC) | Schema + URLs | Detect external URLs that broke after merge (deleted release, moved CDN, etc.) |
+| Manual dispatch | Schema + URLs (+ optional SHA256) | On-demand full verification when investigating issues |
+
+### Running locally
+
+Before opening a PR, you can run the same validation locally to catch errors early:
 
 ```bash
+# Quick check — validates schema and verifies URLs respond
 python3 scripts/validate_registry.py registry.json
+
+# Full check — also downloads all ZIPs and verifies SHA256 (slow but thorough)
 python3 scripts/validate_registry.py --download-extensions-and-verify-checksums registry.json
 ```
 
