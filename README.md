@@ -153,7 +153,7 @@ This registry accepts contributions from anyone — external developers can prop
 |---------|--------|-----|
 | Every PR | Schema + URLs + SHA256 | Catch all errors before merging — downloading verifies nothing is corrupted |
 | Push to main/development | Schema + URLs | Fast sanity check after merge, checksums already verified in PR |
-| Weekly (Monday 6am UTC) | Schema + URLs | Detect external URLs that broke after merge (deleted release, moved CDN, etc.) |
+| Weekly (Monday 6am UTC) | Schema + URLs + SHA256 | Detect broken URLs and tampered artifacts (supply chain protection) |
 | Manual dispatch | Schema + URLs (+ optional SHA256) | On-demand full verification when investigating issues |
 
 ### Running locally

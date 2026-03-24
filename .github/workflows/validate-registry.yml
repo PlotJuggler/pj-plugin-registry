@@ -11,7 +11,7 @@ on:
     paths:
       - 'registry.json'
   schedule:
-    # Weekly check to detect if external URLs have become unavailable
+    # Weekly full validation: URLs + checksums (detects tampered artifacts)
     - cron: '0 6 * * 1'  # Monday 6am UTC
   workflow_dispatch:
     inputs:
@@ -36,5 +36,5 @@ jobs:
         run: python3 scripts/validate_registry.py registry.json
 
       - name: Download extensions and verify checksums
-        if: github.event_name == 'pull_request' || (github.event_name == 'workflow_dispatch' && inputs.download_and_verify)
+        if: github.event_name == 'pull_request' || github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.download_and_verify)
         run: python3 scripts/validate_registry.py --download-extensions-and-verify-checksums registry.json
