@@ -282,6 +282,52 @@
       }
     },
     {
+      "id": "plotjuggler-bridge",
+      "name": "PlotJuggler Bridge",
+      "version": "1.0.0",
+      "description": "Connect to PlotJuggler Bridge server for generic data streaming over WebSocket.",
+      "author": "PlotJuggler Team",
+      "publisher": "PlotJuggler",
+      "website": "https://github.com/PlotJuggler/pj-official-plugins",
+      "repository": "https://github.com/PlotJuggler/pj-official-plugins",
+      "license": "MIT",
+      "icon_url": "",
+      "category": "data_stream",
+      "tags": [
+        "bridge",
+        "stream",
+        "websocket",
+        "realtime"
+      ],
+      "min_plotjuggler_version": "4.0.0",
+      "platforms": {
+        "linux-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_pj_bridge/v1.0.0/plotjuggler-bridge-1.0.0-linux-aarch64.zip",
+          "checksum": "sha256:10863057f7484b396f2c21f24abf93d00ff3bb09736b3ef5bfddf88925678531"
+        },
+        "linux-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_pj_bridge/v1.0.0/plotjuggler-bridge-1.0.0-linux-x86_64.zip",
+          "checksum": "sha256:754f6631f90467ff8a1716ee7322c0260c52d979d34f3962906d6751bc8f5f86"
+        },
+        "macos-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_pj_bridge/v1.0.0/plotjuggler-bridge-1.0.0-macos-arm64.zip",
+          "checksum": "sha256:bdc7aba7e0847f3e1e025469b03640340d216a22b7a9b4bb073963b5a4ef8e5a"
+        },
+        "macos-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_pj_bridge/v1.0.0/plotjuggler-bridge-1.0.0-macos-x86_64.zip",
+          "checksum": "sha256:8c17c6d2e994a6d7ec2da9614fd0f5161218fea1398a0777a21e5a07b382ce7e"
+        },
+        "windows-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_pj_bridge/v1.0.0/plotjuggler-bridge-1.0.0-windows-arm64.zip",
+          "checksum": "sha256:0504f0831e53c5f5a359c0ca8c6a73cb7c711c90d9d1cf6663417397f854761e"
+        },
+        "windows-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_pj_bridge/v1.0.0/plotjuggler-bridge-1.0.0-windows-x64.zip",
+          "checksum": "sha256:6d76e1a6b3d18a5651859c0063b64fd5986e0e669ad02711153670e0f0237c45"
+        }
+      }
+    },
+    {
       "id": "ros-parser",
       "name": "ROS CDR Parser",
       "version": "2.0.0",
