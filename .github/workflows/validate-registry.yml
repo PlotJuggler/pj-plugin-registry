@@ -10,10 +10,13 @@ on:
       - development
     paths:
       - 'registry.json'
+  schedule:
+    # Weekly check to detect if external URLs have become unavailable
+    - cron: '0 6 * * 1'  # Monday 6am UTC
   workflow_dispatch:
     inputs:
-      verify_checksums:
-        description: 'Verify SHA256 checksums (slow)'
+      download_and_verify:
+        description: 'Download all extensions and verify SHA256 checksums (slow)'
         type: boolean
         default: false
 
@@ -32,6 +35,6 @@ jobs:
       - name: Validate structure and URLs
         run: python3 scripts/validate_registry.py registry.json
 
-      - name: Verify checksums
-        if: github.event_name == 'pull_request' || (github.event_name == 'workflow_dispatch' && inputs.verify_checksums)
-        run: python3 scripts/validate_registry.py --verify-checksums registry.json
+      - name: Download extensions and verify checksums
+        if: github.event_name == 'pull_request' || (github.event_name == 'workflow_dispatch' && inputs.download_and_verify)
+        run: python3 scripts/validate_registry.py --download-extensions-and-verify-checksums registry.json

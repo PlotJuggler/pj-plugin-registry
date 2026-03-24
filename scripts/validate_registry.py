@@ -2,8 +2,8 @@
 """Validate registry.json structure, URLs, and checksums.
 
 Usage:
-    python3 scripts/validate_registry.py                    # Structure + URL checks
-    python3 scripts/validate_registry.py --verify-checksums # Also verify SHA256
+    python3 scripts/validate_registry.py                                        # Structure + URL checks
+    python3 scripts/validate_registry.py --download-extensions-and-verify-checksums  # Download all ZIPs and verify SHA256
 """
 
 import argparse
@@ -172,7 +172,8 @@ def validate_checksums(registry: dict) -> list[str]:
 
 def main():
     parser = argparse.ArgumentParser(description="Validate registry.json")
-    parser.add_argument("--verify-checksums", action="store_true", help="Also verify SHA256 checksums (slow)")
+    parser.add_argument("--download-extensions-and-verify-checksums", action="store_true",
+                        help="Download all extension ZIPs and verify SHA256 checksums (slow)")
     parser.add_argument("--skip-urls", action="store_true", help="Skip URL accessibility checks")
     parser.add_argument("registry_file", nargs="?", default="registry.json", help="Path to registry.json")
     args = parser.parse_args()
@@ -212,8 +213,8 @@ def main():
         all_errors.extend(url_errors)
 
     # Verify checksums
-    if args.verify_checksums:
-        print("\nVerifying checksums (this may take a while)...")
+    if args.download_extensions_and_verify_checksums:
+        print("\nDownloading extensions and verifying checksums (this may take a while)...")
         checksum_errors = validate_checksums(registry)
         all_errors.extend(checksum_errors)
 
