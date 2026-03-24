@@ -134,6 +134,28 @@ plotjuggler_core/pj_marketplace/documentation/REQUIREMENTS.md
 
 ---
 
+## Validation
+
+The registry is validated automatically:
+
+| Trigger | Validation |
+|---------|------------|
+| Every PR | Structure + URL accessibility + SHA256 checksums |
+| Push to main/development | Structure + URL accessibility |
+| Weekly (Monday 6am UTC) | Structure + URL accessibility |
+| Manual dispatch | Structure + URL accessibility (+ optional checksums) |
+
+The weekly scheduled validation detects when external URLs become unavailable (e.g., a release was deleted or moved).
+
+To run validation locally:
+
+```bash
+python3 scripts/validate_registry.py registry.json
+python3 scripts/validate_registry.py --download-extensions-and-verify-checksums registry.json
+```
+
+---
+
 ## Related repositories
 
 | Repository | Role |
