@@ -47,6 +47,49 @@
       }
     },
     {
+      "id": "json-parser",
+      "name": "JSON Parser",
+      "version": "1.0.0",
+      "description": "Message parser for JSON, CBOR, MessagePack, and BSON encoded data.",
+      "author": "PlotJuggler Team",
+      "publisher": "PlotJuggler",
+      "website": "https://github.com/PlotJuggler/pj-official-plugins",
+      "repository": "https://github.com/PlotJuggler/pj-official-plugins",
+      "license": "MIT",
+      "icon_url": "",
+      "category": "message_parser",
+      "tags": [
+        "json",
+        "cbor",
+        "msgpack",
+        "bson",
+        "parser"
+      ],
+      "min_plotjuggler_version": "4.0.0",
+      "platforms": {
+        "linux-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_json/v1.0.0/json-parser-1.0.0-linux-aarch64.zip",
+          "checksum": "sha256:7534f25cb03f9805e21236430cabf7fe42499876d13ee9b4ff29a347682f5f52"
+        },
+        "linux-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_json/v1.0.0/json-parser-1.0.0-linux-x86_64.zip",
+          "checksum": "sha256:99127b5d7ff4daa54739e43e3374db6bd20c0f48a649cdfa60cd355fdb9a621d"
+        },
+        "macos-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_json/v1.0.0/json-parser-1.0.0-macos-x86_64.zip",
+          "checksum": "sha256:bd018303402a685b2f253f2a0da5af6155629a0b2f0aa751b3813623d8a06fe5"
+        },
+        "windows-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_json/v1.0.0/json-parser-1.0.0-windows-arm64.zip",
+          "checksum": "sha256:7ee8d0ca8eb99ef2d4f0cbb389ce68ef674045ef859c1532e6a0a20986f4d6f2"
+        },
+        "windows-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_json/v1.0.0/json-parser-1.0.0-windows-x64.zip",
+          "checksum": "sha256:e33ec85c1d5764b3c26458b0e63c63f71bf64c40edbd020d67d1cea6ef85a1a4"
+        }
+      }
+    },
+    {
       "id": "mcap-loader",
       "name": "MCAP Loader",
       "version": "1.0.0",
