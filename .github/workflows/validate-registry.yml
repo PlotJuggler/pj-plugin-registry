@@ -36,5 +36,5 @@ jobs:
         run: python3 scripts/validate_registry.py registry.json
 
       - name: Download extensions and verify checksums
-        if: github.event_name == 'pull_request' || github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.download_and_verify)
+        if: github.event_name == 'pull_request' || github.event_name == 'push' || github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.download_and_verify)
         run: python3 scripts/validate_registry.py --download-extensions-and-verify-checksums registry.json

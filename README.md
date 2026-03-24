@@ -151,10 +151,10 @@ This registry accepts contributions from anyone — external developers can prop
 
 | Trigger | Checks | Why |
 |---------|--------|-----|
-| Every PR | Schema + URLs + SHA256 | Catch all errors before merging — downloading verifies nothing is corrupted |
-| Push to main/development | Schema + URLs | Fast sanity check after merge, checksums already verified in PR |
+| Every PR | Schema + URLs + SHA256 | Catch all errors before merging |
+| Push to main/development | Schema + URLs + SHA256 | Detect if artifacts changed between PR and merge |
 | Weekly (Monday 6am UTC) | Schema + URLs + SHA256 | Detect broken URLs and tampered artifacts (supply chain protection) |
-| Manual dispatch | Schema + URLs (+ optional SHA256) | On-demand full verification when investigating issues |
+| Manual dispatch | Schema + URLs (+ optional SHA256) | On-demand verification when investigating issues |
 
 ### Running locally
 
