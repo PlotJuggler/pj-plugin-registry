@@ -470,7 +470,7 @@
     {
       "id": "ros-parser",
       "name": "ROS CDR Parser",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "description": "Message parser for ROS1 and ROS2 messages. Supports ros1msg, ros2msg, and CDR encodings.",
       "author": "PlotJuggler Team",
       "publisher": "PlotJuggler",
@@ -490,28 +490,28 @@
       "min_plotjuggler_version": "4.0.0",
       "platforms": {
         "linux-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_ros/v2.0.0/ros-parser-2.0.0-linux-aarch64.zip",
-          "checksum": "sha256:a250b8e88b09ffed392851f383599f893bc56c48463ed32c5585609949944977"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_ros/v2.1.0/ros-parser-2.1.0-linux-aarch64.zip",
+          "checksum": "sha256:35613dcc72262620f9604877409579897caf973eb3476cc7256b6193d9aa7641"
         },
         "linux-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_ros/v2.0.0/ros-parser-2.0.0-linux-x86_64.zip",
-          "checksum": "sha256:12605b0bd84e36c46a22b2eddcf50306f31e7ef1190dc743eae5a39e3fb8799f"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_ros/v2.1.0/ros-parser-2.1.0-linux-x86_64.zip",
+          "checksum": "sha256:d61f9cca8291e5a18e91b3d2773430997a19f90a488d6332d9f8bd3fbc70caf8"
         },
         "macos-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_ros/v2.0.0/ros-parser-2.0.0-macos-arm64.zip",
-          "checksum": "sha256:f8ba1ff6c96b1b452fe381e1fa492a85b441e56044a8f366c459c3e71ea17e29"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_ros/v2.1.0/ros-parser-2.1.0-macos-arm64.zip",
+          "checksum": "sha256:dcad2c0b1ed61faa036365830a3909be66cd5dfa513732c814fbefbe27274c05"
         },
         "macos-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_ros/v2.0.0/ros-parser-2.0.0-macos-x86_64.zip",
-          "checksum": "sha256:b267222171dd35b0a1d56a369b5c6e964888e8cec2dcaeb00fa79bdbd3910b53"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_ros/v2.1.0/ros-parser-2.1.0-macos-x86_64.zip",
+          "checksum": "sha256:03dcbf7df1515f808070285640499cf649e7b6bf46ea60c5e0b985da453a58ea"
         },
         "windows-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_ros/v2.0.0/ros-parser-2.0.0-windows-arm64.zip",
-          "checksum": "sha256:22fba2edbcca78a6b190eef7014a0d7bd2d57aaa8d924fcd809cbd2bc40251fb"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_ros/v2.1.0/ros-parser-2.1.0-windows-arm64.zip",
+          "checksum": "sha256:4d42140b6a1cee014b43234e7254fc202bdc125806e7ed99465537f8ed438ea0"
         },
         "windows-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_ros/v2.0.0/ros-parser-2.0.0-windows-x64.zip",
-          "checksum": "sha256:037c5488f29850d3d005afa68b2ba07b48795241b03547c3d7b4d3ad3c01d63b"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_ros/v2.1.0/ros-parser-2.1.0-windows-x64.zip",
+          "checksum": "sha256:69aada8f91e260709665e11d011b079b9320d28124081d243277056d8f383b9f"
         }
       }
     },
