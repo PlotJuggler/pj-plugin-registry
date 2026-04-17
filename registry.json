@@ -608,6 +608,53 @@
       }
     },
     {
+      "id": "toolbox-reactive-scripts-editor",
+      "name": "Reactive Script Editor",
+      "version": "1.1.0",
+      "description": "Execute Lua or Python scripts reactively on time series data. Dual-language scripting toolbox with real-time validation and library persistence.",
+      "author": "PlotJuggler Team",
+      "publisher": "PlotJuggler",
+      "website": "https://github.com/PlotJuggler/pj-official-plugins",
+      "repository": "https://github.com/PlotJuggler/pj-official-plugins",
+      "license": "MIT",
+      "icon_url": "",
+      "category": "toolbox",
+      "tags": [
+        "lua",
+        "python",
+        "scripting",
+        "reactive",
+        "toolbox"
+      ],
+      "min_plotjuggler_version": "4.0.0",
+      "platforms": {
+        "linux-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_reactive_scripts_editor/v1.1.0/toolbox-reactive-scripts-editor-1.1.0-linux-aarch64.zip",
+          "checksum": "sha256:ca3c680f8dd661cc66b9270a70f77602099095871c4f9af9a26902c74a784feb"
+        },
+        "linux-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_reactive_scripts_editor/v1.1.0/toolbox-reactive-scripts-editor-1.1.0-linux-x86_64.zip",
+          "checksum": "sha256:b4405779fcd66c50109ea10e524d623043d4262ad321db04c8c0c04e65db1239"
+        },
+        "macos-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_reactive_scripts_editor/v1.1.0/toolbox-reactive-scripts-editor-1.1.0-macos-arm64.zip",
+          "checksum": "sha256:7486bf717b590e7bcbeb4c1ba6aaf8d9306a8cafc7d2184e0003a93e061182a0"
+        },
+        "macos-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_reactive_scripts_editor/v1.1.0/toolbox-reactive-scripts-editor-1.1.0-macos-x86_64.zip",
+          "checksum": "sha256:df846e70adeed47398eb44553349e3272e7c31635d0cffcd113237942fa565dd"
+        },
+        "windows-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_reactive_scripts_editor/v1.1.0/toolbox-reactive-scripts-editor-1.1.0-windows-arm64.zip",
+          "checksum": "sha256:8170e196eddb659470c34cd498669d1c139790884373c0106040966f9fc88aff"
+        },
+        "windows-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_reactive_scripts_editor/v1.1.0/toolbox-reactive-scripts-editor-1.1.0-windows-x64.zip",
+          "checksum": "sha256:0c15b0ac307eb92e8de1c335ba7ad04d96a64f08c173955c14e96c59418fc4e5"
+        }
+      }
+    },
+    {
       "id": "udp-server",
       "name": "UDP Server",
       "version": "1.0.0",
