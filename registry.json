@@ -656,7 +656,7 @@
     {
       "id": "toolbox-reactive-scripts-editor",
       "name": "Reactive Script Editor",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "description": "Execute Lua or Python scripts reactively on time series data. Dual-language scripting toolbox with real-time validation and library persistence.",
       "author": "PlotJuggler Team",
       "publisher": "PlotJuggler",
@@ -675,28 +675,28 @@
       "min_plotjuggler_version": "4.0.0",
       "platforms": {
         "linux-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_reactive_scripts_editor/v1.1.0/toolbox-reactive-scripts-editor-1.1.0-linux-aarch64.zip",
-          "checksum": "sha256:ca3c680f8dd661cc66b9270a70f77602099095871c4f9af9a26902c74a784feb"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_reactive_scripts_editor/v1.1.1/toolbox-reactive-scripts-editor-1.1.1-linux-aarch64.zip",
+          "checksum": "sha256:2fde4c217e4a2ce1201d012aa12a7689230a84f38141cebd50ee0b49d29b6709"
         },
         "linux-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_reactive_scripts_editor/v1.1.0/toolbox-reactive-scripts-editor-1.1.0-linux-x86_64.zip",
-          "checksum": "sha256:b4405779fcd66c50109ea10e524d623043d4262ad321db04c8c0c04e65db1239"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_reactive_scripts_editor/v1.1.1/toolbox-reactive-scripts-editor-1.1.1-linux-x86_64.zip",
+          "checksum": "sha256:755bc314c3f9abf2478a06f102828501317043e453cc3a37f1f0ac41e5275945"
         },
         "macos-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_reactive_scripts_editor/v1.1.0/toolbox-reactive-scripts-editor-1.1.0-macos-arm64.zip",
-          "checksum": "sha256:7486bf717b590e7bcbeb4c1ba6aaf8d9306a8cafc7d2184e0003a93e061182a0"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_reactive_scripts_editor/v1.1.1/toolbox-reactive-scripts-editor-1.1.1-macos-arm64.zip",
+          "checksum": "sha256:2ee6dd388b48427c42720d26cf7077ffa9e316be4bc4dd5666c13247dcd823ec"
         },
         "macos-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_reactive_scripts_editor/v1.1.0/toolbox-reactive-scripts-editor-1.1.0-macos-x86_64.zip",
-          "checksum": "sha256:df846e70adeed47398eb44553349e3272e7c31635d0cffcd113237942fa565dd"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_reactive_scripts_editor/v1.1.1/toolbox-reactive-scripts-editor-1.1.1-macos-x86_64.zip",
+          "checksum": "sha256:21e1024afca90d0d20f70648fa25f8e946906a6588d041220068e0fa70018432"
         },
         "windows-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_reactive_scripts_editor/v1.1.0/toolbox-reactive-scripts-editor-1.1.0-windows-arm64.zip",
-          "checksum": "sha256:8170e196eddb659470c34cd498669d1c139790884373c0106040966f9fc88aff"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_reactive_scripts_editor/v1.1.1/toolbox-reactive-scripts-editor-1.1.1-windows-arm64.zip",
+          "checksum": "sha256:211342e0802e2e83ccdb5351e62298926a3b18d9c45b3c6e8394e7eab0680191"
         },
         "windows-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_reactive_scripts_editor/v1.1.0/toolbox-reactive-scripts-editor-1.1.0-windows-x64.zip",
-          "checksum": "sha256:0c15b0ac307eb92e8de1c335ba7ad04d96a64f08c173955c14e96c59418fc4e5"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_reactive_scripts_editor/v1.1.1/toolbox-reactive-scripts-editor-1.1.1-windows-x64.zip",
+          "checksum": "sha256:dc358acfbcd8acd56cc4f92d987620379b258ed50ce7c3c91444abea79d7db10"
         }
       }
     },
