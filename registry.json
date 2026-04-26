@@ -518,7 +518,7 @@
     {
       "id": "toolbox-colormap",
       "name": "ColorMap Editor",
-      "version": "1.1.2",
+      "version": "1.4.0",
       "description": "Lua-based colormap editor: write a ColorMap(v) function that maps a numeric value to a CSS color string. Includes validation, save/load of named colormaps in JSON config, and saved maps management.",
       "author": "PlotJuggler Team",
       "publisher": "PlotJuggler",
@@ -536,28 +536,28 @@
       "min_plotjuggler_version": "4.0.0",
       "platforms": {
         "linux-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_colormap/v1.1.2/toolbox-colormap-1.1.2-linux-aarch64.zip",
-          "checksum": "sha256:276c73787528686d4efb170e0af8e15f8454ed3483d171e97240459d17cb7325"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_colormap/v1.4.0/toolbox-colormap-1.4.0-linux-aarch64.zip",
+          "checksum": "sha256:48c9cbd198572e46c78ddf6d8f141a70909144777d16b71157bdc222812e1a26"
         },
         "linux-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_colormap/v1.1.2/toolbox-colormap-1.1.2-linux-x86_64.zip",
-          "checksum": "sha256:50c9b52d90417831b538b4ae8d976d8c09b5c253a633dd9b71270e110df0a0e0"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_colormap/v1.4.0/toolbox-colormap-1.4.0-linux-x86_64.zip",
+          "checksum": "sha256:aadb2423becf97cb798a3a63fcbcbc3bd53d7dc26c5bd774c6fb1e0a9b767461"
         },
         "macos-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_colormap/v1.1.2/toolbox-colormap-1.1.2-macos-arm64.zip",
-          "checksum": "sha256:7c3f4a5fa05a8020d317d831ad394e2efcb43054cf40f87d8e2538e6737d0eb6"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_colormap/v1.4.0/toolbox-colormap-1.4.0-macos-arm64.zip",
+          "checksum": "sha256:dadf506924ac8a46d3ed3149df01327f232fb5aaf24cf80d5ad00b8d3bc33bcf"
         },
         "macos-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_colormap/v1.1.2/toolbox-colormap-1.1.2-macos-x86_64.zip",
-          "checksum": "sha256:7034fb73524659c7710b8837954b95f6c5112f0d3b8415425433acf6b9c96284"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_colormap/v1.4.0/toolbox-colormap-1.4.0-macos-x86_64.zip",
+          "checksum": "sha256:21ba239c8630a1f54da685be9950b540b442c4a08387cbb9f0025de9c5d274ab"
         },
         "windows-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_colormap/v1.1.2/toolbox-colormap-1.1.2-windows-arm64.zip",
-          "checksum": "sha256:b35795e451a8dcfd30d93806efe2ac8a00a8d2432c6904f97bbd535dc60b5e99"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_colormap/v1.4.0/toolbox-colormap-1.4.0-windows-arm64.zip",
+          "checksum": "sha256:bc1510ba480d6ee9fb5e8aea279258c0fba3e19c1585bdcbb01ceb5749630748"
         },
         "windows-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_colormap/v1.1.2/toolbox-colormap-1.1.2-windows-x64.zip",
-          "checksum": "sha256:ac4b6c0611971c523c4c695ede92c7135d089ff3a34b2ecad60d407792c188b2"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_colormap/v1.4.0/toolbox-colormap-1.4.0-windows-x64.zip",
+          "checksum": "sha256:620e3ad85b74906b0d91fc94650c08a73f43ba25dc43746ea26c472e2e76a7e9"
         }
       }
     },
