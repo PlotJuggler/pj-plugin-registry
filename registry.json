@@ -4,7 +4,7 @@
     {
       "id": "csv-loader",
       "name": "CSV Loader",
-      "version": "1.4.0",
+      "version": "1.4.1",
       "description": "Data loader for CSV files.",
       "author": "PlotJuggler Team",
       "publisher": "PlotJuggler",
@@ -21,28 +21,28 @@
       "min_plotjuggler_version": "4.0.0",
       "platforms": {
         "linux-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_csv/v1.4.0/csv-loader-1.4.0-linux-aarch64.zip",
-          "checksum": "sha256:b55ae7e45c717dde3b0096061335bb2bd65b23e76cb898f949c51e8a2801d247"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_csv/v1.4.1/csv-loader-1.4.1-linux-aarch64.zip",
+          "checksum": "sha256:690d139d62a679f75cb3492ca601f3bd52a2ad2d4c5edec49d9824088641c1f9"
         },
         "linux-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_csv/v1.4.0/csv-loader-1.4.0-linux-x86_64.zip",
-          "checksum": "sha256:dc9277d20ba63fd1801f077327cee6fe76a91f351c3dc394133a7a5b60d8365b"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_csv/v1.4.1/csv-loader-1.4.1-linux-x86_64.zip",
+          "checksum": "sha256:2ca244d41a941e4d90e3156a8775c51063e2ac5ba9f1e3f75477d2c497ef0402"
         },
         "macos-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_csv/v1.4.0/csv-loader-1.4.0-macos-arm64.zip",
-          "checksum": "sha256:2f827f17671d8c60b4191325587745410edfd081e42dbc968c1e6fe70f6aa63f"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_csv/v1.4.1/csv-loader-1.4.1-macos-arm64.zip",
+          "checksum": "sha256:be9a05f09b3d80eb9cb0b7e8cec79ac964af8df1173405b3ba85f499a30bd063"
         },
         "macos-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_csv/v1.4.0/csv-loader-1.4.0-macos-x86_64.zip",
-          "checksum": "sha256:2d8eb47ea6e439fb7a72058944d86d3b56c3e02d3ae88359d0fcd2d5a484522f"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_csv/v1.4.1/csv-loader-1.4.1-macos-x86_64.zip",
+          "checksum": "sha256:027e56f20f5ad51fc1e45477b141bda2eaf6f0a9f71535462d98c23eb2dcce3e"
         },
         "windows-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_csv/v1.4.0/csv-loader-1.4.0-windows-arm64.zip",
-          "checksum": "sha256:eed4ba893e5ccbebc38c03d4ab950c9da5797658af416076233c4e55f7776e94"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_csv/v1.4.1/csv-loader-1.4.1-windows-arm64.zip",
+          "checksum": "sha256:06db5c62752cabbb57eb60d25ab3e14233dfa0d537bf7faf65c3323c80cd6f29"
         },
         "windows-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_csv/v1.4.0/csv-loader-1.4.0-windows-x64.zip",
-          "checksum": "sha256:6854348cccef0b27cfef963ae011dd1f6c90875e0e665bd7ff9f9f521d418ccb"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_csv/v1.4.1/csv-loader-1.4.1-windows-x64.zip",
+          "checksum": "sha256:179f8969fe2c798f3012f15702a3f57bbbd308bd1ef0a80a4cc116e0be08c6f2"
         }
       }
     },
