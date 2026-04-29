@@ -518,7 +518,7 @@
     {
       "id": "ros2-topic-subscriber",
       "name": "ROS 2 Topic Subscriber",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "Subscribe to ROS 2 topics in real time and stream the decoded fields into PlotJuggler.",
       "author": "PlotJuggler Team",
       "publisher": "PlotJuggler",
@@ -535,8 +535,8 @@
       "min_plotjuggler_version": "4.0.0",
       "platforms": {
         "linux-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_ros2/v0.1.0/ros2-topic-subscriber-0.1.0-linux-x86_64.zip",
-          "checksum": "sha256:dc402f8270cdb37bfb3c9709a9f25ea19509e49c0de2afd791256ce30060c2dc"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_ros2/v0.1.1/ros2-topic-subscriber-0.1.1-linux-x86_64.zip",
+          "checksum": "sha256:5a4fc8405a11c660d5e227c455e6c755575364c2f60d28a83658e8a7467c97d2"
         }
       }
     },
