@@ -518,7 +518,7 @@
     {
       "id": "ros2-topic-subscriber",
       "name": "ROS 2 Topic Subscriber",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "description": "Subscribe to ROS 2 topics in real time and stream the decoded fields into PlotJuggler.",
       "author": "PlotJuggler Team",
       "publisher": "PlotJuggler",
@@ -535,12 +535,12 @@
       "min_plotjuggler_version": "4.0.0",
       "platforms": {
         "linux-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_ros2/v1.4.0/ros2-topic-subscriber-1.4.0-linux-aarch64.zip",
-          "checksum": "sha256:733ada8b33a7a19c1cdb9ed4959e5d12f04bf851cc40c3b7c6f15c88a6c72d7d"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_ros2/v1.5.0/ros2-topic-subscriber-1.5.0-linux-aarch64.zip",
+          "checksum": "sha256:6cc98e2c603e523d0fdb90ae86b22f4f4ef704d270418b9bcb14630a924dadeb"
         },
         "linux-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_ros2/v1.4.0/ros2-topic-subscriber-1.4.0-linux-x86_64.zip",
-          "checksum": "sha256:1a4de1fcb55ec1ffd45278aaee24af51d79f355efe2ace59edb3e178651698b0"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_ros2/v1.5.0/ros2-topic-subscriber-1.5.0-linux-x86_64.zip",
+          "checksum": "sha256:4d9c4ac2f8b40bef6818d1ef73fce8b222135a05ca2b469e503ea67592962838"
         }
       }
     },
