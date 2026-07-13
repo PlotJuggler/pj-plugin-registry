@@ -190,6 +190,57 @@
       }
     },
     {
+      "id": "ros-parser",
+      "name": "ROS CDR Parser",
+      "version": "1.0.0",
+      "description": "Message parser for ROS1 and ROS2 messages (ros1msg, ros2msg, omgidl). Promotes common sensor and visualization messages (Image, PointCloud2, OccupancyGrid, TF, Markers, and yolo_msgs/DetectionArray to ImageAnnotations) to builtin scene objects.",
+      "author": "PlotJuggler Team",
+      "publisher": "PlotJuggler",
+      "website": "https://github.com/PlotJuggler/pj-official-plugins",
+      "repository": "https://github.com/PlotJuggler/pj-official-plugins",
+      "license": "MIT",
+      "icon_url": "",
+      "category": "message_parser",
+      "tags": [
+        "ros",
+        "ros1",
+        "ros2",
+        "idl",
+        "parser",
+        "robotics",
+        "yolo",
+        "detection",
+        "annotations"
+      ],
+      "min_plotjuggler_version": "3.999.1",
+      "platforms": {
+        "linux-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_ros/v1.0.0/ros-parser-1.0.0-linux-aarch64.zip",
+          "checksum": "sha256:0c246a1bf0fed9e23295dc92179aeee6b8e98bc923bdc5044b0e75d1376e06e9"
+        },
+        "linux-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_ros/v1.0.0/ros-parser-1.0.0-linux-x86_64.zip",
+          "checksum": "sha256:25fa32f3f6dd9058b1dd561686ab950f513caf1dde796c0d619e2486985b9033"
+        },
+        "macos-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_ros/v1.0.0/ros-parser-1.0.0-macos-arm64.zip",
+          "checksum": "sha256:30430422fa6a641e780392c31c5943e20f35c25c79236eb73a3e901d23f3e82f"
+        },
+        "macos-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_ros/v1.0.0/ros-parser-1.0.0-macos-x86_64.zip",
+          "checksum": "sha256:ed69faca5707abdd952a2801ce44aa53b086304e3447a71cd5492f356a114f29"
+        },
+        "windows-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_ros/v1.0.0/ros-parser-1.0.0-windows-arm64.zip",
+          "checksum": "sha256:d71324e811039d81ec2e256b8c7af3e7e3524cb0645c311755263de956e93568"
+        },
+        "windows-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_ros/v1.0.0/ros-parser-1.0.0-windows-x64.zip",
+          "checksum": "sha256:db2f1e7e485eb8a55c2d7fdc749a35d94260ade57ec6d0079456ee6b7dde9e6a"
+        }
+      }
+    },
+    {
       "id": "udp-server",
       "name": "UDP Server",
       "version": "0.99.0",
