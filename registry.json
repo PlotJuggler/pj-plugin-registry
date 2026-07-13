@@ -190,6 +190,52 @@
       }
     },
     {
+      "id": "toolbox-fft",
+      "name": "Fast Fourier Transform",
+      "version": "0.99.0",
+      "description": "Compute the frequency-domain amplitude of numeric time series using FFT.",
+      "author": "PlotJuggler Team",
+      "publisher": "PlotJuggler",
+      "website": "https://github.com/PlotJuggler/pj-official-plugins",
+      "repository": "https://github.com/PlotJuggler/pj-official-plugins",
+      "license": "MIT",
+      "icon_url": "",
+      "category": "toolbox",
+      "tags": [
+        "fft",
+        "frequency",
+        "spectrum",
+        "toolbox"
+      ],
+      "min_plotjuggler_version": "3.999.1",
+      "platforms": {
+        "linux-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_fft/v0.99.0/toolbox-fft-0.99.0-linux-aarch64.zip",
+          "checksum": "sha256:9937cec849eeaea6bcd6a1795fd7680c5890a97b6bb8f602c96d2c1d1c9fd0af"
+        },
+        "linux-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_fft/v0.99.0/toolbox-fft-0.99.0-linux-x86_64.zip",
+          "checksum": "sha256:e960b59f3c342f0f7448e509f519acc4ba19fe15aeaf022a487711d81103c11b"
+        },
+        "macos-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_fft/v0.99.0/toolbox-fft-0.99.0-macos-arm64.zip",
+          "checksum": "sha256:9464535df10cc72bbad6dd5047498f1f24b2497faa1bde4a94d9be4156690489"
+        },
+        "macos-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_fft/v0.99.0/toolbox-fft-0.99.0-macos-x86_64.zip",
+          "checksum": "sha256:f4af26cfaba4c186e35b276306ff6697576c05c6f4a03446b876bd26ae54a450"
+        },
+        "windows-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_fft/v0.99.0/toolbox-fft-0.99.0-windows-arm64.zip",
+          "checksum": "sha256:6732c1883415f8940c01628c3822ba806bbf925dafb7e903285d590199f65eb3"
+        },
+        "windows-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_fft/v0.99.0/toolbox-fft-0.99.0-windows-x64.zip",
+          "checksum": "sha256:0de5e3c0b5106291008b82625e2b023daf623d984838606d5962423fb8855604"
+        }
+      }
+    },
+    {
       "id": "udp-server",
       "name": "UDP Server",
       "version": "0.99.0",
