@@ -142,6 +142,52 @@
       }
     },
     {
+      "id": "plotjuggler-bridge",
+      "name": "PlotJuggler Bridge",
+      "version": "1.0.0",
+      "description": "Connect to PlotJuggler Bridge server for generic data streaming over WebSocket.",
+      "author": "PlotJuggler Team",
+      "publisher": "PlotJuggler",
+      "website": "https://github.com/PlotJuggler/pj-official-plugins",
+      "repository": "https://github.com/PlotJuggler/pj-official-plugins",
+      "license": "MIT",
+      "icon_url": "",
+      "category": "data_stream",
+      "tags": [
+        "bridge",
+        "stream",
+        "websocket",
+        "realtime"
+      ],
+      "min_plotjuggler_version": "3.999.1",
+      "platforms": {
+        "linux-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_pj_bridge/v1.0.0/plotjuggler-bridge-1.0.0-linux-aarch64.zip",
+          "checksum": "sha256:241ce7bdd0db74d5f159835e9dcb875019f4751438f4b9fc1aae69669d33f3c4"
+        },
+        "linux-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_pj_bridge/v1.0.0/plotjuggler-bridge-1.0.0-linux-x86_64.zip",
+          "checksum": "sha256:d0f3ba4a87fe806e877020a20e72b1f32c43192dc35b773497249d68118036c2"
+        },
+        "macos-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_pj_bridge/v1.0.0/plotjuggler-bridge-1.0.0-macos-arm64.zip",
+          "checksum": "sha256:8ed52bd17643e5cab6b546c12166e62f4c8b8e7d9bfeb8caa3fde7e7ffcf760f"
+        },
+        "macos-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_pj_bridge/v1.0.0/plotjuggler-bridge-1.0.0-macos-x86_64.zip",
+          "checksum": "sha256:1f8105c09f4e4b43c4cfb39bf358b9a19682e053b4a8d6d40616632467c319da"
+        },
+        "windows-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_pj_bridge/v1.0.0/plotjuggler-bridge-1.0.0-windows-arm64.zip",
+          "checksum": "sha256:ebe0471510a1d33093e97bc5a34a000b00f500b1ed5bb8b2048c03fcad000033"
+        },
+        "windows-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_pj_bridge/v1.0.0/plotjuggler-bridge-1.0.0-windows-x64.zip",
+          "checksum": "sha256:e5505e614b723a27cc4d593ce65f907b19f859ece24ec0bce39a961f5b8d63ba"
+        }
+      }
+    },
+    {
       "id": "pointcloud-3d-loader",
       "name": "3D Loader (PLY/PCD)",
       "version": "0.99.0",
