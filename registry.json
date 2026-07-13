@@ -47,6 +47,53 @@
       }
     },
     {
+      "id": "dummy-streamer",
+      "name": "Dummy Streamer",
+      "version": "1.0.0",
+      "description": "Generates synthetic sine, cosine, sawtooth, and noise signals for testing and demonstration.",
+      "author": "PlotJuggler Team",
+      "publisher": "PlotJuggler",
+      "website": "https://github.com/PlotJuggler/pj-official-plugins",
+      "repository": "https://github.com/PlotJuggler/pj-official-plugins",
+      "license": "MIT",
+      "icon_url": "",
+      "category": "data_stream",
+      "tags": [
+        "dummy",
+        "test",
+        "synthetic",
+        "demo",
+        "stream"
+      ],
+      "min_plotjuggler_version": "3.999.1",
+      "platforms": {
+        "linux-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_dummy/v1.0.0/dummy-streamer-1.0.0-linux-aarch64.zip",
+          "checksum": "sha256:e345331fdf8665998d5e11ea95013f87a86abc9d76635a9b51a741330a5d346e"
+        },
+        "linux-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_dummy/v1.0.0/dummy-streamer-1.0.0-linux-x86_64.zip",
+          "checksum": "sha256:e25aad34bd0e6cbcb4db4d59f33918286df317d3438e24d1efa5583ae8f792f1"
+        },
+        "macos-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_dummy/v1.0.0/dummy-streamer-1.0.0-macos-arm64.zip",
+          "checksum": "sha256:9dbf4f453f9ef1188297e34023bd6e62d7510501d934c2c5e1b8de08e155a6be"
+        },
+        "macos-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_dummy/v1.0.0/dummy-streamer-1.0.0-macos-x86_64.zip",
+          "checksum": "sha256:3dc85e7f12de60f2cd55a8ed0a7d329c7ead5e51f85c194ecabeb04a4b3199cb"
+        },
+        "windows-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_dummy/v1.0.0/dummy-streamer-1.0.0-windows-arm64.zip",
+          "checksum": "sha256:c9469d1fc74d126ea8becf11ca6a928d7100b71bbff54897fe938601f4565b8a"
+        },
+        "windows-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_dummy/v1.0.0/dummy-streamer-1.0.0-windows-x64.zip",
+          "checksum": "sha256:cf13bfc94f91dcb8ce1a1b6bb72fe719d0516706a3ec331cfae571a134e76a55"
+        }
+      }
+    },
+    {
       "id": "json-parser",
       "name": "JSON Parser",
       "version": "1.0.0",
