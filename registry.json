@@ -190,6 +190,52 @@
       }
     },
     {
+      "id": "toolbox-quaternion",
+      "name": "Quaternion to RPY",
+      "version": "1.0.0",
+      "description": "Converts quaternion (x, y, z, w) time series into Roll, Pitch, Yaw angles with optional unwrapping and degree/radian output.",
+      "author": "PlotJuggler Team",
+      "publisher": "PlotJuggler",
+      "website": "https://github.com/PlotJuggler/pj-official-plugins",
+      "repository": "https://github.com/PlotJuggler/pj-official-plugins",
+      "license": "MIT",
+      "icon_url": "",
+      "category": "toolbox",
+      "tags": [
+        "quaternion",
+        "rpy",
+        "rotation",
+        "toolbox"
+      ],
+      "min_plotjuggler_version": "3.999.1",
+      "platforms": {
+        "linux-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_quaternion/v1.0.0/toolbox-quaternion-1.0.0-linux-aarch64.zip",
+          "checksum": "sha256:d14667d8b2913651041d778fca1c3f49d7a525f49bc8bb79fe4ebdd811c1b339"
+        },
+        "linux-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_quaternion/v1.0.0/toolbox-quaternion-1.0.0-linux-x86_64.zip",
+          "checksum": "sha256:2e42e1ff8eac1a17711f58756dadb60623f504d7a8a6eccec978f2a698383be7"
+        },
+        "macos-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_quaternion/v1.0.0/toolbox-quaternion-1.0.0-macos-arm64.zip",
+          "checksum": "sha256:ff529254b089c6caee73bf6141023b98379ced798b0d3e6b6e2f7a85a7f487a6"
+        },
+        "macos-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_quaternion/v1.0.0/toolbox-quaternion-1.0.0-macos-x86_64.zip",
+          "checksum": "sha256:8913f2c2a102f375e676edbd022febe148ded5601b1b91cbea36df111bd3a681"
+        },
+        "windows-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_quaternion/v1.0.0/toolbox-quaternion-1.0.0-windows-arm64.zip",
+          "checksum": "sha256:0e43cf2a69d1233f33b18390456a49fe89fb3447a703b491801eab669f092cfa"
+        },
+        "windows-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_quaternion/v1.0.0/toolbox-quaternion-1.0.0-windows-x64.zip",
+          "checksum": "sha256:56dc7a6b323aea778d12675d8c55134239cfca84e7ac7a8f8065642ec45b264f"
+        }
+      }
+    },
+    {
       "id": "udp-server",
       "name": "UDP Server",
       "version": "0.99.0",
