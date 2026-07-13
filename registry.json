@@ -190,6 +190,58 @@
       }
     },
     {
+      "id": "protobuf-parser",
+      "name": "Protobuf Parser",
+      "version": "1.0.0",
+      "description": "Message parser for Protocol Buffers encoded data. Promotes the well-known Foxglove schemas (PointCloud, CompressedVideo, CompressedImage, RawImage, ImageAnnotations, SceneUpdate, FrameTransform, PosesInFrame, CameraCalibration) to builtin scene objects.",
+      "author": "PlotJuggler Team",
+      "publisher": "PlotJuggler",
+      "website": "https://github.com/PlotJuggler/pj-official-plugins",
+      "repository": "https://github.com/PlotJuggler/pj-official-plugins",
+      "license": "MIT",
+      "icon_url": "",
+      "category": "message_parser",
+      "tags": [
+        "protobuf",
+        "proto",
+        "parser",
+        "schema",
+        "foxglove",
+        "pointcloud",
+        "image",
+        "scene",
+        "markers",
+        "transforms"
+      ],
+      "min_plotjuggler_version": "3.999.1",
+      "platforms": {
+        "linux-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_protobuf/v1.0.0/protobuf-parser-1.0.0-linux-aarch64.zip",
+          "checksum": "sha256:dc982affe41fe7eb9e036026ff1ec1547723a102348d959efee9e89b41f7440c"
+        },
+        "linux-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_protobuf/v1.0.0/protobuf-parser-1.0.0-linux-x86_64.zip",
+          "checksum": "sha256:eb96304640e3b6d421a507cf8d479dffa178a9b2c01a227b9a760bd11dcec7b7"
+        },
+        "macos-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_protobuf/v1.0.0/protobuf-parser-1.0.0-macos-arm64.zip",
+          "checksum": "sha256:68969050a728ad25a874ff3911a6da9b2e9b3c05753cedcbfb5e658dfd89b03e"
+        },
+        "macos-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_protobuf/v1.0.0/protobuf-parser-1.0.0-macos-x86_64.zip",
+          "checksum": "sha256:939598a7930970e250e4383eab19bce3e5470dcefa49f7360089a6ef81fec69f"
+        },
+        "windows-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_protobuf/v1.0.0/protobuf-parser-1.0.0-windows-arm64.zip",
+          "checksum": "sha256:10513926165d15ebc7bb1c1b4dbbb52bffa75343dbba73f99c52ec6b78f6c4ec"
+        },
+        "windows-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_protobuf/v1.0.0/protobuf-parser-1.0.0-windows-x64.zip",
+          "checksum": "sha256:d4bec882cede8bb20ff069de7bf02fc8401014ffc0ba89f67c1b3962456287ac"
+        }
+      }
+    },
+    {
       "id": "udp-server",
       "name": "UDP Server",
       "version": "0.99.0",
