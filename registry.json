@@ -142,6 +142,53 @@
       }
     },
     {
+      "id": "mqtt-subscriber",
+      "name": "MQTT Subscriber",
+      "version": "0.99.0",
+      "description": "Real-time data streaming via MQTT protocol. Subscribe to topics and visualize live data.",
+      "author": "PlotJuggler Team",
+      "publisher": "PlotJuggler",
+      "website": "https://github.com/PlotJuggler/pj-official-plugins",
+      "repository": "https://github.com/PlotJuggler/pj-official-plugins",
+      "license": "MIT",
+      "icon_url": "",
+      "category": "data_stream",
+      "tags": [
+        "mqtt",
+        "stream",
+        "realtime",
+        "iot",
+        "subscriber"
+      ],
+      "min_plotjuggler_version": "3.999.1",
+      "platforms": {
+        "linux-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_mqtt/v0.99.0/mqtt-subscriber-0.99.0-linux-aarch64.zip",
+          "checksum": "sha256:3568a9e69805effc061c1d132c13563d57c1fdbbfb57733215d0cae68a1e002a"
+        },
+        "linux-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_mqtt/v0.99.0/mqtt-subscriber-0.99.0-linux-x86_64.zip",
+          "checksum": "sha256:24a799354a83293a9f10c77afd74b872175dd3be5b4e233377e5eb526f1ef8d7"
+        },
+        "macos-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_mqtt/v0.99.0/mqtt-subscriber-0.99.0-macos-arm64.zip",
+          "checksum": "sha256:21815e9b96869e36cbbb70fc2cea58e084a0fd836bd49590bb6168988bb1e714"
+        },
+        "macos-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_mqtt/v0.99.0/mqtt-subscriber-0.99.0-macos-x86_64.zip",
+          "checksum": "sha256:af69bc2d80e14989e9be8854a29230da6cfad5efcc8048302061575689338a38"
+        },
+        "windows-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_mqtt/v0.99.0/mqtt-subscriber-0.99.0-windows-arm64.zip",
+          "checksum": "sha256:6000ffe5fdab2edcf60f05025eba4346c2d1383544b8c2df6da1e25d55117e93"
+        },
+        "windows-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_mqtt/v0.99.0/mqtt-subscriber-0.99.0-windows-x64.zip",
+          "checksum": "sha256:75c1f9ad368db77403ad6361b5787f2ec8d9704d8e542b08cc8ef7e9429f4e4c"
+        }
+      }
+    },
+    {
       "id": "pointcloud-3d-loader",
       "name": "3D Loader (PLY/PCD)",
       "version": "0.99.0",
