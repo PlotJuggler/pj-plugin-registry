@@ -470,6 +470,58 @@
       }
     },
     {
+      "id": "protobuf-parser",
+      "name": "Protobuf Parser",
+      "version": "1.1.0",
+      "description": "Message parser for Protocol Buffers encoded data. Promotes the well-known Foxglove schemas (PointCloud, CompressedVideo, CompressedImage, RawImage, ImageAnnotations, SceneUpdate, FrameTransform, PosesInFrame, CameraCalibration) to builtin scene objects.",
+      "author": "PlotJuggler Team",
+      "publisher": "PlotJuggler",
+      "website": "https://github.com/PlotJuggler/pj-official-plugins",
+      "repository": "https://github.com/PlotJuggler/pj-official-plugins",
+      "license": "MIT",
+      "icon_url": "",
+      "category": "message_parser",
+      "tags": [
+        "protobuf",
+        "proto",
+        "parser",
+        "schema",
+        "foxglove",
+        "pointcloud",
+        "image",
+        "scene",
+        "markers",
+        "transforms"
+      ],
+      "min_plotjuggler_version": "3.999.1",
+      "platforms": {
+        "linux-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_protobuf/v1.1.0/protobuf-parser-1.1.0-linux-aarch64.zip",
+          "checksum": "sha256:29037f06a372d88d33c0138be65f834a5931cfb8c9b0129a3399b8067442a4a1"
+        },
+        "linux-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_protobuf/v1.1.0/protobuf-parser-1.1.0-linux-x86_64.zip",
+          "checksum": "sha256:37168edad430b2bd5524dd1990bd1bc3d4c859dc87af1342519a535740ec342d"
+        },
+        "macos-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_protobuf/v1.1.0/protobuf-parser-1.1.0-macos-arm64.zip",
+          "checksum": "sha256:78f537ce047f64faabd3e91869cce7b254430e8fca42de1aec4b5fb6140a52e4"
+        },
+        "macos-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_protobuf/v1.1.0/protobuf-parser-1.1.0-macos-x86_64.zip",
+          "checksum": "sha256:143168e53eeb7aa586ec0e5363888c8c77c2c99fbf21a0a650bdbbf15e8bae20"
+        },
+        "windows-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_protobuf/v1.1.0/protobuf-parser-1.1.0-windows-arm64.zip",
+          "checksum": "sha256:5d41516d4f89664af5bb438e8bbce8d930f46325e92a63b82825ee92247f7fcd"
+        },
+        "windows-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_protobuf/v1.1.0/protobuf-parser-1.1.0-windows-x64.zip",
+          "checksum": "sha256:3976de3d7f3b844b2d7190f543adc351589ff6136b03e9a528ac5ee22a5a888b"
+        }
+      }
+    },
+    {
       "id": "ros2-topic-subscriber",
       "name": "ROS 2 Topic Subscriber",
       "version": "1.1.0",
