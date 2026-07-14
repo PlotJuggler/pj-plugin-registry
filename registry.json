@@ -648,6 +648,52 @@
       }
     },
     {
+      "id": "toolbox-fft",
+      "name": "Fast Fourier Transform",
+      "version": "0.999.0",
+      "description": "Compute the frequency-domain amplitude of numeric time series using FFT.",
+      "author": "PlotJuggler Team",
+      "publisher": "PlotJuggler",
+      "website": "https://github.com/PlotJuggler/pj-official-plugins",
+      "repository": "https://github.com/PlotJuggler/pj-official-plugins",
+      "license": "MIT",
+      "icon_url": "",
+      "category": "toolbox",
+      "tags": [
+        "fft",
+        "frequency",
+        "spectrum",
+        "toolbox"
+      ],
+      "min_plotjuggler_version": "3.999.1",
+      "platforms": {
+        "linux-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_fft/v0.999.0/toolbox-fft-0.999.0-linux-aarch64.zip",
+          "checksum": "sha256:c52c3a53ace250705b3f02e5be87d8a29404ff6e9f184eef77d4780f0a9d3ca6"
+        },
+        "linux-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_fft/v0.999.0/toolbox-fft-0.999.0-linux-x86_64.zip",
+          "checksum": "sha256:da69dd0b7882c9851df30a14278e1d9f0343cd3bd34e2484f9053c03f7977bd5"
+        },
+        "macos-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_fft/v0.999.0/toolbox-fft-0.999.0-macos-arm64.zip",
+          "checksum": "sha256:6129736fd2f2dc61291d10491e31b5841a1cbb6a11ccd6e125e8fcbefbe3e189"
+        },
+        "macos-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_fft/v0.999.0/toolbox-fft-0.999.0-macos-x86_64.zip",
+          "checksum": "sha256:02a00eec6dcaabe79fcd1ed266802eddae4d5d6c8cacf0fef6e15e58ca1d0ec9"
+        },
+        "windows-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_fft/v0.999.0/toolbox-fft-0.999.0-windows-arm64.zip",
+          "checksum": "sha256:027d2a169df914e2402fc80e4671d359e06febee6b2d52a928ce0c0e46b7302c"
+        },
+        "windows-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_fft/v0.999.0/toolbox-fft-0.999.0-windows-x64.zip",
+          "checksum": "sha256:372683cac36193146450665cb931c96db473029a45fe08d9a3137da97c2f7a8b"
+        }
+      }
+    },
+    {
       "id": "toolbox-transform-editor",
       "name": "Transform Editor",
       "version": "1.1.0",
