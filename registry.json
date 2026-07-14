@@ -173,6 +173,52 @@
           "checksum": "sha256:74f5f1ea240b5f58b90e31a346917ebd0aab9650d0b0f1ffb2b091cd6de247b6"
         }
       }
+    },
+    {
+      "id": "toolbox-quaternion",
+      "name": "Quaternion to RPY",
+      "version": "1.1.0",
+      "description": "Converts quaternion (x, y, z, w) time series into Roll, Pitch, Yaw angles with optional unwrapping and degree/radian output.",
+      "author": "PlotJuggler Team",
+      "publisher": "PlotJuggler",
+      "website": "https://github.com/PlotJuggler/pj-official-plugins",
+      "repository": "https://github.com/PlotJuggler/pj-official-plugins",
+      "license": "MIT",
+      "icon_url": "",
+      "category": "toolbox",
+      "tags": [
+        "quaternion",
+        "rpy",
+        "rotation",
+        "toolbox"
+      ],
+      "min_plotjuggler_version": "3.999.1",
+      "platforms": {
+        "linux-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_quaternion/v1.1.0/toolbox-quaternion-1.1.0-linux-aarch64.zip",
+          "checksum": "sha256:65bd94ee87e074d39c31a3431464229494dcd8c68efd2b25a6ffd062cc622a23"
+        },
+        "linux-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_quaternion/v1.1.0/toolbox-quaternion-1.1.0-linux-x86_64.zip",
+          "checksum": "sha256:4f9affddad74f365e9f25c1541b909f2c4e7310257652997f03a1442cd7ab6d3"
+        },
+        "macos-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_quaternion/v1.1.0/toolbox-quaternion-1.1.0-macos-arm64.zip",
+          "checksum": "sha256:1ee75f3b7dee4edafd26c33b4711e077cd0a9e1e68a1bf3c285dc5ce655e9eb8"
+        },
+        "macos-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_quaternion/v1.1.0/toolbox-quaternion-1.1.0-macos-x86_64.zip",
+          "checksum": "sha256:786c3c9ad7c9ba023c9d1d660e0b49a36980b5024ef9ca31a831e7986a87481c"
+        },
+        "windows-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_quaternion/v1.1.0/toolbox-quaternion-1.1.0-windows-arm64.zip",
+          "checksum": "sha256:99383783ad4edf7fa9f30eecaca94ff635812aac4a83cf6536c4d655c008a9b3"
+        },
+        "windows-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_quaternion/v1.1.0/toolbox-quaternion-1.1.0-windows-x64.zip",
+          "checksum": "sha256:692afb9bfb866a6ec81f87029a6e0cb7f7cf7ffcbf08b96d4880526fef69bc1d"
+        }
+      }
     }
   ]
 }
