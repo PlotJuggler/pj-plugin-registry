@@ -129,15 +129,15 @@
         },
         "macos-arm64": {
           "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_protobuf/v1.1.0/protobuf-parser-1.1.0-macos-arm64.zip",
-          "checksum": "sha256:05c61702e3e889918958f453407e4cedafcd400b303d83fe6e214e9cb2c2646c"
+          "checksum": "sha256:78f537ce047f64faabd3e91869cce7b254430e8fca42de1aec4b5fb6140a52e4"
         },
         "macos-x86_64": {
           "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_protobuf/v1.1.0/protobuf-parser-1.1.0-macos-x86_64.zip",
-          "checksum": "sha256:d1ccabea8d3946142e73c727b18ba0be7aab5b15a5bd2a98e1a3ad86ce12079d"
+          "checksum": "sha256:143168e53eeb7aa586ec0e5363888c8c77c2c99fbf21a0a650bdbbf15e8bae20"
         },
         "windows-arm64": {
           "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_protobuf/v1.1.0/protobuf-parser-1.1.0-windows-arm64.zip",
-          "checksum": "sha256:bf55fecd70dfce18b755e934fbf4dda100587a2e5855d24766cb328fb4fcdccc"
+          "checksum": "sha256:5d41516d4f89664af5bb438e8bbce8d930f46325e92a63b82825ee92247f7fcd"
         },
         "windows-x86_64": {
           "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_protobuf/v1.1.0/protobuf-parser-1.1.0-windows-x64.zip",
