@@ -94,6 +94,53 @@
       }
     },
     {
+      "id": "parquet-loader",
+      "name": "Parquet Loader",
+      "version": "1.1.0",
+      "description": "Data loader for Apache Parquet files. Efficient columnar storage format.",
+      "author": "PlotJuggler Team",
+      "publisher": "PlotJuggler",
+      "website": "https://github.com/PlotJuggler/pj-official-plugins",
+      "repository": "https://github.com/PlotJuggler/pj-official-plugins",
+      "license": "MIT",
+      "icon_url": "",
+      "category": "data_loader",
+      "tags": [
+        "parquet",
+        "file",
+        "loader",
+        "columnar",
+        "arrow"
+      ],
+      "min_plotjuggler_version": "3.999.1",
+      "platforms": {
+        "linux-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_parquet/v1.1.0/parquet-loader-1.1.0-linux-aarch64.zip",
+          "checksum": "sha256:c155235b1d9ed7811955e72886b8bd131575b98c5eec242e7271e69daaefb385"
+        },
+        "linux-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_parquet/v1.1.0/parquet-loader-1.1.0-linux-x86_64.zip",
+          "checksum": "sha256:d6d28815a33f1e6596bc43e913bab9d193874a90c886f7022297bc93ff3ce75b"
+        },
+        "macos-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_parquet/v1.1.0/parquet-loader-1.1.0-macos-arm64.zip",
+          "checksum": "sha256:2c648a9553b29971c93072297bb81aebc4524bb58673566047afabee51c14b86"
+        },
+        "macos-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_parquet/v1.1.0/parquet-loader-1.1.0-macos-x86_64.zip",
+          "checksum": "sha256:10cbd691a275563b28b8c1c06a9c39ba3824e2d9ac43bd783ec66573e127b37b"
+        },
+        "windows-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_parquet/v1.1.0/parquet-loader-1.1.0-windows-arm64.zip",
+          "checksum": "sha256:90702fe43e346b76936bf3873bf975977b9774b6dbae2d2941dff7fa788f1e44"
+        },
+        "windows-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_parquet/v1.1.0/parquet-loader-1.1.0-windows-x64.zip",
+          "checksum": "sha256:592247688535415832cf90b82d39107423dbea07ffb97676a419b0bb95ce781b"
+        }
+      }
+    },
+    {
       "id": "protobuf-parser",
       "name": "Protobuf Parser",
       "version": "1.1.0",
