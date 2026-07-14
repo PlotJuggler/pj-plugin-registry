@@ -595,6 +595,54 @@
       }
     },
     {
+      "id": "webrtc-client",
+      "name": "WebRTC Video Client",
+      "version": "0.999.0",
+      "description": "Receives a live H.264 video stream from any WebRTC peer (browser, robot, or media server) via libdatachannel and feeds it to PlotJuggler as canonical PJ.VideoFrame messages. H.264 pass-through; no transcode.",
+      "author": "PlotJuggler Team",
+      "publisher": "PlotJuggler",
+      "website": "https://github.com/PlotJuggler/pj-official-plugins",
+      "repository": "https://github.com/PlotJuggler/pj-official-plugins",
+      "license": "MIT",
+      "icon_url": "",
+      "category": "data_stream",
+      "tags": [
+        "webrtc",
+        "video",
+        "h264",
+        "stream",
+        "realtime",
+        "libdatachannel"
+      ],
+      "min_plotjuggler_version": "3.999.1",
+      "platforms": {
+        "linux-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_webrtc/v0.999.0/webrtc-client-0.999.0-linux-aarch64.zip",
+          "checksum": "sha256:9b2c71783d9009bea51d985ee1e3787c46967d58693a0d503d10929ddcf90cad"
+        },
+        "linux-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_webrtc/v0.999.0/webrtc-client-0.999.0-linux-x86_64.zip",
+          "checksum": "sha256:25e004ad463687aa515534a7dd6b351b949a231f4a1b2507b159855faf4b686e"
+        },
+        "macos-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_webrtc/v0.999.0/webrtc-client-0.999.0-macos-arm64.zip",
+          "checksum": "sha256:87e39432a7e1a5fb75edc5d8fafce542be3c3abbb2c7fb0ebf4e95cfae12b9b4"
+        },
+        "macos-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_webrtc/v0.999.0/webrtc-client-0.999.0-macos-x86_64.zip",
+          "checksum": "sha256:38c41ed8fb1500872e1c293107a978e769adf47a50e85d9767620089ddbebeff"
+        },
+        "windows-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_webrtc/v0.999.0/webrtc-client-0.999.0-windows-arm64.zip",
+          "checksum": "sha256:fbb048e131f2e87a91c33c9d25e1c87bf18ab29c4ba190aa7d9051085775e61c"
+        },
+        "windows-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_webrtc/v0.999.0/webrtc-client-0.999.0-windows-x64.zip",
+          "checksum": "sha256:0e672704a6637702fd53f211c2f3141bb673e39c1046e3c73ed593362a310fbd"
+        }
+      }
+    },
+    {
       "id": "zmq-subscriber",
       "name": "ZMQ Subscriber",
       "version": "0.999.0",
