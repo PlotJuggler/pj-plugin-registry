@@ -648,6 +648,48 @@
       }
     },
     {
+      "id": "toolbox-mosaico",
+      "name": "Mosaico Cloud Server",
+      "version": "1.1.0",
+      "description": "Browse and import data from Mosaico cloud servers via Apache Arrow Flight. Includes Lua metadata predicate filter, multi-topic streaming, and time-range selection.",
+      "author": "PlotJuggler Team",
+      "publisher": "PlotJuggler",
+      "website": "https://github.com/PlotJuggler/pj-official-plugins",
+      "repository": "https://github.com/PlotJuggler/pj-official-plugins",
+      "license": "MIT",
+      "icon_url": "",
+      "category": "toolbox",
+      "tags": [
+        "cloud",
+        "mosaico",
+        "arrow",
+        "flight"
+      ],
+      "min_plotjuggler_version": "3.999.2",
+      "platforms": {
+        "linux-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_mosaico/v1.1.0/toolbox-mosaico-1.1.0-linux-aarch64.zip",
+          "checksum": "sha256:3254c3aad9b459822933ea8a87d0da4e233f4e24a19cf26831b25872c6924f6e"
+        },
+        "linux-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_mosaico/v1.1.0/toolbox-mosaico-1.1.0-linux-x86_64.zip",
+          "checksum": "sha256:ad6be2e77320f85545afd085c34329b2cfa33b4f9f4349ac9ebdcf2997e05be0"
+        },
+        "macos-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_mosaico/v1.1.0/toolbox-mosaico-1.1.0-macos-arm64.zip",
+          "checksum": "sha256:3d880920895adcf41ea7d2fd81e6303f7dbc979e872dc07176a663418114d43c"
+        },
+        "macos-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_mosaico/v1.1.0/toolbox-mosaico-1.1.0-macos-x86_64.zip",
+          "checksum": "sha256:78fd9965e825b5f4c54e1c3ff4e074d492a1845896ce408de6733828bfe086c5"
+        },
+        "windows-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_mosaico/v1.1.0/toolbox-mosaico-1.1.0-windows-x64.zip",
+          "checksum": "sha256:a2b3bdb503a37b0e09f51c7b5e93fb8b71d363884eff6ce5b70c20173172e628"
+        }
+      }
+    },
+    {
       "id": "toolbox-quaternion",
       "name": "Quaternion to RPY",
       "version": "1.1.0",
