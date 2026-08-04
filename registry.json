@@ -516,7 +516,7 @@
     {
       "id": "pointcloud-3d-loader",
       "name": "3D Loader (PLY/PCD)",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Data loader for static 3D files: .pcd and vertex-only .ply load as a point cloud; .ply with faces loads as a 3D mesh. One snapshot at timestamp 0.",
       "author": "PlotJuggler Team",
       "publisher": "PlotJuggler",
@@ -536,28 +536,24 @@
       "min_plotjuggler_version": "3.999.1",
       "platforms": {
         "linux-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_3d/v1.0.0/pointcloud-3d-loader-1.0.0-linux-aarch64.zip",
-          "checksum": "sha256:786f76623f6d3b1b59b25808034947aeec8bb6115a510547640d16b871d7a32b"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_3d/v1.0.1/pointcloud-3d-loader-1.0.1-linux-aarch64.zip",
+          "checksum": "sha256:9c75310e55efb0a13c7387151acab8d60404575a57d8ec34fb934de6421619cf"
         },
         "linux-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_3d/v1.0.0/pointcloud-3d-loader-1.0.0-linux-x86_64.zip",
-          "checksum": "sha256:eac65e11e8d31a019347b4d2720ba145323dd49f7a2b2bbc4b472014c327b4f4"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_3d/v1.0.1/pointcloud-3d-loader-1.0.1-linux-x86_64.zip",
+          "checksum": "sha256:4ca6918f23ed202dc3a928a95e0cb83d06a544633d3dba9f9b6f7a0b79fd9674"
         },
         "macos-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_3d/v1.0.0/pointcloud-3d-loader-1.0.0-macos-arm64.zip",
-          "checksum": "sha256:aaf868f5b53690ae76504761378b88b306edcde5111dc8203794a4c2cda0f313"
-        },
-        "macos-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_3d/v1.0.0/pointcloud-3d-loader-1.0.0-macos-x86_64.zip",
-          "checksum": "sha256:3ec0421b89c7b13037cdb609aadbd4e52b2b3937dc16b752462f3ca35c839a24"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_3d/v1.0.1/pointcloud-3d-loader-1.0.1-macos-arm64.zip",
+          "checksum": "sha256:04c912c9cce52f44aa177ae5e809241b67199dbacb431df7b0bf67b4ff4b8803"
         },
         "windows-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_3d/v1.0.0/pointcloud-3d-loader-1.0.0-windows-arm64.zip",
-          "checksum": "sha256:fed7ef882a7ee272a3992c5157e70c7715df31bd54d39e33c5164301f06da0bd"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_3d/v1.0.1/pointcloud-3d-loader-1.0.1-windows-arm64.zip",
+          "checksum": "sha256:5eaf200c47042a276ec4e513893ffe063d823ad2d9813214425e863030e54b45"
         },
         "windows-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_3d/v1.0.0/pointcloud-3d-loader-1.0.0-windows-x64.zip",
-          "checksum": "sha256:fc0e50873ed5978119aeae5399fb8e41395893192df0438a1023cae9f29d12d4"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_3d/v1.0.1/pointcloud-3d-loader-1.0.1-windows-x64.zip",
+          "checksum": "sha256:9499124127dd5bb48a80455ae40875bab2280591d7f8673f6e770f19e1239491"
         }
       }
     },
