@@ -893,7 +893,7 @@
     {
       "id": "webrtc-client",
       "name": "WebRTC Video Client",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Receives live H.264 video via standard WHEP (mediamtx, go2rtc, LiveKit, Cloudflare Stream...) and feeds each stream to PlotJuggler as canonical PJ.VideoFrame messages. One HTTP request per stream, per-camera reconnect, mediamtx Control API discovery. H.264 pass-through; no transcode.",
       "author": "PlotJuggler Team",
       "publisher": "PlotJuggler",
@@ -916,28 +916,24 @@
       "min_plotjuggler_version": "3.999.1",
       "platforms": {
         "linux-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_webrtc/v1.0.0/webrtc-client-1.0.0-linux-aarch64.zip",
-          "checksum": "sha256:bd33fd5a20ff3b141618cb960910865766a63123bde4e13eedbdf575878fd474"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_webrtc/v1.0.1/webrtc-client-1.0.1-linux-aarch64.zip",
+          "checksum": "sha256:bcb823d457b50a79b647d8243c8d970cecaf05643f52aaa2d3acb5352a8c4b6a"
         },
         "linux-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_webrtc/v1.0.0/webrtc-client-1.0.0-linux-x86_64.zip",
-          "checksum": "sha256:adc41e6e47bb40c7656f2617b6598499ee0d05916c5ffcecfdc4cb3879d55685"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_webrtc/v1.0.1/webrtc-client-1.0.1-linux-x86_64.zip",
+          "checksum": "sha256:ae7b2f58102ed30cf17e4b9e275c6a2842104fdc32644ff27063fcb0f8c3387c"
         },
         "macos-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_webrtc/v1.0.0/webrtc-client-1.0.0-macos-arm64.zip",
-          "checksum": "sha256:eea04073c1372897dab1aa836c9ef16851d308c49775baa1c250ad2d80c6740c"
-        },
-        "macos-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_webrtc/v1.0.0/webrtc-client-1.0.0-macos-x86_64.zip",
-          "checksum": "sha256:892912b4ef9aedab70ba820f2c28c48a051e659a02f7a89415f6034eb21e0f0f"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_webrtc/v1.0.1/webrtc-client-1.0.1-macos-arm64.zip",
+          "checksum": "sha256:1fe5160352c71cb0ac8b17e51ce3c638ab70541ffc708ed96873f5c68c56dcb7"
         },
         "windows-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_webrtc/v1.0.0/webrtc-client-1.0.0-windows-arm64.zip",
-          "checksum": "sha256:8719aee20efe6af225acb10fed7022ead2ef27ea7e362f65b0b04b0d9b743dbe"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_webrtc/v1.0.1/webrtc-client-1.0.1-windows-arm64.zip",
+          "checksum": "sha256:d1d86afd23bacfec48c223de9aa0a969cdadfdddde0696373926e85cac59f3c0"
         },
         "windows-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_webrtc/v1.0.0/webrtc-client-1.0.0-windows-x64.zip",
-          "checksum": "sha256:4e2a28078fb228f5262ae8eb70dd9ba5854b590418786f833dcd1aa4ecfff194"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_webrtc/v1.0.1/webrtc-client-1.0.1-windows-x64.zip",
+          "checksum": "sha256:0423385f2b38bcab4c2ef107d5a4f1284068d0c62b40742512f83e352f812411"
         }
       }
     },
