@@ -638,6 +638,48 @@
       }
     },
     {
+      "id": "toolbox-data-exporter",
+      "name": "CSV/Parquet Exporter",
+      "version": "0.114.1",
+      "description": "Export selected time series to CSV or Parquet files.",
+      "author": "PlotJuggler Team",
+      "publisher": "PlotJuggler",
+      "website": "https://github.com/PlotJuggler/pj-official-plugins",
+      "repository": "https://github.com/PlotJuggler/pj-official-plugins",
+      "license": "MIT",
+      "icon_url": "",
+      "category": "toolbox",
+      "tags": [
+        "csv",
+        "parquet",
+        "export",
+        "toolbox"
+      ],
+      "min_plotjuggler_version": "3.999.1",
+      "platforms": {
+        "linux-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_data_exporter/v0.114.1/toolbox-data-exporter-0.114.1-linux-aarch64.zip",
+          "checksum": "sha256:eef4d69ab4f16d1501b6d6bc2dfd29e259e659329af9b11f798f2b9bc52960dc"
+        },
+        "linux-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_data_exporter/v0.114.1/toolbox-data-exporter-0.114.1-linux-x86_64.zip",
+          "checksum": "sha256:49522b35a1431b57abbe610dd9c57078af75d34fe515fd461a28ecc7f0018e7f"
+        },
+        "macos-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_data_exporter/v0.114.1/toolbox-data-exporter-0.114.1-macos-arm64.zip",
+          "checksum": "sha256:1a234bc68af8568c0b41d8431c092dfc4248f822e74fccb6a1404025574512c5"
+        },
+        "windows-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_data_exporter/v0.114.1/toolbox-data-exporter-0.114.1-windows-arm64.zip",
+          "checksum": "sha256:229b4a926987795161df5711e8916dbce1392ce9f19a67e8f33b8dabc96c496f"
+        },
+        "windows-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_data_exporter/v0.114.1/toolbox-data-exporter-0.114.1-windows-x64.zip",
+          "checksum": "sha256:eb42957c5900c7dd689071383685fe9b684772902ca0a3bc0e05deb763e1baaa"
+        }
+      }
+    },
+    {
       "id": "toolbox-fft",
       "name": "Fast Fourier Transform",
       "version": "1.0.1",
