@@ -177,7 +177,7 @@
     {
       "id": "json-parser",
       "name": "JSON Parser",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Message parser for JSON, CBOR, MessagePack, and BSON encoded data.",
       "author": "PlotJuggler Team",
       "publisher": "PlotJuggler",
@@ -196,28 +196,24 @@
       "min_plotjuggler_version": "3.999.1",
       "platforms": {
         "linux-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_json/v1.0.0/json-parser-1.0.0-linux-aarch64.zip",
-          "checksum": "sha256:2f2a350a6e625fa72ef5460fd2db94862fc655a459ffbe37942844425f840f5e"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_json/v1.0.1/json-parser-1.0.1-linux-aarch64.zip",
+          "checksum": "sha256:dfd19744fdea80153ccc429233c100ced439fed4fe4340c5e2fae92d05b4c078"
         },
         "linux-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_json/v1.0.0/json-parser-1.0.0-linux-x86_64.zip",
-          "checksum": "sha256:e6006a5401e8f35c4bc54d91a2c670c5d65c3604f52cd57e803bbd024cc65d13"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_json/v1.0.1/json-parser-1.0.1-linux-x86_64.zip",
+          "checksum": "sha256:749dbc369b8ddfd317fea39d57343cbb4d1ce4bd18a330566164179b7d8f8d6c"
         },
         "macos-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_json/v1.0.0/json-parser-1.0.0-macos-arm64.zip",
-          "checksum": "sha256:a44e658b7a2c71e9eed8baaeae71b3ce93de81d89bfe34b7fca85a43b77bc111"
-        },
-        "macos-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_json/v1.0.0/json-parser-1.0.0-macos-x86_64.zip",
-          "checksum": "sha256:ab6950cecc52a9c6de2057a011c359af81fd55801961744fe4070c2ecf5398b8"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_json/v1.0.1/json-parser-1.0.1-macos-arm64.zip",
+          "checksum": "sha256:de94fa5c039842f4701bb7c7c488fd11b81ba222c29003fa6f86aac45394c6e8"
         },
         "windows-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_json/v1.0.0/json-parser-1.0.0-windows-arm64.zip",
-          "checksum": "sha256:7e53f7588d63354453f86711a241866b6e0885b19c6923b499258c48f4767f25"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_json/v1.0.1/json-parser-1.0.1-windows-arm64.zip",
+          "checksum": "sha256:83c837e7a9233f5ff8a45f2df36b4e8db5cc414ae732e6f4ff5d760aa379ce15"
         },
         "windows-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_json/v1.0.0/json-parser-1.0.0-windows-x64.zip",
-          "checksum": "sha256:4ea177013c07ccebcd2e86c4d4e6f379148bd68e650f7e0c913181be206429ed"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_json/v1.0.1/json-parser-1.0.1-windows-x64.zip",
+          "checksum": "sha256:e52f1b81afb2fd21607cceed8e0294ba20c86e36ace410e00e6a4c79e1249f1d"
         }
       }
     },
