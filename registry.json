@@ -905,7 +905,7 @@
     {
       "id": "ulog-loader",
       "name": "ULog Loader",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Data loader for PX4 ULog files. Flight log format for PX4 autopilot.",
       "author": "PlotJuggler Team",
       "publisher": "PlotJuggler",
@@ -925,28 +925,24 @@
       "min_plotjuggler_version": "3.999.1",
       "platforms": {
         "linux-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_ulog/v1.0.0/ulog-loader-1.0.0-linux-aarch64.zip",
-          "checksum": "sha256:20b2906f7852ac2a9b788c62610656b42dc253eacb18d76ae137324598a77ed1"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_ulog/v1.0.1/ulog-loader-1.0.1-linux-aarch64.zip",
+          "checksum": "sha256:5430ac31c266520025c7efd31fae3e41ec392e853bd85ecf009f7a3f79e77058"
         },
         "linux-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_ulog/v1.0.0/ulog-loader-1.0.0-linux-x86_64.zip",
-          "checksum": "sha256:17fac699dea8b8bb657286503136d18e5e2ac292a7df502b7178875d53264cbf"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_ulog/v1.0.1/ulog-loader-1.0.1-linux-x86_64.zip",
+          "checksum": "sha256:c5b093919ebfc68381aa8ea365a818ce71fb151ba52c419f6975620abdcf1c74"
         },
         "macos-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_ulog/v1.0.0/ulog-loader-1.0.0-macos-arm64.zip",
-          "checksum": "sha256:5b063ba1fb38d3cbefb5c0d4debf58ea85a5430f7c856bff06bd48fc393f2f73"
-        },
-        "macos-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_ulog/v1.0.0/ulog-loader-1.0.0-macos-x86_64.zip",
-          "checksum": "sha256:2e98409d0d5c181afad07901127ad38077f7072047cb8a46b95ec2ad75133ed6"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_ulog/v1.0.1/ulog-loader-1.0.1-macos-arm64.zip",
+          "checksum": "sha256:c308692394de8ade1bd5eeb04ca1ffbed8a8aea35322b0c7ac1f01938417aa80"
         },
         "windows-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_ulog/v1.0.0/ulog-loader-1.0.0-windows-arm64.zip",
-          "checksum": "sha256:5d3027cc9342d2584570ae8f34a632a41f1a822c2c4c3925eb3031803ca881b3"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_ulog/v1.0.1/ulog-loader-1.0.1-windows-arm64.zip",
+          "checksum": "sha256:cd267b230bb27a0f531adbf5e769afbec7fcd6600ff7e15bdddc6e1e1756b5de"
         },
         "windows-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_ulog/v1.0.0/ulog-loader-1.0.0-windows-x64.zip",
-          "checksum": "sha256:f9a2cf46621abedd656931387d8c22bebdec02697ecac4c4b2ab2f0aa724adec"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_ulog/v1.0.1/ulog-loader-1.0.1-windows-x64.zip",
+          "checksum": "sha256:6206e33ed3332f3cd7df554962862beb1a7ee41157aa02de6a005c391cff1cd3"
         }
       }
     },
