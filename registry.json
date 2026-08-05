@@ -682,6 +682,48 @@
       }
     },
     {
+      "id": "toolbox-anomaly-detector",
+      "name": "Anomaly Detector",
+      "version": "0.1.0",
+      "description": "Write Lua anomaly rules over time series and emit plot markers (regions / events) when a rule fires.",
+      "author": "PlotJuggler Team",
+      "publisher": "PlotJuggler",
+      "website": "https://github.com/PlotJuggler/pj-official-plugins",
+      "repository": "https://github.com/PlotJuggler/pj-official-plugins",
+      "license": "MIT",
+      "icon_url": "",
+      "category": "toolbox",
+      "tags": [
+        "lua",
+        "anomaly",
+        "markers",
+        "toolbox"
+      ],
+      "min_plotjuggler_version": "3.999.1",
+      "platforms": {
+        "linux-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_anomaly_detector/v0.1.0/toolbox-anomaly-detector-0.1.0-linux-aarch64.zip",
+          "checksum": "sha256:1eabaf8edd3a2a6b1dad97fa4dfc6d8654d4884e567883730df817da718419a4"
+        },
+        "linux-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_anomaly_detector/v0.1.0/toolbox-anomaly-detector-0.1.0-linux-x86_64.zip",
+          "checksum": "sha256:edbc6217f051df1758bee1d723ab1e49aa0da5629e85f45b5a3331e0ba4764e8"
+        },
+        "macos-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_anomaly_detector/v0.1.0/toolbox-anomaly-detector-0.1.0-macos-arm64.zip",
+          "checksum": "sha256:b478633c204bdbba257ada5b7b35f7a08c5893f8b8514385950c28b0404dd504"
+        },
+        "windows-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_anomaly_detector/v0.1.0/toolbox-anomaly-detector-0.1.0-windows-arm64.zip",
+          "checksum": "sha256:6c7dd04624e988df02bd968af7e78d1c9b558fe61b14859292ab5c383ccc2660"
+        },
+        "windows-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_anomaly_detector/v0.1.0/toolbox-anomaly-detector-0.1.0-windows-x64.zip",
+          "checksum": "sha256:7617696a087e7c37e4b93a519e505849043aa046f8de4b710e29e7ae6a218b05"
+        }
+      }
+    },
+    {
       "id": "toolbox-data-exporter",
       "name": "CSV/Parquet Exporter",
       "version": "0.114.1",
