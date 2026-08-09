@@ -810,7 +810,7 @@
     {
       "id": "toolbox-mosaico",
       "name": "Mosaico Cloud Server",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "description": "Browse and import data from Mosaico cloud servers via Apache Arrow Flight. Includes Lua metadata predicate filter, multi-topic streaming, and time-range selection.",
       "author": "PlotJuggler Team",
       "publisher": "PlotJuggler",
@@ -828,16 +828,20 @@
       "min_plotjuggler_version": "3.999.2",
       "platforms": {
         "linux-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_mosaico/v1.1.1/toolbox-mosaico-1.1.1-linux-aarch64.zip",
-          "checksum": "sha256:3932220f48028d8a4a9a4522c8757b91cbe719c05fef59348eb4972ae47dc2e0"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_mosaico/v1.1.2/toolbox-mosaico-1.1.2-linux-aarch64.zip",
+          "checksum": "sha256:adfdd6fb74f3b376d96a4aa27133242c7cd7a6ffd1f4d023ba20c98f0f6e0699"
         },
         "linux-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_mosaico/v1.1.1/toolbox-mosaico-1.1.1-linux-x86_64.zip",
-          "checksum": "sha256:c3e987daa9807565b95d5d908cc4b5b361396524a1c1d3d9ae3c106f356fbad0"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_mosaico/v1.1.2/toolbox-mosaico-1.1.2-linux-x86_64.zip",
+          "checksum": "sha256:2d398cc32329feb2fc988f2f03af65e8f38c07e03cc4e9a803d3b2e48ba43270"
+        },
+        "macos-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_mosaico/v1.1.2/toolbox-mosaico-1.1.2-macos-arm64.zip",
+          "checksum": "sha256:ce8915c1389af5bca23d7a53c03c0b0bfee7d7a86fc004af7e6273a4bd3a5869"
         },
         "windows-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_mosaico/v1.1.1/toolbox-mosaico-1.1.1-windows-x64.zip",
-          "checksum": "sha256:56305cb5ae47156a93064ed00cee2b4f9ca157bb24bd86dfac276b0a17fbadcd"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_mosaico/v1.1.2/toolbox-mosaico-1.1.2-windows-x64.zip",
+          "checksum": "sha256:c88b50a9e034f9d96ac279df0ac402fb0ec15dd7dd8165f1970656bc970f972a"
         }
       }
     },
