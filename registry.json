@@ -390,6 +390,52 @@
       }
     },
     {
+      "id": "mf4-loader",
+      "name": "MF4/MDF Loader",
+      "version": "0.1.1",
+      "description": "Data loader for ASAM MDF / MF4 measurement files (automotive, CAN/LIN bus logging).",
+      "author": "PlotJuggler Team",
+      "publisher": "PlotJuggler",
+      "website": "https://github.com/PlotJuggler/pj-official-plugins",
+      "repository": "https://github.com/PlotJuggler/pj-official-plugins",
+      "license": "MIT",
+      "icon_url": "",
+      "category": "data_loader",
+      "tags": [
+        "mf4",
+        "mdf",
+        "asam",
+        "file",
+        "loader",
+        "can",
+        "automotive"
+      ],
+      "min_plotjuggler_version": "4.0.0",
+      "min_sdk_required": "0.28.0",
+      "platforms": {
+        "linux-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mf4/v0.1.1/mf4-loader-0.1.1-linux-aarch64.zip",
+          "checksum": "sha256:291f2369a6c65ccfc686af352abc18cd590f22317bc386987803d3d2e59efc86"
+        },
+        "linux-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mf4/v0.1.1/mf4-loader-0.1.1-linux-x86_64.zip",
+          "checksum": "sha256:7515b224beadff87eb1915c2d64d2abc6e7ddb711594957832fe82ff64955680"
+        },
+        "macos-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mf4/v0.1.1/mf4-loader-0.1.1-macos-arm64.zip",
+          "checksum": "sha256:8ef9a4420b6dbac2dbd8f18744d895efc3f29d068ed94eb3198aefec97cd231f"
+        },
+        "windows-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mf4/v0.1.1/mf4-loader-0.1.1-windows-arm64.zip",
+          "checksum": "sha256:407ca831c82b6e20fc058f4481273dc804df93670bebe7b5fd1cf008b4fedf52"
+        },
+        "windows-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mf4/v0.1.1/mf4-loader-0.1.1-windows-x64.zip",
+          "checksum": "sha256:bd4e9fc298082307feeab188ff794b3b94a9b94f8d5e1c9a6af4b6d04809559a"
+        }
+      }
+    },
+    {
       "id": "mp4-loader",
       "name": "MP4 Loader",
       "version": "0.10.0",
