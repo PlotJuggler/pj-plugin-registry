@@ -303,7 +303,7 @@
     {
       "id": "mcap-loader",
       "name": "MCAP Loader",
-      "version": "1.1.2",
+      "version": "1.2.0",
       "description": "Data loader for MCAP files. Supports ROS1, ROS2, Protobuf, and JSON message encodings.",
       "author": "PlotJuggler Team",
       "publisher": "PlotJuggler",
@@ -320,27 +320,30 @@
         "ros2",
         "protobuf"
       ],
-      "min_plotjuggler_version": "3.999.1",
+      "min_plotjuggler_version": "4.0.0",
+      "min_sdk_required": "0.28.0",
+      "suggested_sdk_version": "0.32.0",
+      "floor_test": "McapDatasetMetadata.MetadataPublishDegradesCleanlyOnFloorLevelHost",
       "platforms": {
         "linux-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mcap/v1.1.2/mcap-loader-1.1.2-linux-aarch64.zip",
-          "checksum": "sha256:6b3e5c6ec8eead93576fd385cd3b95ba967405693b18f4c6340f42f04b3e7743"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mcap/v1.2.0/mcap-loader-1.2.0-linux-aarch64.zip",
+          "checksum": "sha256:aac19dec5d16ebe2adc3764c0eee2fd8fdde5aa27e86d569c53fb783105f25c1"
         },
         "linux-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mcap/v1.1.2/mcap-loader-1.1.2-linux-x86_64.zip",
-          "checksum": "sha256:923c81a5a27e47b88e45be136b460d6ff694c6b2c075ac9509d8eb2c6a71f06d"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mcap/v1.2.0/mcap-loader-1.2.0-linux-x86_64.zip",
+          "checksum": "sha256:75b6a54d2b354ffda5d279ddc43407038e7e636ef794b80fc78c885faa686ac0"
         },
         "macos-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mcap/v1.1.2/mcap-loader-1.1.2-macos-arm64.zip",
-          "checksum": "sha256:1f982c8f10d3c6f1df2920f577c7ac13b14e50804bb6060c9f50aad0b265fbae"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mcap/v1.2.0/mcap-loader-1.2.0-macos-arm64.zip",
+          "checksum": "sha256:b527ff48c083d0fc0cd64ccc1a8992170bb3df209298947cb81a74835488363c"
         },
         "windows-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mcap/v1.1.2/mcap-loader-1.1.2-windows-arm64.zip",
-          "checksum": "sha256:724a59fd2b8012971c0094caf9208db4d1b619fd773df6a8020cc20e843a5c6f"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mcap/v1.2.0/mcap-loader-1.2.0-windows-arm64.zip",
+          "checksum": "sha256:b9296f574e93a47c263e123491da97e0f6b037f06ad1c1edc6e7a91e824d90bf"
         },
         "windows-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mcap/v1.1.2/mcap-loader-1.1.2-windows-x64.zip",
-          "checksum": "sha256:f578ef36f01f8bf5719fcc198a7fd204525b23722818ffcaaa2b4acaca1a3e2b"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mcap/v1.2.0/mcap-loader-1.2.0-windows-x64.zip",
+          "checksum": "sha256:3f06f7f91142bfbf01eae88e2f6f2be37b0e44d10297ed11eb819af92581216b"
         }
       }
     },
