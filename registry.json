@@ -350,7 +350,7 @@
     {
       "id": "mp4-loader",
       "name": "MP4 Loader",
-      "version": "0.9.1",
+      "version": "0.10.0",
       "description": "Data loader for .mp4 video files. Reads the container's creation_time tag (when present) so the host can anchor the video on a wall-clock timeline; supports multi-file selection via the standard File dialog.",
       "author": "PlotJuggler Team",
       "publisher": "PlotJuggler",
@@ -364,27 +364,28 @@
         "video",
         "loader"
       ],
-      "min_plotjuggler_version": "3.999.1",
+      "min_plotjuggler_version": "4.0.0",
+      "min_sdk_required": "0.31.0",
       "platforms": {
         "linux-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mp4/v0.9.1/mp4-loader-0.9.1-linux-aarch64.zip",
-          "checksum": "sha256:32aa8ac5ff74f9aaa24e4bdac62c7b4a5e95d44a26c334e44b5066d0bfafcc54"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mp4/v0.10.0/mp4-loader-0.10.0-linux-aarch64.zip",
+          "checksum": "sha256:870dadf31b0dccc75abd8291be01d91d5e912f39b4868f4ec922d1a452c739af"
         },
         "linux-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mp4/v0.9.1/mp4-loader-0.9.1-linux-x86_64.zip",
-          "checksum": "sha256:827d58d9983a7aabdf1f42ef0806a9bfa785eac056ee78518a69571c81ea07d5"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mp4/v0.10.0/mp4-loader-0.10.0-linux-x86_64.zip",
+          "checksum": "sha256:468edbd97d03d6160a77a7a349cbb0cad2dc3fabeec1a2359fee581d63fb126a"
         },
         "macos-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mp4/v0.9.1/mp4-loader-0.9.1-macos-arm64.zip",
-          "checksum": "sha256:77fe8a1c91352fa47066611b77f290a379fb876a47273348d32b95aa18b5ea27"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mp4/v0.10.0/mp4-loader-0.10.0-macos-arm64.zip",
+          "checksum": "sha256:1e065da5b27db97a13437230ffbc373ce11897c462d16056764a2960905a98da"
         },
         "windows-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mp4/v0.9.1/mp4-loader-0.9.1-windows-arm64.zip",
-          "checksum": "sha256:60f83af58029c10db1da4f4eea4fbf9b4aa9ce122661a291cfade9229be77531"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mp4/v0.10.0/mp4-loader-0.10.0-windows-arm64.zip",
+          "checksum": "sha256:4421afd65b963ad8106e2b4ea014f000b0cf967fd9c68ed2c01199325848595f"
         },
         "windows-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mp4/v0.9.1/mp4-loader-0.9.1-windows-x64.zip",
-          "checksum": "sha256:45553489cfb135e5a6f9768cb2b5363a892c9279e2b8bfd6ac04ff1a75fe4e0e"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mp4/v0.10.0/mp4-loader-0.10.0-windows-x64.zip",
+          "checksum": "sha256:468e98a0d1f372cee5ed900b351685ee7b60a65c5bc2dd456d288a3f811b8970"
         }
       }
     },
