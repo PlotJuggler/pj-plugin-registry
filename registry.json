@@ -2,6 +2,51 @@
   "registry_version": 1.0,
   "extensions": [
     {
+      "id": "blf-loader",
+      "name": "BLF Loader",
+      "version": "0.1.1",
+      "description": "Data loader for Vector BLF (Binary Logging Format) CAN logs, decoded to signals via DBC.",
+      "author": "PlotJuggler Team",
+      "publisher": "PlotJuggler",
+      "website": "https://github.com/PlotJuggler/pj-official-plugins",
+      "repository": "https://github.com/PlotJuggler/pj-official-plugins",
+      "license": "MIT",
+      "icon_url": "",
+      "category": "data_loader",
+      "tags": [
+        "blf",
+        "vector",
+        "can",
+        "automotive",
+        "file",
+        "loader"
+      ],
+      "min_plotjuggler_version": "4.0.0",
+      "min_sdk_required": "0.28.0",
+      "platforms": {
+        "linux-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_blf/v0.1.1/blf-loader-0.1.1-linux-aarch64.zip",
+          "checksum": "sha256:c98d30f69988586cbe0edf2b924c057381beec1f0101bb214b2fcc5d3da22286"
+        },
+        "linux-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_blf/v0.1.1/blf-loader-0.1.1-linux-x86_64.zip",
+          "checksum": "sha256:d8ff0d12d138ccd0acb04aab72b3c72737ff7a21bd22dcac06f0464025f242ba"
+        },
+        "macos-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_blf/v0.1.1/blf-loader-0.1.1-macos-arm64.zip",
+          "checksum": "sha256:0a27cfa658ee13c22d98357004a90f351d57a357cfcb807453614de3cdd7aaa6"
+        },
+        "windows-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_blf/v0.1.1/blf-loader-0.1.1-windows-arm64.zip",
+          "checksum": "sha256:73b4b8583c97f65dcad7c060ab600397f1cfa67abd87cace41a983674703297e"
+        },
+        "windows-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_blf/v0.1.1/blf-loader-0.1.1-windows-x64.zip",
+          "checksum": "sha256:db11238df7214642f9a358b3721d614adaac52769bc42a7e662052188edc6cc9"
+        }
+      }
+    },
+    {
       "id": "csv-loader",
       "name": "CSV Loader",
       "version": "1.0.6",
