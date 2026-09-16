@@ -2,6 +2,48 @@
   "registry_version": 1.0,
   "extensions": [
     {
+      "id": "arrow-parser",
+      "name": "Arrow IPC Parser",
+      "version": "1.0.0",
+      "description": "Message parser for self-describing Arrow IPC streams.",
+      "author": "PlotJuggler Team",
+      "publisher": "PlotJuggler",
+      "website": "https://github.com/PlotJuggler/pj-official-plugins",
+      "repository": "https://github.com/PlotJuggler/pj-official-plugins",
+      "license": "MIT",
+      "icon_url": "",
+      "category": "message_parser",
+      "tags": [
+        "arrow",
+        "ipc",
+        "parser"
+      ],
+      "min_plotjuggler_version": "4.0.0",
+      "min_sdk_required": "0.28.0",
+      "platforms": {
+        "linux-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_arrow/v1.0.0/arrow-parser-1.0.0-linux-aarch64.zip",
+          "checksum": "sha256:95fe6bcd40c5361fe6991349fc752b51d7de17b97cb83d9a71b0a7590249dbcb"
+        },
+        "linux-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_arrow/v1.0.0/arrow-parser-1.0.0-linux-x86_64.zip",
+          "checksum": "sha256:c87a2a1883af8125ca3420955d05cf38024dcedf4173fbf11d0a907e12af44f1"
+        },
+        "macos-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_arrow/v1.0.0/arrow-parser-1.0.0-macos-arm64.zip",
+          "checksum": "sha256:31b92c5653465c3563297c55ff93317142509fb17d3fd38e2f9df26217fbf28e"
+        },
+        "windows-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_arrow/v1.0.0/arrow-parser-1.0.0-windows-arm64.zip",
+          "checksum": "sha256:ee91fefefde8fc16a9ea747493b5ccdc34e029ece78324fdd6d1647fc6a74818"
+        },
+        "windows-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_arrow/v1.0.0/arrow-parser-1.0.0-windows-x64.zip",
+          "checksum": "sha256:0f08c82ef1527207c3a174305e7ce464c6a62880f170f52f72a9e8b69e3b52fa"
+        }
+      }
+    },
+    {
       "id": "csv-loader",
       "name": "CSV Loader",
       "version": "1.0.6",
