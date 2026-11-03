@@ -44,6 +44,37 @@
       }
     },
     {
+      "id": "basic-widgets",
+      "name": "Basic Widgets",
+      "version": "1.0.0",
+      "description": "Gauge, numeric indicator, traffic light and value table dock widgets for live values.",
+      "author": "PlotJuggler Team",
+      "publisher": "PlotJuggler",
+      "website": "https://github.com/PlotJuggler/pj-official-plugins",
+      "repository": "https://github.com/PlotJuggler/pj-official-plugins",
+      "license": "MIT",
+      "icon_url": "",
+      "category": "widget",
+      "tags": [
+        "widget",
+        "gauge",
+        "indicator",
+        "table"
+      ],
+      "min_plotjuggler_version": "4.1.0",
+      "min_sdk_required": "0.39.0",
+      "platforms": {
+        "linux-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/widget_basic/v1.0.0/basic-widgets-1.0.0-linux-x86_64.zip",
+          "checksum": "sha256:1fa371ba414984d90541fe7d540f15c0621d435b78f491140aacd534d06ef98d"
+        },
+        "windows-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/widget_basic/v1.0.0/basic-widgets-1.0.0-windows-x64.zip",
+          "checksum": "sha256:5583024d4b991b2eed2c45115a34433f230cbc4b1ccc97f971a03da6a94adb1e"
+        }
+      }
+    },
+    {
       "id": "blf-loader",
       "name": "BLF Loader",
       "version": "0.1.1",
