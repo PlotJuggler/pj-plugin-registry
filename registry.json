@@ -1123,7 +1123,7 @@
     {
       "id": "udp-server",
       "name": "UDP Server",
-      "version": "0.9.1",
+      "version": "0.9.2",
       "description": "Real-time data streaming via UDP. Supports unicast and multicast IPv4/IPv6.",
       "author": "PlotJuggler Team",
       "publisher": "PlotJuggler",
@@ -1139,27 +1139,28 @@
         "network",
         "multicast"
       ],
-      "min_plotjuggler_version": "3.999.1",
+      "min_plotjuggler_version": "4.0.0",
+      "min_sdk_required": "0.28.0",
       "platforms": {
         "linux-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_udp/v0.9.1/udp-server-0.9.1-linux-aarch64.zip",
-          "checksum": "sha256:3ac0353a60be1e7a502a4b0b4833b93220eb28d898c7950e85c538b43d7dad82"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_udp/v0.9.2/udp-server-0.9.2-linux-aarch64.zip",
+          "checksum": "sha256:ccdc3d9b223b1d44099f825ce390dc7bfbab117294c81ebe394f813c4b19dcd0"
         },
         "linux-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_udp/v0.9.1/udp-server-0.9.1-linux-x86_64.zip",
-          "checksum": "sha256:bcd532a1fb45fc33a9ed7a9f3610efaae1d63f947b00b9f3acb7ee2ac6a23c25"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_udp/v0.9.2/udp-server-0.9.2-linux-x86_64.zip",
+          "checksum": "sha256:5ade8ddb3be2e29ebf6ec67d02a70a25fba441e33fa1c314b028d5f2750d001e"
         },
         "macos-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_udp/v0.9.1/udp-server-0.9.1-macos-arm64.zip",
-          "checksum": "sha256:07301ba02769493979eb371ffe85cce3b315a610a0978a9c3ab38b1fa5a9772b"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_udp/v0.9.2/udp-server-0.9.2-macos-arm64.zip",
+          "checksum": "sha256:02bf7ce3e663d7899222b4ecad9b0796040b1e8d8e297c4af9c9e4f4136f046a"
         },
         "windows-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_udp/v0.9.1/udp-server-0.9.1-windows-arm64.zip",
-          "checksum": "sha256:43ec2dec32f60eb3564dec8e08050c9c4e727559b6e440180a97bcaf9b85b3d7"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_udp/v0.9.2/udp-server-0.9.2-windows-arm64.zip",
+          "checksum": "sha256:041d4655df4445c7d3264dab9ef4d7befc0f367644add6b35b0853de88ecbe8f"
         },
         "windows-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_udp/v0.9.1/udp-server-0.9.1-windows-x64.zip",
-          "checksum": "sha256:dbbd3f5cce239fef566d9e4235cbe0779109aaa76c5de091f544239e2a44e9a5"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_udp/v0.9.2/udp-server-0.9.2-windows-x64.zip",
+          "checksum": "sha256:50ba9690c8d5ea74c70a545f969d8fec571fa6f1a8d04d653f9e8f46122829ec"
         }
       }
     },
