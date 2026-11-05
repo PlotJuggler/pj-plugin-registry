@@ -16,7 +16,8 @@
         "dataflash",
         "bin",
         "flight",
-        "loader"
+        "loader",
+        "community"
       ],
       "min_sdk_required": "0.34.1",
       "website": "https://github.com/reliable-ly0411/plotjuggler-apbin-plugins",
@@ -953,7 +954,8 @@
         "embedded",
         "microcontroller",
         "telemetry",
-        "stream"
+        "stream",
+        "community"
       ],
       "min_sdk_required": "0.34.1",
       "min_plotjuggler_version": "4.0.0",
