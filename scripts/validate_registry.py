@@ -16,7 +16,7 @@ from pathlib import Path
 REQUIRED_TOP_LEVEL = ["registry_version", "extensions"]
 REQUIRED_EXTENSION = ["id", "name", "version", "description", "author", "publisher", "license", "category", "platforms"]
 VALID_PLATFORMS = ["linux-x86_64", "linux-arm64", "macos-x86_64", "macos-arm64", "windows-x86_64", "windows-arm64"]
-VALID_CATEGORIES = ["data_loader", "data_stream", "message_parser", "parser", "toolbox"]
+VALID_CATEGORIES = ["data_loader", "data_stream", "message_parser", "parser", "toolbox", "widget"]
 
 
 def validate_structure(registry: dict) -> list[str]:

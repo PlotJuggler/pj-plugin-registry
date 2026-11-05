@@ -119,6 +119,7 @@ Not all platforms are required — only include the platforms for which you have
 | `data_streamer` | Streams live data into PlotJuggler (ROS 2, ...) |
 | `parser` | Parses raw data into time series (CAN bus, ...) |
 | `toolbox` | Adds analysis tools to PlotJuggler (FFT, ...) |
+| `widget` | Adds configurable dock widgets (gauges, numeric indicators, tables, ...) |
 | `bundle` | A single package containing multiple plugins |
 
 ---

@@ -4,12 +4,16 @@ on:
   pull_request:
     paths:
       - 'registry.json'
+      - 'scripts/validate_registry.py'
+      - '.github/workflows/validate-registry.yml'
   push:
     branches:
       - main
       - development
     paths:
       - 'registry.json'
+      - 'scripts/validate_registry.py'
+      - '.github/workflows/validate-registry.yml'
   schedule:
     # Weekly full validation: URLs + checksums (detects tampered artifacts)
     - cron: '0 6 * * 1'  # Monday 6am UTC
