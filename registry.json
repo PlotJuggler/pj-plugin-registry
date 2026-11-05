@@ -120,6 +120,51 @@
       }
     },
     {
+      "id": "candump-loader",
+      "name": "candump Loader",
+      "version": "0.1.1",
+      "description": "Data loader for Linux SocketCAN candump captures (log and screen format), decoded to signals via DBC or an ARUS-style CSV dictionary.",
+      "author": "PlotJuggler Team",
+      "publisher": "PlotJuggler",
+      "website": "https://github.com/PlotJuggler/pj-official-plugins",
+      "repository": "https://github.com/PlotJuggler/pj-official-plugins",
+      "license": "MIT",
+      "icon_url": "",
+      "category": "data_loader",
+      "tags": [
+        "candump",
+        "socketcan",
+        "can",
+        "automotive",
+        "file",
+        "loader"
+      ],
+      "min_plotjuggler_version": "4.0.0",
+      "min_sdk_required": "0.28.0",
+      "platforms": {
+        "linux-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_candump/v0.1.1/candump-loader-0.1.1-linux-aarch64.zip",
+          "checksum": "sha256:edeba4c25b49261f0533fdc384663529705a174ddd9a5608b40024cdaa5987ff"
+        },
+        "linux-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_candump/v0.1.1/candump-loader-0.1.1-linux-x86_64.zip",
+          "checksum": "sha256:39156df30f1a0a39ea4bbdcea13c5649c1c7983e36831649f441ebfc3bfe86a7"
+        },
+        "macos-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_candump/v0.1.1/candump-loader-0.1.1-macos-arm64.zip",
+          "checksum": "sha256:1fa7ae64ea44ecff382f321a454387801b59ba38adddbcf90a99fc3d2b06594c"
+        },
+        "windows-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_candump/v0.1.1/candump-loader-0.1.1-windows-arm64.zip",
+          "checksum": "sha256:eafe58c5c8a9046ae2f68ac2297fb6783c8948cdaec12bf1bf8097af775c72aa"
+        },
+        "windows-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_candump/v0.1.1/candump-loader-0.1.1-windows-x64.zip",
+          "checksum": "sha256:afab151a2c50424ad8eaefa28c1b945cd1c9a970094edf38f4e63df444cb9f8c"
+        }
+      }
+    },
+    {
       "id": "csv-loader",
       "name": "CSV Loader",
       "version": "1.0.7",
