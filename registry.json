@@ -5,9 +5,9 @@
       "id": "ardupilot-dataflash",
       "name": "ArduPilot BIN",
       "version": "1.2.0-pj4.rc.1",
-      "description": "ArduPilot DataFlash BIN logs: numeric fields, sensor instances, units, parameters and message timelines. Preview release for PlotJuggler 4 (SDK 0.34.1); Linux x86_64 requires Ubuntu 22.04 or newer.",
+      "description": "Community SDK adapter contributed by @reliable-ly0411. ArduPilot DataFlash BIN logs: numeric fields, sensor instances, units, parameters and message timelines. Preview release for PlotJuggler 4 (SDK 0.34.1); Linux x86_64 requires Ubuntu 22.04 or newer.",
       "author": "Pierre Kancir; Jonas Withelm (IAV GmbH); reliable-ly0411 contributors",
-      "publisher": "reliable-ly0411",
+      "publisher": "Community: @reliable-ly0411",
       "repository": "https://github.com/reliable-ly0411/plotjuggler-apbin-plugins",
       "license": "LGPL-3.0-only",
       "category": "data_loader",
@@ -16,7 +16,8 @@
         "dataflash",
         "bin",
         "flight",
-        "loader"
+        "loader",
+        "community"
       ],
       "min_sdk_required": "0.34.1",
       "website": "https://github.com/reliable-ly0411/plotjuggler-apbin-plugins",
@@ -938,9 +939,9 @@
       "id": "segger-rtt-streamer",
       "name": "SEGGER RTT",
       "version": "0.2.1",
-      "description": "Live binary telemetry from a microcontroller over SEGGER RTT (J-Link), decoded with a JSON data map.",
+      "description": "Community contribution by Davi Alexandre Volcan (@DaviVolcan). Live binary telemetry from a microcontroller over SEGGER RTT (J-Link), decoded with a JSON data map.",
       "author": "Davi Alexandre Volcan",
-      "publisher": "Davi Alexandre Volcan",
+      "publisher": "Community: Davi Alexandre Volcan (@DaviVolcan)",
       "website": "https://github.com/DaviVolcan/plotjuggler-rtt",
       "repository": "https://github.com/DaviVolcan/plotjuggler-rtt",
       "license": "MPL-2.0",
@@ -953,7 +954,8 @@
         "embedded",
         "microcontroller",
         "telemetry",
-        "stream"
+        "stream",
+        "community"
       ],
       "min_sdk_required": "0.34.1",
       "min_plotjuggler_version": "4.0.0",
