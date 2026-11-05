@@ -935,6 +935,36 @@
       }
     },
     {
+      "id": "segger-rtt-streamer",
+      "name": "SEGGER RTT",
+      "version": "0.2.1",
+      "description": "Live binary telemetry from a microcontroller over SEGGER RTT (J-Link), decoded with a JSON data map.",
+      "author": "Davi Alexandre Volcan",
+      "publisher": "Davi Alexandre Volcan",
+      "website": "https://github.com/DaviVolcan/plotjuggler-rtt",
+      "repository": "https://github.com/DaviVolcan/plotjuggler-rtt",
+      "license": "MPL-2.0",
+      "icon_url": "",
+      "category": "data_stream",
+      "tags": [
+        "rtt",
+        "segger",
+        "jlink",
+        "embedded",
+        "microcontroller",
+        "telemetry",
+        "stream"
+      ],
+      "min_sdk_required": "0.34.1",
+      "min_plotjuggler_version": "4.0.0",
+      "platforms": {
+        "linux-x86_64": {
+          "url": "https://github.com/DaviVolcan/plotjuggler-rtt/releases/download/v0.2.1/segger-rtt-streamer-0.2.1-linux-x86_64.zip",
+          "checksum": "sha256:2b7226c28ebfaa0881e9860e5e4960f86a705b3b10e4618dcda76b81a2fe6d65"
+        }
+      }
+    },
+    {
       "id": "toolbox-anomaly-detector",
       "name": "Anomaly Detector",
       "version": "0.2.1",
