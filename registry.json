@@ -2,6 +2,37 @@
   "registry_version": 1.0,
   "extensions": [
     {
+      "id": "ardupilot-dataflash",
+      "name": "ArduPilot BIN",
+      "version": "1.2.0-pj4.rc.1",
+      "description": "ArduPilot DataFlash BIN logs: numeric fields, sensor instances, units, parameters and message timelines. Preview release for PlotJuggler 4 (SDK 0.34.1); Linux x86_64 requires Ubuntu 22.04 or newer.",
+      "author": "Pierre Kancir; Jonas Withelm (IAV GmbH); reliable-ly0411 contributors",
+      "publisher": "reliable-ly0411",
+      "repository": "https://github.com/reliable-ly0411/plotjuggler-apbin-plugins",
+      "license": "LGPL-3.0-only",
+      "category": "data_loader",
+      "tags": [
+        "ardupilot",
+        "dataflash",
+        "bin",
+        "flight",
+        "loader"
+      ],
+      "min_sdk_required": "0.34.1",
+      "website": "https://github.com/reliable-ly0411/plotjuggler-apbin-plugins",
+      "min_plotjuggler_version": "4.0.0",
+      "platforms": {
+        "linux-x86_64": {
+          "url": "https://github.com/reliable-ly0411/plotjuggler-apbin-plugins/releases/download/v1.2.0-pj4.rc.1/ardupilot_source_plugin-v1.2.0-pj4.rc.1-sdk0.34.1-linux-ubuntu22.04-x86_64.zip",
+          "checksum": "sha256:32d7784deaf7970ebdba43e581e6f0cb92221246fff09f6e9cf3b16739ad52f4"
+        },
+        "windows-x86_64": {
+          "url": "https://github.com/reliable-ly0411/plotjuggler-apbin-plugins/releases/download/v1.2.0-pj4.rc.1/ardupilot_source_plugin-v1.2.0-pj4.rc.1-sdk0.34.1-windows-x86_64.zip",
+          "checksum": "sha256:213fcaa87b30a46aa304a7ebcf4ef28fba27bee25e621504e45ee24f105ab0a5"
+        }
+      }
+    },
+    {
       "id": "arrow-parser",
       "name": "Arrow IPC Parser",
       "version": "1.0.0",
