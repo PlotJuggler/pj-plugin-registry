@@ -779,8 +779,8 @@
     {
       "id": "protobuf-parser",
       "name": "Protobuf Parser",
-      "version": "1.2.0",
-      "description": "Message parser for Protocol Buffers encoded data. Promotes the well-known Foxglove schemas (PointCloud, CompressedVideo, CompressedImage, RawImage, ImageAnnotations, SceneUpdate, FrameTransform, PosesInFrame, CameraCalibration, VoxelGrid, Grid) to builtin scene objects.",
+      "version": "1.2.1",
+      "description": "Decodes Protocol Buffers messages into plottable fields. Standard Foxglove message types (point clouds, images and compressed video, image annotations, scene entities, transforms, poses, camera calibration, voxel grids and grids) are shown in the 2D image and 3D scene views.",
       "author": "PlotJuggler Team",
       "publisher": "PlotJuggler",
       "website": "https://github.com/PlotJuggler/pj-official-plugins",
@@ -804,24 +804,24 @@
       "min_sdk_required": "0.28.0",
       "platforms": {
         "linux-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_protobuf/v1.2.0/protobuf-parser-1.2.0-linux-aarch64.zip",
-          "checksum": "sha256:374caec59a229f9c200d901880fe565bcac1d2d19fcd9b60c4708acb9e5b1f93"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_protobuf/v1.2.1/protobuf-parser-1.2.1-linux-aarch64.zip",
+          "checksum": "sha256:4792721cabb027a08badfda8623fb0afeebf340e0e66fb5c21799f0d15302afe"
         },
         "linux-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_protobuf/v1.2.0/protobuf-parser-1.2.0-linux-x86_64.zip",
-          "checksum": "sha256:eff71b76bf470adb7673db75b8651ffea1e9ab6bc1c5162ce511b6f0b3f6ee95"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_protobuf/v1.2.1/protobuf-parser-1.2.1-linux-x86_64.zip",
+          "checksum": "sha256:3b67e28f5e6457069409dc26a2b62d251d07800ceac07a6dc7aacc780afb52ff"
         },
         "macos-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_protobuf/v1.2.0/protobuf-parser-1.2.0-macos-arm64.zip",
-          "checksum": "sha256:c057af7bc7f708182e8be8577ba9fa3dcec897552f0579df74bef379ce7ef4aa"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_protobuf/v1.2.1/protobuf-parser-1.2.1-macos-arm64.zip",
+          "checksum": "sha256:6c8ef1b155223d0e44cc14780218a8d8ce60944356e5aba736a7180fb897b8e1"
         },
         "windows-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_protobuf/v1.2.0/protobuf-parser-1.2.0-windows-arm64.zip",
-          "checksum": "sha256:766879e5ae4d15b0b7de9c832e07a6211bc22aec4c01ab7cd3201214e2e70704"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_protobuf/v1.2.1/protobuf-parser-1.2.1-windows-arm64.zip",
+          "checksum": "sha256:baa9045b8f249ddfcc9101edd244cda798a4f6c18465d673681bb7ead0bf68d1"
         },
         "windows-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_protobuf/v1.2.0/protobuf-parser-1.2.0-windows-x64.zip",
-          "checksum": "sha256:eef2c222dd9553d9d7809409e862f126c246f07f20b434b7e4a911875c6b62c9"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_protobuf/v1.2.1/protobuf-parser-1.2.1-windows-x64.zip",
+          "checksum": "sha256:bada2b12ae700f2553b1dd5f7ab83ce6734cf1506ed1d8f868f0cfed9e66ad8f"
         }
       }
     },
