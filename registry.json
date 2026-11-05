@@ -1036,8 +1036,8 @@
     {
       "id": "toolbox-fft",
       "name": "Fast Fourier Transform",
-      "version": "1.0.1",
-      "description": "Compute the frequency-domain amplitude of numeric time series using FFT.",
+      "version": "1.0.2",
+      "description": "Plot the frequency spectrum (FFT amplitude) of numeric time series.",
       "author": "PlotJuggler Team",
       "publisher": "PlotJuggler",
       "website": "https://github.com/PlotJuggler/pj-official-plugins",
@@ -1051,27 +1051,28 @@
         "spectrum",
         "toolbox"
       ],
-      "min_plotjuggler_version": "3.999.1",
+      "min_plotjuggler_version": "4.0.0",
+      "min_sdk_required": "0.28.0",
       "platforms": {
         "linux-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_fft/v1.0.1/toolbox-fft-1.0.1-linux-aarch64.zip",
-          "checksum": "sha256:947e4d26a180b170ec1547f6d85d0cc9c5fb229dfce10f651a68d310768da5d9"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_fft/v1.0.2/toolbox-fft-1.0.2-linux-aarch64.zip",
+          "checksum": "sha256:ee52f33d33b6e7a1731f315de31615f98dce22fc4beeab10226311bbfc9770e2"
         },
         "linux-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_fft/v1.0.1/toolbox-fft-1.0.1-linux-x86_64.zip",
-          "checksum": "sha256:038d290152deb4ab6e1abfb088a1b44792e5d55262994e0ecd73ed26803eb87a"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_fft/v1.0.2/toolbox-fft-1.0.2-linux-x86_64.zip",
+          "checksum": "sha256:f6baa164a02aa1698063c7548b5e1e8458f2ff2de358ac434b6fd088db421e70"
         },
         "macos-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_fft/v1.0.1/toolbox-fft-1.0.1-macos-arm64.zip",
-          "checksum": "sha256:87835b0f504b2f8641de1dcdceb0d52fccf519afd0e6f21c86153b4684af2fb3"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_fft/v1.0.2/toolbox-fft-1.0.2-macos-arm64.zip",
+          "checksum": "sha256:c759e45bb762dca582fba64f10027329c460906d80274db917137fac8a5f39fa"
         },
         "windows-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_fft/v1.0.1/toolbox-fft-1.0.1-windows-arm64.zip",
-          "checksum": "sha256:19bc4dc24ce7b192903f98f5fb305683700d39e50728dcc31a89fa6a13b54f88"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_fft/v1.0.2/toolbox-fft-1.0.2-windows-arm64.zip",
+          "checksum": "sha256:5aebd3d46f75d47790136f06232fcfc1debfb8fa9e7dc29a617d08b1dd11621a"
         },
         "windows-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_fft/v1.0.1/toolbox-fft-1.0.1-windows-x64.zip",
-          "checksum": "sha256:65330ccba65e1ce74703cc4b150008c5832ed8d82c0b6d0f03ab4c0d4c79ccd2"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_fft/v1.0.2/toolbox-fft-1.0.2-windows-x64.zip",
+          "checksum": "sha256:0bfb7c62745c8752ec343edebc3075749cf43dd1d0afe988516b39eee3a006c2"
         }
       }
     },
