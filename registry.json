@@ -3,7 +3,7 @@
   "extensions": [
     {
       "id": "ardupilot-dataflash",
-      "name": "ArduPilot BIN",
+      "name": "ArduPilot BIN (Contributed)",
       "version": "1.2.0-pj4.rc.1",
       "description": "ArduPilot DataFlash BIN logs: numeric fields, sensor instances, units, parameters and message timelines. Preview release for PlotJuggler 4 (SDK 0.34.1); Linux x86_64 requires Ubuntu 22.04 or newer.",
       "author": "Pierre Kancir; Jonas Withelm (IAV GmbH); reliable-ly0411 contributors",
@@ -936,7 +936,7 @@
     },
     {
       "id": "segger-rtt-streamer",
-      "name": "SEGGER RTT",
+      "name": "SEGGER RTT (Contributed)",
       "version": "0.2.1",
       "description": "Live binary telemetry from a microcontroller over SEGGER RTT (J-Link), decoded with a JSON data map.",
       "author": "Davi Alexandre Volcan",
