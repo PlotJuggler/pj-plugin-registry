@@ -75,7 +75,7 @@ External developer                  PlotJuggler maintainer
 
 ### What to include in your PR
 
-1. **A new entry** in the `extensions` array of `registry.json` (for a new extension), or **an updated `version` field** and new platform URLs/checksums (for a new version of an existing extension).
+1. **A new entry** in the `extensions` array of `registry.json`, for a new extension and for a new version of an existing one alike. A published record is never edited in place; see [Several versions of one extension](#several-versions-of-one-extension) for which older records to remove in the same PR.
 2. **Reachable, stable download URLs** — GitHub Releases are the recommended hosting. The URLs must serve the ZIP directly (not a redirect page).
 3. **Correct SHA256 checksums** — one per platform artifact, in the format `sha256:<hex>`.
 4. **A brief description** of what the extension does in the `description` field.
@@ -91,6 +91,30 @@ A maintainer will verify that:
 - The metadata is accurate and appropriate for public listing.
 
 Maintainers may request changes before merging. Once merged, the new entry or version becomes immediately available to all PlotJuggler users.
+
+---
+
+## Several versions of one extension
+
+`registry.json` may hold several records with the same `id`, one per version. This is what lets a PlotJuggler built against an older SDK keep installing an extension after a newer release of it raises `min_sdk_required`.
+
+**How the client chooses.** For each `id` it keeps the records that ship its platform and whose `min_sdk_required` is at most its own SDK version (there is no upper bound, and a record without `min_sdk_required` suits every client), then installs the highest version among them. Versions compare by SemVer precedence, so `1.0.0-dev.2` < `1.0.0-dev.10` < `1.0.0`.
+
+**Which records the file keeps.** Version V stays for platform P only while V's `min_sdk_required` is strictly lower than that of every newer version that ships P. Any other platform entry can never be chosen, and the validator rejects it:
+
+- Same `min_sdk_required` as before: the new version replaces the old one. Most releases are this case, and the extension keeps a single record.
+- The new version raises `min_sdk_required`: both stay. The older record serves the clients below the new floor.
+- The new version ships fewer platforms: the older record stays for the missing platforms only, with its `platforms` map trimmed to those.
+
+`min_plotjuggler_version` and `suggested_sdk_version` play no part in this rule.
+
+```jsonc
+// csv-loader 2.0.0 needs SDK 0.34.0 and has no macOS build yet.
+{ "id": "csv-loader", "version": "1.4.0", "min_sdk_required": "0.28.0", "platforms": { "linux-x86_64": {}, "macos-arm64": {} } },
+{ "id": "csv-loader", "version": "2.0.0", "min_sdk_required": "0.34.0", "platforms": { "linux-x86_64": {} } }
+```
+
+Records are sorted by `id`, then by version, oldest first. Nothing is removed for any other reason: to pull a broken release, delete its record by hand in a PR.
 
 ---
 
@@ -143,8 +167,10 @@ This registry accepts contributions from anyone — external developers can prop
 
 | Check | What it does | Why it matters |
 |-------|--------------|----------------|
-| **JSON schema** | Valid JSON syntax, required fields (`id`, `name`, `version`, `description`, `author`, `publisher`, `license`, `category`, `platforms`), valid category and platform values, checksum format `sha256:...`, no duplicate IDs | Malformed entries break the client or show incomplete info in the UI |
-| **Alphabetical order** | Extensions sorted A→Z by `id` | Prevents merge conflicts when multiple PRs add extensions concurrently |
+| **JSON schema** | Valid JSON syntax, required fields (`id`, `name`, `version`, `description`, `author`, `publisher`, `license`, `category`, `platforms`), valid category and platform values, checksum format `sha256:...` | Malformed entries break the client or show incomplete info in the UI |
+| **Versions** | `version` and `min_sdk_required` are SemVer 2.0.0; an `id` may repeat, but each (`id`, `version`) appears once | The client refuses the whole registry on an invalid or repeated version |
+| **Order** | Records sorted by `id`, then by version, oldest first | Prevents merge conflicts when multiple PRs add extensions concurrently |
+| **No superseded records** | No platform entry that a newer version of the same `id` already serves at the same or a lower `min_sdk_required` | Keeps the file to the records a client can actually pick (see [Several versions of one extension](#several-versions-of-one-extension)) |
 | **URL accessibility** | HEAD request to each download URL | Detects broken links, deleted releases, or typos |
 | **SHA256 verification** | Downloads each ZIP and computes hash | Ensures checksum matches actual file content |
 

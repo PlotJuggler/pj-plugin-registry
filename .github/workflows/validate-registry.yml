@@ -4,7 +4,7 @@ on:
   pull_request:
     paths:
       - 'registry.json'
-      - 'scripts/validate_registry.py'
+      - 'scripts/**'
       - '.github/workflows/validate-registry.yml'
   push:
     branches:
@@ -12,7 +12,7 @@ on:
       - development
     paths:
       - 'registry.json'
-      - 'scripts/validate_registry.py'
+      - 'scripts/**'
       - '.github/workflows/validate-registry.yml'
   schedule:
     # Weekly full validation: URLs + checksums (detects tampered artifacts)
@@ -35,6 +35,9 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+
+      - name: Test the validator
+        run: python3 -m unittest discover -s scripts/tests
 
       - name: Validate structure and URLs
         run: python3 scripts/validate_registry.py registry.json
