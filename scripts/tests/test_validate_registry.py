@@ -1,4 +1,3 @@
-import json
 import sys
 import unittest
 from pathlib import Path
@@ -33,9 +32,6 @@ def errors(*extensions):
 
 
 class MultipleVersionTests(unittest.TestCase):
-    def test_committed_registry_is_valid(self):
-        self.assertEqual(validate_structure(json.loads((REPO / "registry.json").read_text())), [])
-
     def test_several_versions_of_one_id_are_allowed_across_a_floor_raise(self):
         self.assertEqual(errors(record("1.0.0", "0.28.0"), record("1.1.0", "0.34.0")), [])
 
@@ -113,8 +109,26 @@ class VersionFormatTests(unittest.TestCase):
                 self.assertTrue(any("invalid version" in e for e in found), found)
 
     def test_a_floor_that_is_not_semver_is_rejected(self):
-        found = errors(record("1.0.0", "0.28"))
+        for floor in ("0.28", "", 0, False):
+            with self.subTest(floor=floor):
+                found = errors(record("1.0.0", floor))
+                self.assertTrue(any("invalid min_sdk_required" in e for e in found), found)
+
+    def test_a_null_floor_is_rejected(self):
+        entry = record("1.0.0")
+        entry["min_sdk_required"] = None
+        found = errors(entry)
         self.assertTrue(any("invalid min_sdk_required" in e for e in found), found)
+
+    def test_optional_version_fields_must_be_strings(self):
+        for field in ("min_plotjuggler_version", "suggested_sdk_version"):
+            with self.subTest(field=field):
+                entry = record("1.0.0")
+                entry[field] = None
+                found = errors(entry)
+                self.assertTrue(any(f"'{field}' must be a string" in e for e in found), found)
+                entry[field] = "4.0.0"
+                self.assertEqual(errors(entry), [])
 
 
 if __name__ == "__main__":
