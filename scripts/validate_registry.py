@@ -9,6 +9,7 @@ Usage:
 import argparse
 import hashlib
 import json
+import re
 import sys
 import urllib.request
 from pathlib import Path
@@ -17,6 +18,92 @@ REQUIRED_TOP_LEVEL = ["registry_version", "extensions"]
 REQUIRED_EXTENSION = ["id", "name", "version", "description", "author", "publisher", "license", "category", "platforms"]
 VALID_PLATFORMS = ["linux-x86_64", "linux-arm64", "macos-x86_64", "macos-arm64", "windows-x86_64", "windows-arm64"]
 VALID_CATEGORIES = ["data_loader", "data_stream", "message_parser", "parser", "toolbox", "widget"]
+
+# SemVer 2.0.0 grammar (semver.org). The PlotJuggler host refuses the whole
+# registry when one record carries a version outside it.
+_IDENTIFIER = r"(?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*)"
+SEMVER = re.compile(
+    rf"(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)(?:-({_IDENTIFIER}(?:\.{_IDENTIFIER})*))?(?:\+[0-9a-zA-Z-]+(?:\.[0-9a-zA-Z-]+)*)?",
+    re.ASCII,
+)
+# Sorts below every real version: a record without min_sdk_required is admitted by every host.
+NO_FLOOR = ()
+
+
+def semver_key(version) -> tuple | None:
+    """Sort key with SemVer 2.0.0 precedence, or None when `version` is not SemVer.
+
+    A pre-release sorts before its release, numeric pre-release identifiers
+    compare as numbers and sort before alphanumeric ones, and build metadata is
+    ignored: the order the PlotJuggler host uses to pick the highest version.
+    """
+    match = SEMVER.fullmatch(version) if isinstance(version, str) else None
+    if not match:
+        return None
+    core = tuple(int(match.group(i)) for i in (1, 2, 3))
+    if not match.group(4):
+        return (core, 1, ())
+    identifiers = tuple((0, int(part), "") if part.isdigit() else (1, 0, part) for part in match.group(4).split("."))
+    return (core, 0, identifiers)
+
+
+def validate_versions(extensions: list) -> list[str]:
+    """Check the rules that let one extension id carry several versions.
+
+    A host admits a record when its min_sdk_required is at most the host SDK
+    version, with no upper bound, and installs the highest admitted version
+    that ships its platform. The registry therefore keeps version V for
+    platform P only while V's min_sdk_required is strictly lower than that of
+    every newer version of the same id that ships P; any other platform entry
+    can never be picked and must not be stored.
+    """
+    errors = []
+    records = []  # (id, version key, min_sdk_required key, extension)
+    for ext in extensions:
+        if "id" not in ext or "version" not in ext:
+            continue  # already reported as a missing required field
+        version = semver_key(ext["version"])
+        if version is None:
+            errors.append(f"{ext['id']}: invalid version {ext['version']!r} (must be SemVer 2.0.0, e.g. 1.2.3 or 1.2.3-rc.1)")
+        floor = NO_FLOOR
+        if ext.get("min_sdk_required"):
+            floor = semver_key(ext["min_sdk_required"])
+            if floor is None:
+                errors.append(f"{ext['id']}: invalid min_sdk_required {ext['min_sdk_required']!r} (must be SemVer 2.0.0)")
+        records.append((ext["id"], version, floor, ext))
+    if errors:
+        return errors  # the checks below compare versions
+
+    seen = set()
+    for ext_id, version, _, ext in records:
+        if (ext_id, version) in seen:
+            errors.append(f"{ext_id}: duplicate version {ext['version']} (one record per version, holding every platform)")
+        seen.add((ext_id, version))
+
+    order = [(ext_id, version) for ext_id, version, _, _ in records]
+    for i, (actual, expected) in enumerate(zip(order, sorted(order))):
+        if actual != expected:
+            errors.append("Extensions must be sorted by id, then by version (oldest first)")
+            errors.append(f"  First violation: '{records[i][0]} {records[i][3]['version']}' at index {i}")
+            break
+
+    for ext_id, version, floor, ext in records:
+        platforms = ext.get("platforms")
+        for platform in platforms if isinstance(platforms, dict) else ():
+            for newer_id, newer_version, newer_floor, newer in records:
+                if (
+                    newer_id == ext_id
+                    and newer_version > version
+                    and newer_floor <= floor
+                    and platform in (newer.get("platforms") or ())
+                ):
+                    errors.append(
+                        f"{ext_id} {ext['version']}/{platform}: superseded by {newer['version']}, whose "
+                        "min_sdk_required is not higher; remove this platform entry (and the record, if it was the last)"
+                    )
+                    break
+
+    return errors
 
 
 def validate_structure(registry: dict) -> list[str]:
@@ -36,7 +123,6 @@ def validate_structure(registry: dict) -> list[str]:
         return errors
 
     # Check each extension
-    seen_ids = set()
     for i, ext in enumerate(registry["extensions"]):
         ext_id = ext.get("id", f"[index {i}]")
 
@@ -44,12 +130,6 @@ def validate_structure(registry: dict) -> list[str]:
         for field in REQUIRED_EXTENSION:
             if field not in ext:
                 errors.append(f"{ext_id}: missing required field '{field}'")
-
-        # Check for duplicate IDs
-        if ext.get("id"):
-            if ext["id"] in seen_ids:
-                errors.append(f"{ext_id}: duplicate extension id")
-            seen_ids.add(ext["id"])
 
         # Check category
         if ext.get("category") and ext["category"] not in VALID_CATEGORIES:
@@ -76,16 +156,7 @@ def validate_structure(registry: dict) -> list[str]:
             elif not data["checksum"].startswith("sha256:"):
                 errors.append(f"{ext_id}/{platform}: checksum must start with 'sha256:'")
 
-    # Check alphabetical order
-    ids = [ext.get("id", "") for ext in registry["extensions"]]
-    sorted_ids = sorted(ids)
-    if ids != sorted_ids:
-        errors.append("Extensions must be sorted alphabetically by id")
-        # Find first out-of-order entry
-        for i, (actual, expected) in enumerate(zip(ids, sorted_ids)):
-            if actual != expected:
-                errors.append(f"  First violation: '{actual}' at index {i}, expected '{expected}'")
-                break
+    errors.extend(validate_versions(registry["extensions"]))
 
     return errors
 
