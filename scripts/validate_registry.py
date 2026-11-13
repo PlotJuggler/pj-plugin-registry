@@ -66,10 +66,17 @@ def validate_versions(extensions: list) -> list[str]:
         if version is None:
             errors.append(f"{ext['id']}: invalid version {ext['version']!r} (must be SemVer 2.0.0, e.g. 1.2.3 or 1.2.3-rc.1)")
         floor = NO_FLOOR
-        if ext.get("min_sdk_required"):
+        if "min_sdk_required" in ext:
             floor = semver_key(ext["min_sdk_required"])
             if floor is None:
-                errors.append(f"{ext['id']}: invalid min_sdk_required {ext['min_sdk_required']!r} (must be SemVer 2.0.0)")
+                errors.append(
+                    f"{ext['id']}: invalid min_sdk_required {ext['min_sdk_required']!r} "
+                    "(must be SemVer 2.0.0; omit the field for no minimum)"
+                )
+        # The host refuses the whole registry when one of these is present but not a string.
+        for field in ("min_plotjuggler_version", "suggested_sdk_version"):
+            if field in ext and not isinstance(ext[field], str):
+                errors.append(f"{ext['id']}: '{field}' must be a string")
         records.append((ext["id"], version, floor, ext))
     if errors:
         return errors  # the checks below compare versions
