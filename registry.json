@@ -36,8 +36,8 @@
     {
       "id": "arrow-parser",
       "name": "Arrow IPC Parser",
-      "version": "1.0.0",
-      "description": "Message parser for self-describing Arrow IPC streams.",
+      "version": "1.0.1",
+      "description": "Decodes Apache Arrow IPC data, which carries its own schema, into plottable series. Needed by sources that deliver Arrow data, such as the Mosaico Cloud Server.",
       "author": "PlotJuggler Team",
       "publisher": "PlotJuggler",
       "website": "https://github.com/PlotJuggler/pj-official-plugins",
@@ -54,24 +54,24 @@
       "min_sdk_required": "0.28.0",
       "platforms": {
         "linux-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_arrow/v1.0.0/arrow-parser-1.0.0-linux-aarch64.zip",
-          "checksum": "sha256:95fe6bcd40c5361fe6991349fc752b51d7de17b97cb83d9a71b0a7590249dbcb"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_arrow/v1.0.1/arrow-parser-1.0.1-linux-aarch64.zip",
+          "checksum": "sha256:a25a000f969704c5240c543ee1e28328aae28d18349eba04fe39a178f77a12ee"
         },
         "linux-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_arrow/v1.0.0/arrow-parser-1.0.0-linux-x86_64.zip",
-          "checksum": "sha256:c87a2a1883af8125ca3420955d05cf38024dcedf4173fbf11d0a907e12af44f1"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_arrow/v1.0.1/arrow-parser-1.0.1-linux-x86_64.zip",
+          "checksum": "sha256:bc9b68f0b90d9186e100032ed00bb0a7d6387082307936bc79761585c539d380"
         },
         "macos-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_arrow/v1.0.0/arrow-parser-1.0.0-macos-arm64.zip",
-          "checksum": "sha256:31b92c5653465c3563297c55ff93317142509fb17d3fd38e2f9df26217fbf28e"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_arrow/v1.0.1/arrow-parser-1.0.1-macos-arm64.zip",
+          "checksum": "sha256:76421ba4357252694ea5c2668a411fb152f99addf13cfdfe16e4843c83e580f6"
         },
         "windows-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_arrow/v1.0.0/arrow-parser-1.0.0-windows-arm64.zip",
-          "checksum": "sha256:ee91fefefde8fc16a9ea747493b5ccdc34e029ece78324fdd6d1647fc6a74818"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_arrow/v1.0.1/arrow-parser-1.0.1-windows-arm64.zip",
+          "checksum": "sha256:548715c4112c96a64471724152515ecbbc20b4fd1bf99f25773ce56235742fb1"
         },
         "windows-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_arrow/v1.0.0/arrow-parser-1.0.0-windows-x64.zip",
-          "checksum": "sha256:0f08c82ef1527207c3a174305e7ce464c6a62880f170f52f72a9e8b69e3b52fa"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_arrow/v1.0.1/arrow-parser-1.0.1-windows-x64.zip",
+          "checksum": "sha256:94da1730b22cf6c41534d496a13c9385e76f95c39158f880932d51e81c10ff9d"
         }
       }
     },
