@@ -109,7 +109,7 @@
     {
       "id": "blf-loader",
       "name": "BLF Loader",
-      "version": "0.1.4",
+      "version": "0.1.6",
       "description": "Data loader for Vector BLF (Binary Logging Format) CAN logs, decoded to signals via DBC.",
       "author": "PlotJuggler Team",
       "publisher": "PlotJuggler",
@@ -130,24 +130,24 @@
       "min_sdk_required": "0.28.0",
       "platforms": {
         "linux-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_blf/v0.1.4/blf-loader-0.1.4-linux-aarch64.zip",
-          "checksum": "sha256:df126d1622af26e109e8258eba37546a2ae0c8831e561303ecc14e8f0410d187"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_blf/v0.1.6/blf-loader-0.1.6-linux-aarch64.zip",
+          "checksum": "sha256:05da4d4191796d707091e4322f2d718e76bd3989d4e34a5c59ee0273e07b1886"
         },
         "linux-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_blf/v0.1.4/blf-loader-0.1.4-linux-x86_64.zip",
-          "checksum": "sha256:31024684f03684ab90672ba83dedef5e824061ba88abb956b7355c3125f37051"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_blf/v0.1.6/blf-loader-0.1.6-linux-x86_64.zip",
+          "checksum": "sha256:9230669c8ada13aa98d0594a97815c5553df5ef29390d796df64288b2a3707fd"
         },
         "macos-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_blf/v0.1.4/blf-loader-0.1.4-macos-arm64.zip",
-          "checksum": "sha256:b1cc11d90c53e78a483ac26393c0d2eab1405d85769cd2f64cb0d6cc99356499"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_blf/v0.1.6/blf-loader-0.1.6-macos-arm64.zip",
+          "checksum": "sha256:1315022197dccdc48438676053972df219356473123a66ffae09b992540cd55a"
         },
         "windows-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_blf/v0.1.4/blf-loader-0.1.4-windows-arm64.zip",
-          "checksum": "sha256:a690a85c46bf8367bee220f2f1ff382fea85e446eba00fb1beccc9668f44b03e"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_blf/v0.1.6/blf-loader-0.1.6-windows-arm64.zip",
+          "checksum": "sha256:752118a1caa163c9aab64c6e19c30ebfa4e28e09669e3d803c5658a083d8d3a8"
         },
         "windows-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_blf/v0.1.4/blf-loader-0.1.4-windows-x64.zip",
-          "checksum": "sha256:163e5f2454ecbafbbe2d348a277b73daf9124f50c4b7b0f7f5974a809f87897a"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_blf/v0.1.6/blf-loader-0.1.6-windows-x64.zip",
+          "checksum": "sha256:1f7a653a7a82349bd748f3cf0f3160190eec8af34a6f884d0883913fe80ce256"
         }
       }
     },
