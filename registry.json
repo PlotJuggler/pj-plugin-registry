@@ -1102,7 +1102,7 @@
     {
       "id": "toolbox-data-exporter",
       "name": "CSV/Parquet Exporter",
-      "version": "0.114.3",
+      "version": "1.0.0",
       "description": "Export selected time series to CSV or Parquet files.",
       "author": "PlotJuggler Team",
       "publisher": "PlotJuggler",
@@ -1121,24 +1121,24 @@
       "min_sdk_required": "0.28.0",
       "platforms": {
         "linux-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_data_exporter/v0.114.3/toolbox-data-exporter-0.114.3-linux-aarch64.zip",
-          "checksum": "sha256:840d35f1e43876798104dc756407092883863b9c311fec64c3b05aebb8589f79"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_data_exporter/v1.0.0/toolbox-data-exporter-1.0.0-linux-aarch64.zip",
+          "checksum": "sha256:abb17d9ce66668a9fc647603d3e94d9df947b4d843bfbef42191ea93f5affcb0"
         },
         "linux-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_data_exporter/v0.114.3/toolbox-data-exporter-0.114.3-linux-x86_64.zip",
-          "checksum": "sha256:9f3dc5136e74c3b3ff99c08fe6e81bc9d9162e15e7a23ecef5b081f53fef5862"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_data_exporter/v1.0.0/toolbox-data-exporter-1.0.0-linux-x86_64.zip",
+          "checksum": "sha256:2b1c1dfd0bb9c95b5a985c4f7fbd05dd44dd2a2e7f97dd6e2b4166a2b8c5f141"
         },
         "macos-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_data_exporter/v0.114.3/toolbox-data-exporter-0.114.3-macos-arm64.zip",
-          "checksum": "sha256:da7a3f494688edb63198cc74f43fa8e303aa2f256e16342d37ac84baa1e7c445"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_data_exporter/v1.0.0/toolbox-data-exporter-1.0.0-macos-arm64.zip",
+          "checksum": "sha256:c85a5bbed80d0ef298266cc403f9ab10667a6442f8078575ba09e70813c510f0"
         },
         "windows-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_data_exporter/v0.114.3/toolbox-data-exporter-0.114.3-windows-arm64.zip",
-          "checksum": "sha256:fc7dcc1dcc75df15d95359776fdd2aa82fed30f8c38a54a796fa726185eeba43"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_data_exporter/v1.0.0/toolbox-data-exporter-1.0.0-windows-arm64.zip",
+          "checksum": "sha256:4d8ccddc6d20cae195a852ac036208b578c63eaf440385775435601e0763f750"
         },
         "windows-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_data_exporter/v0.114.3/toolbox-data-exporter-0.114.3-windows-x64.zip",
-          "checksum": "sha256:2350065c831cc8beab45b8fa0c0460cd6113eb49fe41100054411198f65d3721"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_data_exporter/v1.0.0/toolbox-data-exporter-1.0.0-windows-x64.zip",
+          "checksum": "sha256:7e606ef565353bf59f72d2bad9b5ceb7091ac5ec4d9a22f12a584ad0f70e9ac5"
         }
       }
     },
