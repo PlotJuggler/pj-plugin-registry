@@ -681,7 +681,7 @@
     {
       "id": "mqtt-subscriber",
       "name": "MQTT Subscriber",
-      "version": "0.10.0",
+      "version": "0.10.1",
       "description": "Real-time data streaming via MQTT protocol. Subscribe to topics and visualize live data.",
       "author": "PlotJuggler Team",
       "publisher": "PlotJuggler",
@@ -701,24 +701,24 @@
       "min_sdk_required": "0.28.0",
       "platforms": {
         "linux-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_mqtt/v0.10.0/mqtt-subscriber-0.10.0-linux-aarch64.zip",
-          "checksum": "sha256:c4d58522a20dc6c812a9988028422837fa446289621ddc8e58af54d613e15dcc"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_mqtt/v0.10.1/mqtt-subscriber-0.10.1-linux-aarch64.zip",
+          "checksum": "sha256:39dd1d9324400523a60b1e207faca8f8f918dff4d495866d1438007be0f4e1b0"
         },
         "linux-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_mqtt/v0.10.0/mqtt-subscriber-0.10.0-linux-x86_64.zip",
-          "checksum": "sha256:7f24e3d8470914af5a7fea7de2566b5e8d30b458f52679c842802004a7ec051a"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_mqtt/v0.10.1/mqtt-subscriber-0.10.1-linux-x86_64.zip",
+          "checksum": "sha256:b5fc93f9635ed4a56abad1e52cdc262b9b87bc4fed0a1aadff8b66caf277536d"
         },
         "macos-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_mqtt/v0.10.0/mqtt-subscriber-0.10.0-macos-arm64.zip",
-          "checksum": "sha256:4e236782f0dba8060be035da6b313d48f28db6e2e551be9fc5bc66e30b209777"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_mqtt/v0.10.1/mqtt-subscriber-0.10.1-macos-arm64.zip",
+          "checksum": "sha256:d728e23f1ad0ef2cc157c25753e2335002c860759f98ce428a3f7beb3fbcf19b"
         },
         "windows-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_mqtt/v0.10.0/mqtt-subscriber-0.10.0-windows-arm64.zip",
-          "checksum": "sha256:d958c10ed4083cf3283edcccde47ee3f69613568f8d28cbe1f618921dfaf5e15"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_mqtt/v0.10.1/mqtt-subscriber-0.10.1-windows-arm64.zip",
+          "checksum": "sha256:caa90dfb1183861bc62621bd25ae621ccc08032f9d99ea5de34bfbaaa05afad8"
         },
         "windows-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_mqtt/v0.10.0/mqtt-subscriber-0.10.0-windows-x64.zip",
-          "checksum": "sha256:f22c71b9f3ce3c72e379f675ca20bb37fee2119694038c9116502c92d40d710a"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_mqtt/v0.10.1/mqtt-subscriber-0.10.1-windows-x64.zip",
+          "checksum": "sha256:8c3118be482261eb780c5edb72731a564632cc3e6d2ff9d5bbc41e3d90486da8"
         }
       }
     },
