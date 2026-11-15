@@ -544,6 +544,37 @@
       }
     },
     {
+      "id": "log-widget",
+      "name": "Log Widget",
+      "version": "1.0.0",
+      "description": "Dock widget that lists log messages (such as ROS /rosout) next to the playback tracker.",
+      "author": "PlotJuggler Team",
+      "publisher": "PlotJuggler",
+      "website": "https://github.com/PlotJuggler/pj-official-plugins",
+      "repository": "https://github.com/PlotJuggler/pj-official-plugins",
+      "license": "MIT",
+      "icon_url": "",
+      "category": "widget",
+      "tags": [
+        "widget",
+        "log",
+        "ros",
+        "rosout"
+      ],
+      "min_plotjuggler_version": "4.2.0",
+      "min_sdk_required": "0.39.0",
+      "platforms": {
+        "linux-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/widget_log/v1.0.0/log-widget-1.0.0-linux-x86_64.zip",
+          "checksum": "sha256:9cfc1b60fa13279bcf0731120b6f9eb2da2b7561a6b2177bca9b8ca8d1ef8560"
+        },
+        "windows-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/widget_log/v1.0.0/log-widget-1.0.0-windows-x64.zip",
+          "checksum": "sha256:edb29fc764cc2c6d1deba9a06d40e82840ce9df1217ba1ccf5bf167d7f9ceadb"
+        }
+      }
+    },
+    {
       "id": "lsl-streaming",
       "name": "Lab Streaming Layer",
       "version": "0.9.2",
