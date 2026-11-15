@@ -767,6 +767,52 @@
       }
     },
     {
+      "id": "navmap-parser",
+      "name": "NavMap Parser",
+      "version": "0.1.0",
+      "description": "Shows EasyNavigation NavMap maps (navmap_ros_interfaces/msg/NavMap), the triangle-mesh navigation maps, in the 3D scene with their per-cell layers, and applies the NavMapLayer updates published beside them.",
+      "author": "PlotJuggler Team",
+      "publisher": "PlotJuggler",
+      "website": "https://github.com/PlotJuggler/pj-official-plugins",
+      "repository": "https://github.com/PlotJuggler/pj-official-plugins",
+      "license": "MIT",
+      "icon_url": "",
+      "category": "message_parser",
+      "tags": [
+        "ros2",
+        "navmap",
+        "navigation",
+        "mesh",
+        "map",
+        "3d",
+        "parser"
+      ],
+      "min_plotjuggler_version": "4.0.0",
+      "min_sdk_required": "1.0.0",
+      "platforms": {
+        "linux-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_navmap/v0.1.0/navmap-parser-0.1.0-linux-aarch64.zip",
+          "checksum": "sha256:7998bedf4476c7e723c7ac9e71bec44019bd18b1445122144f97d39673f8000c"
+        },
+        "linux-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_navmap/v0.1.0/navmap-parser-0.1.0-linux-x86_64.zip",
+          "checksum": "sha256:2af7def2f3a53d4f81e34c7608c813afea111744947e186956ab9d07f4139c1d"
+        },
+        "macos-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_navmap/v0.1.0/navmap-parser-0.1.0-macos-arm64.zip",
+          "checksum": "sha256:f69df0310987b3812ad43ea5816ba58a6bc7e56b4f205e44f89703b0665677c4"
+        },
+        "windows-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_navmap/v0.1.0/navmap-parser-0.1.0-windows-arm64.zip",
+          "checksum": "sha256:ee320bb82fb20ef8466a6c755ed209d8644b888c2b5e1c4b02d259cdc5ce7361"
+        },
+        "windows-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_navmap/v0.1.0/navmap-parser-0.1.0-windows-x64.zip",
+          "checksum": "sha256:69dd844e42e23b34ab4d10c5cdc679e20c2befadf19a41e7ce0f8584eca09bd8"
+        }
+      }
+    },
+    {
       "id": "parquet-loader",
       "name": "Parquet Loader",
       "version": "1.0.2",
