@@ -651,6 +651,51 @@
       }
     },
     {
+      "id": "lsl-streaming",
+      "name": "Lab Streaming Layer",
+      "version": "0.9.3",
+      "description": "Real-time streaming from Lab Streaming Layer (LSL) sources, including numeric and marker (string) streams.",
+      "author": "PlotJuggler Team",
+      "publisher": "PlotJuggler",
+      "website": "https://github.com/PlotJuggler/pj-official-plugins",
+      "repository": "https://github.com/PlotJuggler/pj-official-plugins",
+      "license": "MIT",
+      "icon_url": "",
+      "category": "data_stream",
+      "tags": [
+        "lsl",
+        "lab streaming layer",
+        "stream",
+        "realtime",
+        "eeg",
+        "biosignals"
+      ],
+      "min_plotjuggler_version": "4.0.0",
+      "min_sdk_required": "0.28.0",
+      "platforms": {
+        "linux-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_lsl/v0.9.3/lsl-streaming-0.9.3-linux-aarch64.zip",
+          "checksum": "sha256:8e112a07e5f5ad65a3f499dc09c5f717be03f3df7dae4cdbbdc99b607cfe1f9b"
+        },
+        "linux-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_lsl/v0.9.3/lsl-streaming-0.9.3-linux-x86_64.zip",
+          "checksum": "sha256:f9d06b845579706c3f61c7dba0449da40690f76024e0cd82a6dbb3725d5a2c79"
+        },
+        "macos-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_lsl/v0.9.3/lsl-streaming-0.9.3-macos-arm64.zip",
+          "checksum": "sha256:c9a4a9e10a50f0c0cf05462ae1cdbc2e8f2552987ee7d7e10be882ae5cef5a4b"
+        },
+        "windows-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_lsl/v0.9.3/lsl-streaming-0.9.3-windows-arm64.zip",
+          "checksum": "sha256:a5340419ac4e1a377fa525b85a5ec02f0f3a3e4507669854ae7356ed7fd171ac"
+        },
+        "windows-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_stream_lsl/v0.9.3/lsl-streaming-0.9.3-windows-x64.zip",
+          "checksum": "sha256:035f11d43effe3226b1b99f5569d805518c21fb8bae3dd5b5e175d20cb5f4b87"
+        }
+      }
+    },
+    {
       "id": "mcap-loader",
       "name": "MCAP Loader",
       "version": "1.3.2",
