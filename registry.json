@@ -1477,7 +1477,7 @@
     {
       "id": "toolbox-assistant-agent",
       "name": "Assistant Agent",
-      "version": "0.5.1",
+      "version": "0.5.2",
       "description": "A chat assistant inside PlotJuggler: ask about your topics, signals and objects (point clouds, images, scene entities), get their statistics, ask how to do something in PlotJuggler, and have it create its own derived series and objects, markers, plot tabs and 2D/3D scene views. It uses the Claude Code or Codex command-line tool already installed and signed in on your machine; the plugin stores no API keys. Linux, macOS and Windows.",
       "author": "PlotJuggler Team",
       "publisher": "PlotJuggler",
@@ -1497,24 +1497,24 @@
       "min_sdk_required": "0.40.0",
       "platforms": {
         "linux-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_assistant_agent/v0.5.1/toolbox-assistant-agent-0.5.1-linux-aarch64.zip",
-          "checksum": "sha256:317942e6907c313b3e36780488b6e3e9939686d746bc87d5a75197915c19e483"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_assistant_agent/v0.5.2/toolbox-assistant-agent-0.5.2-linux-aarch64.zip",
+          "checksum": "sha256:c28789f9ff965d039ce2a6889321dcd0dfd99296df614f41607bc42b229452e9"
         },
         "linux-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_assistant_agent/v0.5.1/toolbox-assistant-agent-0.5.1-linux-x86_64.zip",
-          "checksum": "sha256:a02165446c25ceffe95c5e2fd914b71afb5c6e366aec5eb0dfa1cb0a2fd400d8"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_assistant_agent/v0.5.2/toolbox-assistant-agent-0.5.2-linux-x86_64.zip",
+          "checksum": "sha256:67de240f559eb3cd41263047f7a097f4c5fe6fc0dc96f301c9b51aee90d5b350"
         },
         "macos-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_assistant_agent/v0.5.1/toolbox-assistant-agent-0.5.1-macos-arm64.zip",
-          "checksum": "sha256:d0bf24ee78026d8c21fde522da890a8a2142dc63c81d14e685253c386349a7d2"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_assistant_agent/v0.5.2/toolbox-assistant-agent-0.5.2-macos-arm64.zip",
+          "checksum": "sha256:d93c8e4657478bb862db3c76d17bc07a9d1f2a40ef2f7741fda1bc5db65624e4"
         },
         "windows-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_assistant_agent/v0.5.1/toolbox-assistant-agent-0.5.1-windows-arm64.zip",
-          "checksum": "sha256:80b6430e08914687273b0defae1c9116c13b1ce4f3ca9828bba1662059d5fb62"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_assistant_agent/v0.5.2/toolbox-assistant-agent-0.5.2-windows-arm64.zip",
+          "checksum": "sha256:ce07f152fc15c69bd431e41291fc02d75223c31ef8303f76aaab90c135ed5abf"
         },
         "windows-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_assistant_agent/v0.5.1/toolbox-assistant-agent-0.5.1-windows-x64.zip",
-          "checksum": "sha256:55fdb08282ca48077853e342f66888c5b72762009d4ccbd273b11c701f89bec7"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_assistant_agent/v0.5.2/toolbox-assistant-agent-0.5.2-windows-x64.zip",
+          "checksum": "sha256:0316f360d80ae78b110c3f81dd66aaf2369c5af47ef3568936279bac0a00f322"
         }
       }
     },
