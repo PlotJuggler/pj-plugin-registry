@@ -273,7 +273,7 @@
     {
       "id": "data-tamer-parser",
       "name": "DataTamer Parser",
-      "version": "0.10.0",
+      "version": "0.10.1",
       "description": "Decodes data recorded or streamed with the DataTamer logging library into plottable series.",
       "author": "PlotJuggler Team",
       "publisher": "PlotJuggler",
@@ -292,24 +292,24 @@
       "min_sdk_required": "0.28.0",
       "platforms": {
         "linux-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_data_tamer/v0.10.0/data-tamer-parser-0.10.0-linux-aarch64.zip",
-          "checksum": "sha256:6e5a489e73b035fbeba3e67443dfe8c2db20d6f26555464e61fe65f055f554cc"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_data_tamer/v0.10.1/data-tamer-parser-0.10.1-linux-aarch64.zip",
+          "checksum": "sha256:25f1e59c906b92a5eda59b4f1c9f523e9e62a07e12932dd983967fbf544e2112"
         },
         "linux-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_data_tamer/v0.10.0/data-tamer-parser-0.10.0-linux-x86_64.zip",
-          "checksum": "sha256:cecbc2a89b27fbbfcdd4acfaaaaadb2557ea17c13c8d4aae21c34b0cc32dc013"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_data_tamer/v0.10.1/data-tamer-parser-0.10.1-linux-x86_64.zip",
+          "checksum": "sha256:4d2b775393b68f5854efea68ac2fdf7faad16df0323bbb5813d9ed6db3764222"
         },
         "macos-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_data_tamer/v0.10.0/data-tamer-parser-0.10.0-macos-arm64.zip",
-          "checksum": "sha256:5fc085ee7213e421fc1eae5751fefc12f7b22d98a6a5371a41ba7f8dc4027af2"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_data_tamer/v0.10.1/data-tamer-parser-0.10.1-macos-arm64.zip",
+          "checksum": "sha256:18ccaa0f479a493d85c8b1e8997e6af44feecce99d061df8c9ffb841e9c9f67c"
         },
         "windows-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_data_tamer/v0.10.0/data-tamer-parser-0.10.0-windows-arm64.zip",
-          "checksum": "sha256:c87cf4f716050b591da11c59733315ca38d9194845afca5b13d7c3e27fdb2c9d"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_data_tamer/v0.10.1/data-tamer-parser-0.10.1-windows-arm64.zip",
+          "checksum": "sha256:fab03db220e1f425899dff9ae05fe7d01355f4432ed7c59b6a159615ec4e29b3"
         },
         "windows-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_data_tamer/v0.10.0/data-tamer-parser-0.10.0-windows-x64.zip",
-          "checksum": "sha256:23bd8b0e61316d02d75cf95a52c39696b081d9a5b702d446fcce72b165e33d29"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/parser_data_tamer/v0.10.1/data-tamer-parser-0.10.1-windows-x64.zip",
+          "checksum": "sha256:7af8b88005da7e581b2eb66d6f60d0d42de95a654350b37518ad72dc4cdadd51"
         }
       }
     },
