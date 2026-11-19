@@ -1687,6 +1687,49 @@
       }
     },
     {
+      "id": "toolbox-quaternion",
+      "name": "Quaternion to RPY",
+      "version": "1.0.2",
+      "description": "Converts quaternion (x, y, z, w) time series into Roll, Pitch, Yaw angles with optional unwrapping and degree/radian output.",
+      "author": "PlotJuggler Team",
+      "publisher": "PlotJuggler",
+      "website": "https://github.com/PlotJuggler/pj-official-plugins",
+      "repository": "https://github.com/PlotJuggler/pj-official-plugins",
+      "license": "MIT",
+      "icon_url": "",
+      "category": "toolbox",
+      "tags": [
+        "quaternion",
+        "rpy",
+        "rotation",
+        "toolbox"
+      ],
+      "min_plotjuggler_version": "4.0.0",
+      "min_sdk_required": "0.28.0",
+      "platforms": {
+        "linux-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_quaternion/v1.0.2/toolbox-quaternion-1.0.2-linux-aarch64.zip",
+          "checksum": "sha256:18b34ba739a1954663e8d189cf3ebae8548d28abdf0bcff143c4d0f49cd7e3c9"
+        },
+        "linux-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_quaternion/v1.0.2/toolbox-quaternion-1.0.2-linux-x86_64.zip",
+          "checksum": "sha256:ead84b3988a6ad68306d9574770144eb627212103badd585ad04adf281bbb2ba"
+        },
+        "macos-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_quaternion/v1.0.2/toolbox-quaternion-1.0.2-macos-arm64.zip",
+          "checksum": "sha256:88b8e0483e0929e4add276bc712acc3d6f01a93ebe45f2e285c9c6eb505e9590"
+        },
+        "windows-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_quaternion/v1.0.2/toolbox-quaternion-1.0.2-windows-arm64.zip",
+          "checksum": "sha256:12a2067c4ed88d5c618af0a4460f836228259366c4c60697a9203fb5aa2f92e2"
+        },
+        "windows-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_quaternion/v1.0.2/toolbox-quaternion-1.0.2-windows-x64.zip",
+          "checksum": "sha256:f6e73ed6f0bee6e946d722a87ddf46da1faf037681f10ffeb46c54f9b8a1c548"
+        }
+      }
+    },
+    {
       "id": "toolbox-transform-editor",
       "name": "Transform Editor",
       "version": "1.2.2",
