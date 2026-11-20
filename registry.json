@@ -578,7 +578,7 @@
     {
       "id": "lerobot-loader",
       "name": "LeRobot Loader",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "description": "Open LeRobot datasets (v2.x and v3.0) by choosing the dataset's meta/info.json, then pick which episodes to load. The numeric series (state, action, ...) are plotted and each camera's video plays on the same timeline.",
       "author": "PlotJuggler Team",
       "publisher": "PlotJuggler",
@@ -598,24 +598,24 @@
       "min_sdk_required": "0.28.0",
       "platforms": {
         "linux-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_lerobot/v1.0.3/lerobot-loader-1.0.3-linux-aarch64.zip",
-          "checksum": "sha256:269d3a5396d4a6027ab450b4e4c0538568af00216e18b8f55271469570f618d5"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_lerobot/v1.0.4/lerobot-loader-1.0.4-linux-aarch64.zip",
+          "checksum": "sha256:1939c62f1bf4c06fb0ee817009bf4187ba51387b1ffb84241306a15449898aa7"
         },
         "linux-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_lerobot/v1.0.3/lerobot-loader-1.0.3-linux-x86_64.zip",
-          "checksum": "sha256:52021c17250abc4f84aa6c9d16387f81215272afb2608b599ba52505a0f91900"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_lerobot/v1.0.4/lerobot-loader-1.0.4-linux-x86_64.zip",
+          "checksum": "sha256:d065f4e4ce0319b6e40e189351873b8796b24606caa58b07cd7b2308dd912c10"
         },
         "macos-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_lerobot/v1.0.3/lerobot-loader-1.0.3-macos-arm64.zip",
-          "checksum": "sha256:54d557ccceb1e14bc77888a894d1e68b418e7c7066057b103f82eabfdbe0c0ba"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_lerobot/v1.0.4/lerobot-loader-1.0.4-macos-arm64.zip",
+          "checksum": "sha256:484437cb1ab8c547df2b0f724263dbf618b61a69f5009f4600fe7459916431f0"
         },
         "windows-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_lerobot/v1.0.3/lerobot-loader-1.0.3-windows-arm64.zip",
-          "checksum": "sha256:9ca1b83477a0c2fbd4c519f3705e7e9e576522a2834366a790f28a2fb2defe68"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_lerobot/v1.0.4/lerobot-loader-1.0.4-windows-arm64.zip",
+          "checksum": "sha256:cd786a3d008ef62039191ee1727acd351d534fb151505260baf560ddd5e2e253"
         },
         "windows-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_lerobot/v1.0.3/lerobot-loader-1.0.3-windows-x64.zip",
-          "checksum": "sha256:27cc4147a8c178edf8448ae5dc009984754103acc06233273e3aaf060361fbb9"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_lerobot/v1.0.4/lerobot-loader-1.0.4-windows-x64.zip",
+          "checksum": "sha256:50318be47ae91cfa12e01c099caba12f089189277c975c58af1c7d7d9de87904"
         }
       }
     },
