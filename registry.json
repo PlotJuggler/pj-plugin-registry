@@ -1837,6 +1837,51 @@
       }
     },
     {
+      "id": "ulog-loader",
+      "name": "ULog Loader",
+      "version": "1.4.0",
+      "description": "Data loader for PX4 ULog files. Flight log format for PX4 autopilot.",
+      "author": "PlotJuggler Team",
+      "publisher": "PlotJuggler",
+      "website": "https://github.com/PlotJuggler/pj-official-plugins",
+      "repository": "https://github.com/PlotJuggler/pj-official-plugins",
+      "license": "MIT",
+      "icon_url": "",
+      "category": "data_loader",
+      "tags": [
+        "ulog",
+        "file",
+        "loader",
+        "px4",
+        "drone",
+        "flight"
+      ],
+      "min_plotjuggler_version": "4.2.0",
+      "min_sdk_required": "1.1.0",
+      "platforms": {
+        "linux-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_ulog/v1.4.0/ulog-loader-1.4.0-linux-aarch64.zip",
+          "checksum": "sha256:5e397c778ce9afd2916d5e52ef01d44fd7e61007f1d42dcd132323e48f3e6949"
+        },
+        "linux-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_ulog/v1.4.0/ulog-loader-1.4.0-linux-x86_64.zip",
+          "checksum": "sha256:ffb2c759cc7ca8dae8ccd35875633b17da0894decd4fad38eac80dfc85fb4f0b"
+        },
+        "macos-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_ulog/v1.4.0/ulog-loader-1.4.0-macos-arm64.zip",
+          "checksum": "sha256:204add5a2c42ae8cb6ed1c765dce9a011be060c1d93080971adde1d2f284d322"
+        },
+        "windows-arm64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_ulog/v1.4.0/ulog-loader-1.4.0-windows-arm64.zip",
+          "checksum": "sha256:1eced44428959b30fdc4d6ee40060ad93318fb67126a41db2a8e7149e6f66a2f"
+        },
+        "windows-x86_64": {
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_ulog/v1.4.0/ulog-loader-1.4.0-windows-x64.zip",
+          "checksum": "sha256:8c8716dd982be9c1642a6882c887d073849cc0e21108ef6b8dbcc6523c503330"
+        }
+      }
+    },
+    {
       "id": "webrtc-client",
       "name": "WebRTC Video Client",
       "version": "1.0.4",
