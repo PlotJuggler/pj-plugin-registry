@@ -711,7 +711,7 @@
     {
       "id": "mcap-loader",
       "name": "MCAP Loader",
-      "version": "1.3.4",
+      "version": "1.3.5",
       "description": "Data loader for MCAP files and split ROS 2 bags (metadata.yaml). Supports ROS1, ROS2, Protobuf, and JSON message encodings.",
       "author": "PlotJuggler Team",
       "publisher": "PlotJuggler",
@@ -734,24 +734,24 @@
       "floor_test": "McapDatasetMetadata.MetadataPublishDegradesCleanlyOnFloorLevelHost",
       "platforms": {
         "linux-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mcap/v1.3.4/mcap-loader-1.3.4-linux-aarch64.zip",
-          "checksum": "sha256:3e89da92cec84480eda47370a8cd9733a9fa50c87833a113c76f688cf37bfc3b"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mcap/v1.3.5/mcap-loader-1.3.5-linux-aarch64.zip",
+          "checksum": "sha256:53a714eb2914b1640121fd2887523ef6f3affb52f6b87b7ccb968774bb3e0ac4"
         },
         "linux-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mcap/v1.3.4/mcap-loader-1.3.4-linux-x86_64.zip",
-          "checksum": "sha256:b15b01aae2813ee626b4914cfacedcde357b8f7305bb76e4ffdab3655bbf3e54"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mcap/v1.3.5/mcap-loader-1.3.5-linux-x86_64.zip",
+          "checksum": "sha256:f3bf0fee554ecd794d8b50aa178a8089c2b89e5f111b1bb290bdaf1ca04268c8"
         },
         "macos-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mcap/v1.3.4/mcap-loader-1.3.4-macos-arm64.zip",
-          "checksum": "sha256:8e3d5221baaaad204758f14803044442e8f6a943e912f1593001c126ab76f5c4"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mcap/v1.3.5/mcap-loader-1.3.5-macos-arm64.zip",
+          "checksum": "sha256:677eca4686bff66779d3abdc5070dbed9308d82e2eb2f5545407b4227550fb33"
         },
         "windows-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mcap/v1.3.4/mcap-loader-1.3.4-windows-arm64.zip",
-          "checksum": "sha256:3ee4492c6832029d199070da21f9f5b1371eb2b315b59f15e1f1ed77319b883b"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mcap/v1.3.5/mcap-loader-1.3.5-windows-arm64.zip",
+          "checksum": "sha256:1639df2fe9ae44c9ff85f012567747c1d61698ae5b7df063e80acd6d367fd410"
         },
         "windows-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mcap/v1.3.4/mcap-loader-1.3.4-windows-x64.zip",
-          "checksum": "sha256:7c2b17e6b10f6d699cf00308c81a6d01d940cd5997880c4daa463510e80c2661"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mcap/v1.3.5/mcap-loader-1.3.5-windows-x64.zip",
+          "checksum": "sha256:921a30fa428aec2c60315189f64a25b505bb2745583ddaadd981fbea6029861e"
         }
       }
     },
@@ -1595,7 +1595,7 @@
       ],
       "min_plotjuggler_version": "4.0.0",
       "min_sdk_required": "0.31.0",
-      "entry_point": "Sources panel → Cloud → Mosaico Cloud Server → + (Open cloud browser)",
+      "entry_point": "Sources panel \u2192 Cloud \u2192 Mosaico Cloud Server \u2192 + (Open cloud browser)",
       "platforms": {
         "linux-arm64": {
           "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_mosaico/v1.3.1/toolbox-mosaico-1.3.1-linux-aarch64.zip",
@@ -1725,7 +1725,7 @@
       "min_sdk_required": "0.28.0",
       "suggested_sdk_version": "0.38.0",
       "floor_test": "TransformEditorFloorTest.OnDemandSubmitReportsUnsupportedOnFloorHost",
-      "entry_point": "Custom Topics panel → + (Add custom topic)",
+      "entry_point": "Custom Topics panel \u2192 + (Add custom topic)",
       "platforms": {
         "linux-arm64": {
           "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_transform_editor/v1.3.0/toolbox-transform-editor-1.3.0-linux-aarch64.zip",
