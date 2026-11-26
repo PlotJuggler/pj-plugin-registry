@@ -1358,7 +1358,7 @@
     {
       "id": "toolbox-anomaly-detector",
       "name": "Marker Editor",
-      "version": "0.3.2",
+      "version": "0.3.3",
       "description": "Write Lua rules that draw markers on your plots: shade regions (for example, color the background by a series' value), flag moments, draw value bands.",
       "author": "PlotJuggler Team",
       "publisher": "PlotJuggler",
@@ -1378,24 +1378,24 @@
       "min_sdk_required": "1.0.0",
       "platforms": {
         "linux-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_anomaly_detector/v0.3.2/toolbox-anomaly-detector-0.3.2-linux-aarch64.zip",
-          "checksum": "sha256:d343f5fa5bf0e19338381e62ba3fef6e91756d71c9dedb850c3adcd5327987f0"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_anomaly_detector/v0.3.3/toolbox-anomaly-detector-0.3.3-linux-aarch64.zip",
+          "checksum": "sha256:4b499ac7ddf992a075e9bf63c6e9c5439b19b13305bbf0ec3b5843d8560869e4"
         },
         "linux-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_anomaly_detector/v0.3.2/toolbox-anomaly-detector-0.3.2-linux-x86_64.zip",
-          "checksum": "sha256:5a1e2397566b42a39d0a2171e5dafb5b4b0968091a53919d451b1acc485e778b"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_anomaly_detector/v0.3.3/toolbox-anomaly-detector-0.3.3-linux-x86_64.zip",
+          "checksum": "sha256:50c581e7e9ff3a2fac60e3be0938b6ac4581f877c6403b7aecfd446fa86aaf58"
         },
         "macos-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_anomaly_detector/v0.3.2/toolbox-anomaly-detector-0.3.2-macos-arm64.zip",
-          "checksum": "sha256:993319eec0c16c6e17ab9a59400b1d098579a0348a6c236be87a0893a9e58f7a"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_anomaly_detector/v0.3.3/toolbox-anomaly-detector-0.3.3-macos-arm64.zip",
+          "checksum": "sha256:b73ba2508440670edb42b225ba0e4f825b368b8798913a2b5f1a8f275e6eb2a0"
         },
         "windows-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_anomaly_detector/v0.3.2/toolbox-anomaly-detector-0.3.2-windows-arm64.zip",
-          "checksum": "sha256:b3f80be4145281c66fc51c3f3cb63b24b980336d9dca27051a52ab3e006dd70a"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_anomaly_detector/v0.3.3/toolbox-anomaly-detector-0.3.3-windows-arm64.zip",
+          "checksum": "sha256:698f33dfa7e33d0dcedb52c5a9ee8c30559277b504e4011a3e7dcdda3e18d731"
         },
         "windows-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_anomaly_detector/v0.3.2/toolbox-anomaly-detector-0.3.2-windows-x64.zip",
-          "checksum": "sha256:ad648f2fd2c9c1cc39b4f2af9e73562088d6141f3fb69cf05f2dd3ec46aaf3a1"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_anomaly_detector/v0.3.3/toolbox-anomaly-detector-0.3.3-windows-x64.zip",
+          "checksum": "sha256:0b4f17e4a4d674be584e40b56a76cbb124bf3e3bff7c28885453d5eccfb950f2"
         }
       }
     },
