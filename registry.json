@@ -1703,7 +1703,7 @@
     {
       "id": "toolbox-transform-editor",
       "name": "Transform Editor",
-      "version": "1.3.0",
+      "version": "1.3.1",
       "description": "Create derived time series and 2D/3D objects from series and object topics with Luau or Python functions: drop the inputs, write the function, preview the result and create it. The successor of the Custom Series editor of PJ3.",
       "author": "PlotJuggler Team",
       "publisher": "PlotJuggler",
@@ -1728,24 +1728,24 @@
       "entry_point": "Custom Topics panel \u2192 + (Add custom topic)",
       "platforms": {
         "linux-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_transform_editor/v1.3.0/toolbox-transform-editor-1.3.0-linux-aarch64.zip",
-          "checksum": "sha256:b63ae59bab38b2a994ec3483018ea629127ac252bbf5d778652688b29f8a8cd8"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_transform_editor/v1.3.1/toolbox-transform-editor-1.3.1-linux-aarch64.zip",
+          "checksum": "sha256:a52c017173f7d034cc710fab61818cd0983cbae1671e189f92063a90bc6204ec"
         },
         "linux-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_transform_editor/v1.3.0/toolbox-transform-editor-1.3.0-linux-x86_64.zip",
-          "checksum": "sha256:a5377e77ed36cf195d62d6d66ade4ae736bb7a414492cfea2850c53940aa633f"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_transform_editor/v1.3.1/toolbox-transform-editor-1.3.1-linux-x86_64.zip",
+          "checksum": "sha256:381de88a7512a69e40b3af51ebc7693ee94abf5e665b571320a4b10922b41ca0"
         },
         "macos-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_transform_editor/v1.3.0/toolbox-transform-editor-1.3.0-macos-arm64.zip",
-          "checksum": "sha256:848725bd420b50073f63ee5726a06e854258442bbd502f950f708e521f2b413d"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_transform_editor/v1.3.1/toolbox-transform-editor-1.3.1-macos-arm64.zip",
+          "checksum": "sha256:bf55614c2f88d6b895fccc37819de1995f6c728f5edfc8843c4e03076e01cc98"
         },
         "windows-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_transform_editor/v1.3.0/toolbox-transform-editor-1.3.0-windows-arm64.zip",
-          "checksum": "sha256:4f2a52988b72b2ddb6b86da1ea6781da1d5b29b52263fdb2695e254fc960519b"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_transform_editor/v1.3.1/toolbox-transform-editor-1.3.1-windows-arm64.zip",
+          "checksum": "sha256:2ae8708d4c5664529f4fd36b26181124f138bd620de748f89269d78cdd52b526"
         },
         "windows-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_transform_editor/v1.3.0/toolbox-transform-editor-1.3.0-windows-x64.zip",
-          "checksum": "sha256:eb046b8e1e98e82be1759435f4b0e3fc49f0a6e72de2bbe3b1f763bb5502bc28"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/toolbox_transform_editor/v1.3.1/toolbox-transform-editor-1.3.1-windows-x64.zip",
+          "checksum": "sha256:28eb509a23f453ebcf37a06a04f5e25cc7c6355aee286527b9c52d819a002454"
         }
       }
     },
