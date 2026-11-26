@@ -186,7 +186,7 @@
     {
       "id": "candump-loader",
       "name": "candump Loader",
-      "version": "0.1.2",
+      "version": "0.2.0",
       "description": "Data loader for Linux SocketCAN candump captures (log and screen format), decoded to signals via DBC or an ARUS-style CSV dictionary.",
       "author": "PlotJuggler Team",
       "publisher": "PlotJuggler",
@@ -203,28 +203,28 @@
         "file",
         "loader"
       ],
-      "min_plotjuggler_version": "4.0.0",
+      "min_plotjuggler_version": "4.2.0",
       "min_sdk_required": "0.28.0",
       "platforms": {
         "linux-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_candump/v0.1.2/candump-loader-0.1.2-linux-aarch64.zip",
-          "checksum": "sha256:739f2412786b0223ddd9559041c9a3d0ec33bf4f3c2aedfc1a100fd24952089e"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_candump/v0.2.0/candump-loader-0.2.0-linux-aarch64.zip",
+          "checksum": "sha256:116c2830d1ccab09b0e1f452d6f7c7e653bbf59dd23afee46dee882bcc462762"
         },
         "linux-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_candump/v0.1.2/candump-loader-0.1.2-linux-x86_64.zip",
-          "checksum": "sha256:5c8b4c41184bcab5bc4ab420922848655da2cbc3b6848f7b88efaf8d068135c3"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_candump/v0.2.0/candump-loader-0.2.0-linux-x86_64.zip",
+          "checksum": "sha256:95ca4ebe3690fd8d232b0c98757f888070a6e94406d247298c38e88ab1c44106"
         },
         "macos-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_candump/v0.1.2/candump-loader-0.1.2-macos-arm64.zip",
-          "checksum": "sha256:253b9a8fa7c51133f4c2f71cf6501d571ec19a5860c130ca195da25bfd2eda95"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_candump/v0.2.0/candump-loader-0.2.0-macos-arm64.zip",
+          "checksum": "sha256:9970c05e20bf3699cf23000b21e98be434b17478c172ec93a7f1a7e7aa96ed31"
         },
         "windows-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_candump/v0.1.2/candump-loader-0.1.2-windows-arm64.zip",
-          "checksum": "sha256:dcd06f8f28a12516900c1076bd80a55de0b6a5938465d1f81b72314d6542d86e"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_candump/v0.2.0/candump-loader-0.2.0-windows-arm64.zip",
+          "checksum": "sha256:f12a7798edba97a6b70862903937e50c3de08fa4264cd238189eee5f7fdff42d"
         },
         "windows-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_candump/v0.1.2/candump-loader-0.1.2-windows-x64.zip",
-          "checksum": "sha256:89fb3bbf17e74b8914763e86379960bb600152c7e04f2889564228c3440a33f5"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_candump/v0.2.0/candump-loader-0.2.0-windows-x64.zip",
+          "checksum": "sha256:7235a0682d44c6ff3b745262cfa7ef0be0ad79e9c4e23abc69b3a7ba7245eace"
         }
       }
     },
