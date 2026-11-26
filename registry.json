@@ -4,7 +4,7 @@
     {
       "id": "ardupilot-bin-loader",
       "name": "Ardupilot BIN Loader",
-      "version": "1.0.0",
+      "version": "1.2.0",
       "description": "Data loader for Ardupilot BIN files. Flight log format for Ardupilot.",
       "author": "Ricky Wu",
       "publisher": "Ricky Wu",
@@ -24,12 +24,12 @@
       "min_sdk_required": "0.34.1",
       "platforms": {
         "linux-x86_64": {
-          "url": "https://github.com/RickyWu18/plotjuggler-drone/releases/download/data_load_ardupilot/v1.0.0/ardupilot-bin-loader-1.0.0-linux-x86_64.zip",
-          "checksum": "sha256:75c88d36842699b00fd076c35a26fc668a36a4a9c8066f0582b6c9b1550740fc"
+          "url": "https://github.com/RickyWu18/plotjuggler-drone/releases/download/data_load_ardupilot/v1.2.0/ardupilot-bin-loader-1.2.0-linux-x86_64.zip",
+          "checksum": "sha256:ea044198ca23b7db5a5a6b96e126cd88302be05888b27416792c570248b59092"
         },
         "windows-x86_64": {
-          "url": "https://github.com/RickyWu18/plotjuggler-drone/releases/download/data_load_ardupilot/v1.0.0/ardupilot-bin-loader-1.0.0-windows-x64.zip",
-          "checksum": "sha256:558a4cd940360f445d5d5a6e706cc9f635b52adf8b769b9ac1602bb8c179fbab"
+          "url": "https://github.com/RickyWu18/plotjuggler-drone/releases/download/data_load_ardupilot/v1.2.0/ardupilot-bin-loader-1.2.0-windows-x64.zip",
+          "checksum": "sha256:19718dffa24050833dc59eb49993c82fc933eb0ae6cde8430ec752d1a2e59200"
         }
       }
     },
