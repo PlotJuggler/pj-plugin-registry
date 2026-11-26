@@ -758,7 +758,7 @@
     {
       "id": "mf4-loader",
       "name": "MF4/MDF Loader",
-      "version": "0.1.5",
+      "version": "0.2.0",
       "description": "Data loader for ASAM MDF / MF4 measurement files (automotive, CAN/LIN bus logging).",
       "author": "PlotJuggler Team",
       "publisher": "PlotJuggler",
@@ -780,24 +780,24 @@
       "min_sdk_required": "0.28.0",
       "platforms": {
         "linux-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mf4/v0.1.5/mf4-loader-0.1.5-linux-aarch64.zip",
-          "checksum": "sha256:65227d993713cf6cc4d376f02e6e96deb9016a9c2ce3c0670f602b24da6a576b"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mf4/v0.2.0/mf4-loader-0.2.0-linux-aarch64.zip",
+          "checksum": "sha256:1d7dd103944817d545df4a8864dc6a33811597eca4ceff135d71549cc196c9ff"
         },
         "linux-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mf4/v0.1.5/mf4-loader-0.1.5-linux-x86_64.zip",
-          "checksum": "sha256:56dfd78c215202e39fe3c3aef4445f697318a07d9f40c3a4bcde28969610d38a"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mf4/v0.2.0/mf4-loader-0.2.0-linux-x86_64.zip",
+          "checksum": "sha256:211e34cf401af17a30203e266981e8d85d07f56a3ee43dd607438f8405482239"
         },
         "macos-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mf4/v0.1.5/mf4-loader-0.1.5-macos-arm64.zip",
-          "checksum": "sha256:9f4502002817ff56b51fac58884686af74ef7843d1d9604bca97d03788ba4e0e"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mf4/v0.2.0/mf4-loader-0.2.0-macos-arm64.zip",
+          "checksum": "sha256:856d8822ba06c32958712465dd3262f6c923fd13e467b322d7171e02a8e2ca5e"
         },
         "windows-arm64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mf4/v0.1.5/mf4-loader-0.1.5-windows-arm64.zip",
-          "checksum": "sha256:2002c97b7474760e7ea50a6e9e5c4d09ce1c6579ea6f059f51fed8cf32e3ea90"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mf4/v0.2.0/mf4-loader-0.2.0-windows-arm64.zip",
+          "checksum": "sha256:39d96e61b889cd974b3007864f4296dec88e8e8b433864650082520553ab6f28"
         },
         "windows-x86_64": {
-          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mf4/v0.1.5/mf4-loader-0.1.5-windows-x64.zip",
-          "checksum": "sha256:4e74d2d94a2ae296b220eaad54f995a73005682759229e825c1481eb5ef7787f"
+          "url": "https://github.com/PlotJuggler/pj-official-plugins/releases/download/data_load_mf4/v0.2.0/mf4-loader-0.2.0-windows-x64.zip",
+          "checksum": "sha256:33f6545c21305be6878fca9045308309771d817c4d0c355fa5a73959b782805d"
         }
       }
     },
